@@ -1,0 +1,36 @@
+dataset: finedance
+note: SMPL-H bodies with fingers (neutral, zero betas) from the released 6D rotations, one per genre across the street, classical, folk and mixed styles
+quality:
+  from:
+  - {reader: 'finedance', source: 'mnt_raw', glob: 'FineDance/x/finedance/motion/*.npy'}
+items:
+- source: finedance
+  smpl: 052.npz
+  label: Breaking · song 052
+- source: finedance
+  smpl: 058.npz
+  label: Popping · song 058
+- source: finedance
+  smpl: 056.npz
+  label: Locking · song 056
+- source: finedance
+  smpl: 095.npz
+  label: Hip-hop · song 095
+- source: finedance
+  smpl: 029.npz
+  label: Shenyun · song 029
+- source: finedance
+  smpl: 025.npz
+  label: Han-Tang · song 025
+- source: finedance
+  smpl: 080.npz
+  label: Dai folk · song 080
+- source: finedance
+  smpl: 073.npz
+  label: Miao folk · song 073
+- source: finedance
+  smpl: 006.npz
+  label: K-pop · song 006
+- source: finedance
+  smpl: 005.npz
+  label: Chinese mix · song 005

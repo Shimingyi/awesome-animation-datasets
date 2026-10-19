@@ -1,0 +1,41 @@
+id: multi-subject
+name: Multi-Subject Motion
+full_name: Multi-subject human motion dataset (causal convolutional network for motion modeling)
+good_for: "The same locomotion patterns from twelve performers: subject / style-conditioned models."
+year: 2021
+released: 2021-01
+subject: human-body
+content:
+  locomotion: 1.0
+content_note: every take is a walking / running / jumping pattern (W, R, JB, JL, ZW ... in the file names)
+tags: [locomotion, combat]
+capture: optical-mocap
+representation: [bvh]
+skeleton:
+  joints: 77
+  rig: per-subject skeleton with fingers (27 non-finger joints)
+fps: 60
+stats:
+  hours: 2.25
+  clips: 269
+  subjects: 12
+  frames: 486282
+stats_note: >-
+  12 subjects (3 women, 9 men) with heights from 1.54 m to 1.95 m; 486,282 frames at 60 fps according to the paper,
+  each sequence joining two motion types to capture transitions. The clip count (228 train and 41 test sequences) is
+  counted from the release used by DATA.md.
+annotations: [action-labels]
+license:
+  name: Not stated
+  commercial: unknown
+access: gated
+links:
+  homepage: https://arxiv.org/abs/2101.12276
+  paper: https://doi.org/10.1007/s41095-022-0307-3
+paper:
+  title: A causal convolutional neural network for multi-subject motion modeling and generation
+  venue: Computational Visual Media 2024
+notes: >-
+  Ten motion types (walking, running, three kinds of jumps, walking backward, zombie walking, kicking, punching, and
+  kicking while punching) performed one person at a time by 12 subjects of different body sizes, in BVH with per-file
+  motion-type labels in xlsx. No public download link was found; the data is distributed by the authors.

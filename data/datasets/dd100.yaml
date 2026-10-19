@@ -1,0 +1,49 @@
+id: dd100
+name: DD100
+full_name: DD100 duet dance dataset (Duolando)
+good_for: "Partner dance duets with finger motion and music: leader-follower dance accompaniment."
+year: 2024
+released: 2024-03
+subject: human-body
+content: dance
+content_note: "all duet dance: 10 genres (Cha Cha, Rumba, Samba, Paso Doble, Jive, Foxtrot, Tango, Quickstep, Waltz, Pas de deux ballet)"
+tags: [dance, interaction, music]
+capture: optical-mocap
+representation: [smplx]
+skeleton:
+  joints: 55
+  rig: SMPL-X (body and hands)
+fps: 30
+stats:
+  hours: 6.5
+  clips: 167
+  subjects: 10
+stats_note: >-
+  hours count both dancers (motion per person): the release has 167 duet takes, 3.24 h per take, 6.5 h of motion.
+  Official: 100 choreographies (10 per genre, 70.2 s on average, 1.95 h) by 5 pairs of professional dancers; about
+  80% were recorded twice and the release keeps both takes (they are separate performances, not copies). Bodies captured with 20
+  optical cameras at 120 fps (53 markers), fingers with inertial gloves.
+annotations: [music]
+license:
+  name: NTU S-Lab License 1.0 (non-commercial)
+  url: https://github.com/lisiyao21/Bailando/blob/main/LICENSE
+  commercial: false
+access: open
+links:
+  homepage: https://lisiyao21.github.io/projects/Duolando
+  download: https://drive.google.com/file/d/1sWc1MeRhRa9LoxarsJVFvt5vxsRk-F_M/view?usp=sharing
+  code: https://github.com/lisiyao21/Duolando
+  paper: https://arxiv.org/abs/2403.18811
+paper:
+  title: "Duolando: Follower GPT with Off-Policy Reinforcement Learning for Dance Accompaniment"
+  venue: ICLR 2024
+citation: |
+  @inproceedings{siyao2024duolando,
+    title={Duolando: Follower GPT with Off-Policy Reinforcement Learning for Dance Accompaniment},
+    author={Siyao, Li and Gu, Tianpei and Yang, Zhitao and Lin, Zhengyu and Liu, Ziwei and Ding, Henghui and Yang, Lei and Loy, Chen Change},
+    booktitle={ICLR},
+    year={2024}
+  }
+notes: >-
+  Ballroom, Latin and ballet duets with strong physical contact between partners, released as per-dancer SMPL-X
+  sequences (follower and leader) with the MP3 music of each piece.

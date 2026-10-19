@@ -1,0 +1,37 @@
+dataset: animationgpt
+note: 'SMPL fitted to the released joint positions (python -m tools.examples.joints2smpl): an approximation, the dataset itself
+  ships joints'
+quality:
+  from:
+  - {reader: 'vault', glob: 'AnimationGPT/CombatMotionProcessed/new_joints/*'}
+items:
+- source: fitted
+  smpl: animationgpt/CMP000081.npz
+  label: CMP000081
+- source: fitted
+  smpl: animationgpt/CMP003009.npz
+  label: CMP003009
+- source: fitted
+  smpl: animationgpt/CMP005028.npz
+  label: CMP005028
+- source: fitted
+  smpl: animationgpt/CMP008024.npz
+  label: CMP008024
+- source: fitted
+  smpl: animationgpt/CMR001050.npz
+  label: CMR001050
+- source: fitted
+  smpl: animationgpt/CMR004043.npz
+  label: CMR004043
+- source: fitted
+  smpl: animationgpt/CMR006270.npz
+  label: CMR006270
+- source: fitted
+  smpl: animationgpt/CMR009041.npz
+  label: CMR009041
+- source: fitted
+  smpl: animationgpt/CMR011038.npz
+  label: CMR011038
+- source: fitted
+  smpl: animationgpt/CMR014092.npz
+  label: CMR014092

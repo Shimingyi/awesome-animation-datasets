@@ -1,0 +1,46 @@
+dataset: motorica-dance
+note: rendered on the Geno character (Geno Motorica retarget)
+quality:
+  from:
+  - {reader: 'bvh', source: 'mnt_raw', glob: 'MotoricaDance/motorica_dance_dataset/bvh/*.bvh'}
+items:
+- source: codec_assets
+  bvh: clips/geno-hip-hop.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Hip-hop
+- source: codec_assets
+  bvh: clips/geno-hip-hop-2.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Hip-hop 2
+- source: codec_assets
+  bvh: clips/geno-krumping.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Krumping
+- source: codec_assets
+  bvh: clips/geno-popping.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Popping
+- source: codec_assets
+  bvh: clips/geno-popping-2.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Popping 2
+- source: codec_assets
+  bvh: clips/geno-locking.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Locking
+- source: codec_assets
+  bvh: clips/geno-charleston.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Charleston
+- source: codec_assets
+  bvh: clips/geno-jazz.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Jazz
+- source: codec_assets
+  bvh: clips/geno-tap.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Tap
+- source: codec_assets
+  bvh: clips/geno-casual-dance.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Casual dance

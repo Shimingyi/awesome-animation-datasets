@@ -1,0 +1,92 @@
+dataset: mann-dog
+pick:
+  vault: dog
+  collection: MotionCapture
+  n: 10
+items:
+- source: vault
+  clip: dog/MotionCapture/D1_010_KAN01_004
+  label: D1 010 KAN01 004
+  mesh: ai4animation_wolf/Wolf.fbx
+  mesh_source: local_assets
+  bone_map: &id001
+    Hips: Becken
+    Spine1: Brust
+    Neck: Hals
+    Head: Kopf.002
+    LeftShoulder: Schalterplatte_L
+    LeftArm: Oberarm_L
+    LeftForeArm: Unterarm_L
+    LeftHand: Vorderpfote_L
+    LeftHand_End: Vorderpfote_L_end
+    RightShoulder: Schalterplatte_R
+    RightArm: Oberarm_R
+    RightForeArm: Unterarm_R
+    RightHand: Vorderpfote_R
+    RightHand_End: Vorderpfote_R_end
+    LeftUpLeg: Oberschenkel_L
+    LeftLeg: Unterschenkel_L
+    LeftFoot: Pfote1_L
+    LeftFoot_End: Pfote2_L_end
+    RightUpLeg: Oberschenkel_R
+    RightLeg: Unterschenkel_R
+    RightFoot: Pfote1_R
+    RightFoot_End: Pfote2_R_end
+    Tail: Schwanz
+    Tail1: Schwanz.002
+    Tail1_End: Schwanz.003_end
+- source: vault
+  clip: dog/MotionCapture/D1_009_KAN01_002
+  label: D1 009 KAN01 002
+  mesh: ai4animation_wolf/Wolf.fbx
+  mesh_source: local_assets
+  bone_map: *id001
+- source: vault
+  clip: dog/MotionCapture/D1_007_KAN01_001
+  label: D1 007 KAN01 001
+  mesh: ai4animation_wolf/Wolf.fbx
+  mesh_source: local_assets
+  bone_map: *id001
+- source: vault
+  clip: dog/MotionCapture/D1_008_KAN01_001
+  label: D1 008 KAN01 001
+  mesh: ai4animation_wolf/Wolf.fbx
+  mesh_source: local_assets
+  bone_map: *id001
+- source: vault
+  clip: dog/MotionCapture/D1_047z_KAN01_002
+  label: D1 047z KAN01 002
+  mesh: ai4animation_wolf/Wolf.fbx
+  mesh_source: local_assets
+  bone_map: *id001
+- source: vault
+  clip: dog/MotionCapture/D1_053_KAN01_001
+  label: D1 053 KAN01 001
+  mesh: ai4animation_wolf/Wolf.fbx
+  mesh_source: local_assets
+  bone_map: *id001
+- source: vault
+  clip: dog/MotionCapture/D1_049_KAN01_001
+  label: D1 049 KAN01 001
+  mesh: ai4animation_wolf/Wolf.fbx
+  mesh_source: local_assets
+  bone_map: *id001
+- source: vault
+  clip: dog/MotionCapture/D1_025_KAN01_001
+  label: D1 025 KAN01 001
+  mesh: ai4animation_wolf/Wolf.fbx
+  mesh_source: local_assets
+  bone_map: *id001
+- source: vault
+  clip: dog/MotionCapture/D1_ex03_KAN02_014
+  label: D1 ex03 KAN02 014
+  mesh: ai4animation_wolf/Wolf.fbx
+  mesh_source: local_assets
+  bone_map: *id001
+- source: vault
+  clip: dog/MotionCapture/D1_ex03_KAN02_001
+  label: D1 ex03 KAN02 001
+  mesh: ai4animation_wolf/Wolf.fbx
+  mesh_source: local_assets
+  bone_map: *id001
+note: rendered on the AI4Animation wolf (retargeted by bone directions); clips with the most root travel

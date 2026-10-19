@@ -1,0 +1,43 @@
+dataset: phuma
+note: Unitree G1 joint trajectories of the Hugging Face release (one ~4 s training chunk per clip), on the robot meshes of the G1 URDF
+items:
+- source: phuma
+  bvh: g1_clips/humanml__014612.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · AMASS / HumanML3D · 014612
+- source: phuma
+  bvh: g1_clips/custom__walk.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · custom · walk
+- source: phuma
+  bvh: g1_clips/aist__subset_0009__Dance_Pop_clip_9.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · AIST++ · pop dance
+- source: phuma
+  bvh: g1_clips/dance__subset_0004__Dance_Daily_Lovedive.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · dance · Lovedive
+- source: phuma
+  bvh: g1_clips/kungfu__Yang_style_40_form_Tai_Chi_Competition_routine_step3_clip1.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · kung fu · Tai Chi
+- source: phuma
+  bvh: g1_clips/fitness__subset_0026__Triceps_Kickbacks_clip_1.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · fitness · triceps kickbacks
+- source: phuma
+  bvh: g1_clips/game_motion__subset_0021__Long_Weapon_A_clip_1.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · game motion · long weapon
+- source: phuma
+  bvh: g1_clips/animation__Ways_to_Catch_Many_Balls_clip1.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · animation · catching balls
+- source: phuma
+  bvh: g1_clips/idea400__Removing_the_glasses_while_walking_clip1.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · IDEA-400 · glasses off while walking
+- source: phuma
+  bvh: g1_clips/GRAB__s1__wineglass_lift.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · GRAB · wine glass lift

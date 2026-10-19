@@ -1,0 +1,38 @@
+id: unitree-lafan1-retarget
+name: Unitree LAFAN1 Retargeting
+full_name: LAFAN1 Retargeting Dataset (Unitree G1, H1, H1_2)
+good_for: "Human motion retargeted to Unitree humanoids: robot imitation learning."
+year: 2025
+released: 2025-07
+subject: robot
+content:
+  locomotion: 0.54
+  combat: 0.28
+  dance: 0.09
+  general: 0.09
+content_note: LAFAN1 takes retargeted, so their composition (measured from the take names)
+tags: [locomotion, dance, combat, sports, falling, retargeted]
+capture: retargeted
+representation: [csv]
+skeleton:
+  rig: Unitree G1 (29 joints), H1_2 (27 joints) and H1 (19 joints), each with a floating base
+fps: 30
+stats:
+  hours: 2.45
+  clips: 40
+  subjects: 3
+stats_note: >-
+  40 LAFAN1 takes retargeted to each of 3 robots (G1, H1, H1_2), counted from the release; hours are our count of the
+  G1 trajectories (264,705 frames at 30 fps), the same motion on each robot, so counted once
+license:
+  name: CC BY-NC-ND 4.0 (LAFAN1 data; code BSD-3-Clause)
+  url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  commercial: false
+access: open
+links:
+  homepage: https://huggingface.co/datasets/unitreerobotics/LAFAN1_Retargeting_Dataset
+derived_from: [lafan1]
+notes: >-
+  LAFAN1 takes retargeted to Unitree humanoids with Interaction Mesh and IK optimisation under kinematic constraints
+  only, stored as per-frame root pose and joint angles. The official Hugging Face repository was not publicly
+  reachable in October 2026; copies exist under other accounts.

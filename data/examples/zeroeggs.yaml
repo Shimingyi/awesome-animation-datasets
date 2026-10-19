@@ -1,0 +1,36 @@
+dataset: zeroeggs
+note: the original BVH (with fingers), one take per style
+quality:
+  from:
+  - {reader: 'vault', glob: 'zeroeggs/rawbvh/*'}
+items:
+- source: vault
+  clip: zeroeggs/rawbvh/011_Happy_0_x_1_0
+  label: Happy
+- source: vault
+  clip: zeroeggs/rawbvh/026_Angry_0_x_1_0
+  label: Angry
+- source: vault
+  clip: zeroeggs/rawbvh/021_Old_0_x_1_0
+  label: Old
+- source: vault
+  clip: zeroeggs/rawbvh/059_Sneaky_0_x_1_0
+  label: Sneaky
+- source: vault
+  clip: zeroeggs/rawbvh/036_Flirty_0_x_1_0
+  label: Flirty
+- source: vault
+  clip: zeroeggs/rawbvh/057_Laughing_0_x_1_0
+  label: Laughing
+- source: vault
+  clip: zeroeggs/rawbvh/001_Neutral_0_x_1_0
+  label: Neutral
+- source: vault
+  clip: zeroeggs/rawbvh/016_Relaxed_0_x_1_0
+  label: Relaxed
+- source: vault
+  clip: zeroeggs/rawbvh/006_Sad_0_x_1_0
+  label: Sad
+- source: vault
+  clip: zeroeggs/rawbvh/051_Threatening_0_x_1_0
+  label: Threatening

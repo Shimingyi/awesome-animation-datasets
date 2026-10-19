@@ -1,0 +1,7 @@
+# Motion Viewer (awesome-animation-datasets) -> static files in /srv/playground/motion_viewer (tools/deploy.sh)
+redir /motion_viewer /motion_viewer/ 308
+handle_path /motion_viewer/* {
+	root * /srv/playground/motion_viewer
+	header /examples/* Cache-Control "public, max-age=3600"
+	file_server
+}

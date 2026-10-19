@@ -1,0 +1,30 @@
+id: truebones-zoo
+name: Truebones Zoo
+full_name: Truebones FBX/BVH Zoo
+good_for: "Dozens of animal species with rigs and meshes: any-skeleton and animal motion research."
+year: 2022
+released: 2022-07
+subject: animal
+content: general
+tags: [locomotion, gait]
+capture: mixed
+representation: [fbx, bvh]
+stats:
+  hours: 1.36
+  clips: 1219
+  frames: 147178
+  subjects: 70
+stats_note: >-
+  Truebones lists over 75 animals; the clip, frame and skeleton counts are those reported by AnyTop (Gat et al.
+  2025) for its copy of the Zoo; hours are those 147,178 frames at the 30 fps of the Truebones files. DATA.md counts 3,488 clips (2.1 h) across several Truebones packs.
+license:
+  name: Truebones royalty-free licence (no resale)
+  url: https://truebones.gumroad.com/l/skZMC
+  commercial: true
+access: paid
+links:
+  homepage: https://truebones.gumroad.com/l/skZMC
+notes: >-
+  Commercial library of rigged, textured animals (mammals, birds, insects, reptiles, fish, dinosaurs and other
+  creatures), each with a set of animation clips. It was offered as a free download for some time and is now sold on
+  Gumroad, at USD 99 at the time of writing.

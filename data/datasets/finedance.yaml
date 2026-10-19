@@ -1,0 +1,48 @@
+id: finedance
+name: FineDance
+full_name: "FineDance: A Fine-grained Choreography Dataset for 3D Full Body Dance Generation"
+good_for: "Music-to-dance with finger motion across 22 fine-grained genres."
+year: 2023
+released: 2023-10
+subject: human-body
+content: dance
+content_note: "all dance, 22 genres in 5 coarse styles"
+tags: [dance, music, style]
+capture: optical-mocap
+representation: [smplh]
+skeleton:
+  joints: 52
+  rig: SMPL-H (body and hands)
+fps: 30
+stats:
+  hours: 7.7
+  subjects: 27
+stats_note: >-
+  the public release is 7.7 h ("part" of the dataset, per the README); the paper describes 14.6 h of paired music and
+  dance (346 songs, 22 genres) by 27 professional dancers, captured with a Vicon optical system
+annotations: [music, style-labels]
+license:
+  name: FineDance licence (non-commercial scientific research)
+  url: https://github.com/li-ronghui/FineDance/blob/main/LICENSE
+  commercial: false
+access: open
+links:
+  homepage: https://li-ronghui.github.io/finedance
+  download: https://drive.google.com/file/d/1zQvWG9I0H4U3Zrm8d_QD_ehenZvqfQfS/view?usp=sharing
+  code: https://github.com/li-ronghui/FineDance
+  paper: https://arxiv.org/abs/2212.03741
+paper:
+  title: "FineDance: A Fine-grained Choreography Dataset for 3D Full Body Dance Generation"
+  venue: ICCV 2023
+citation: |
+  @inproceedings{li2023finedance,
+    title={FineDance: A Fine-grained Choreography Dataset for 3D Full Body Dance Generation},
+    author={Li, Ronghui and Zhao, Junfan and Zhang, Yachao and Su, Mingyang and Ren, Zeping and Zhang, Han and Tang, Yansong and Li, Xiu},
+    booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+    pages={10234--10243},
+    year={2023}
+  }
+notes: >-
+  Professional dancers captured with body and finger motion, released as SMPL-H pose and translation arrays paired with
+  WAV music, librosa music features and per-song genre labels. Only part (7.7 h) of the 14.6 h described in the paper
+  is downloadable.

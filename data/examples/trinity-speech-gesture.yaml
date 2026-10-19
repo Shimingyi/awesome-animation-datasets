@@ -1,0 +1,33 @@
+dataset: trinity-speech-gesture
+note: Part I (speaker monologues, 56-joint skeleton) and part II (69-71 joints), both with fingers; the middle 12 s of each take
+items:
+- source: vault
+  clip: TrinitySpeechGesture/I/NaturalTalking_01
+  label: Part I · take 01
+- source: vault
+  clip: TrinitySpeechGesture/I/NaturalTalking_10
+  label: Part I · take 10
+- source: vault
+  clip: TrinitySpeechGesture/I/NaturalTalking_15
+  label: Part I · take 15
+- source: vault
+  clip: TrinitySpeechGesture/I/NaturalTalking_21
+  label: Part I · take 21
+- source: vault
+  clip: TrinitySpeechGesture/I/NaturalTalking_30
+  label: Part I · take 30
+- source: vault
+  clip: TrinitySpeechGesture/II/SpMo_1-1_Day1_Take1_mcp
+  label: Part II · day 1 take 1
+- source: vault
+  clip: TrinitySpeechGesture/II/SpMo_1-7_Day1_Take7_mcp
+  label: Part II · day 1 take 7
+- source: vault
+  clip: TrinitySpeechGesture/II/SpMo_2-6_Day2_Take6_mcp
+  label: Part II · day 2 take 6
+- source: vault
+  clip: TrinitySpeechGesture/II/SpMo_3-6_Day3_Take6_mcp
+  label: Part II · day 3 take 6
+- source: vault
+  clip: TrinitySpeechGesture/II/SpMo_4-6_Day4_Take6_mcp
+  label: Part II · day 4 take 6

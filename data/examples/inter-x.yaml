@@ -1,0 +1,56 @@
+dataset: inter-x
+note: SMPL-X bodies with hands of both people, from the released parameters (motions.zip)
+quality:
+  from:
+  - {reader: 'interx', source: 'mnt_raw', glob: 'InterX/motions/G*'}
+items:
+- source: interx
+  smpl:
+  - G004T003A000R000_P1.npz
+  - G004T003A000R000_P2.npz
+  label: Hug · G004T003A000R000
+- source: interx
+  smpl:
+  - G012T000A001R011_P1.npz
+  - G012T000A001R011_P2.npz
+  label: Handshake · G012T000A001R011
+- source: interx
+  smpl:
+  - G017T004A021R009_P1.npz
+  - G017T004A021R009_P2.npz
+  label: Dance · G017T004A021R009
+- source: interx
+  smpl:
+  - G024T005A025R004_P1.npz
+  - G024T005A025R004_P2.npz
+  label: Carry on back · G024T005A025R004
+- source: interx
+  smpl:
+  - G031T006A028R015_P1.npz
+  - G031T006A028R015_P2.npz
+  label: Hand wrestling · G031T006A028R015
+- source: interx
+  smpl:
+  - G039T005A020R002_P1.npz
+  - G039T005A020R002_P2.npz
+  label: Rock-paper-scissors · G039T005A020R002
+- source: interx
+  smpl:
+  - G044T003A017R016_P1.npz
+  - G044T003A017R016_P2.npz
+  label: Chase · G044T003A017R016
+- source: interx
+  smpl:
+  - G047T007A035R001_P1.npz
+  - G047T007A035R001_P2.npz
+  label: Help up · G047T007A035R001
+- source: interx
+  smpl:
+  - G052T001A005R003_P1.npz
+  - G052T001A005R003_P2.npz
+  label: Kick · G052T001A005R003
+- source: interx
+  smpl:
+  - G057T003A016R011_P1.npz
+  - G057T003A016R011_P2.npz
+  label: High-five · G057T003A016R011

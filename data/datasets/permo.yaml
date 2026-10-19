@@ -1,0 +1,49 @@
+id: permo
+name: PerMo
+full_name: PerMo (PersonaMotion)
+good_for: "The same ten actions in 34 styles by five actors: persona- and style-personalized motion generation."
+year: 2025
+released: 2025-03
+subject: human-body
+content: locomotion
+content_note: >-
+  not broken down; 10 contents per style: walk, run, hop, jump and transition (locomotion) plus kick, kick something,
+  punch, throw and wave
+tags: [locomotion, combat, style, emotion, persona, text-annotated]
+capture: optical-mocap
+representation: [bvh, c3d, smplh]
+skeleton:
+  rig: OptiTrack skeleton with 20 bones (also SMPL-H via MoSh++, 41 markers)
+fps: 120
+stats:
+  hours: 8.5
+  clips: 6610
+  subjects: 5
+stats_note: >-
+  8.5 h by our count of the BVH release; 6,610 clips (README and paper) by 5 professional actors (2 women, 3 men), each performing 34 styles, i.e. 170
+  personas; captured at 120 fps with 33 OptiTrack cameras. The release does not state a total duration.
+annotations: [style-labels, text, video]
+license:
+  name: PerMo non-commercial scientific research license (KETI)
+  url: https://github.com/AIRC-KETI-VISION/PerMo-dataset/blob/main/LICENSE.txt
+  commercial: false
+access: open
+links:
+  homepage: https://github.com/AIRC-KETI-VISION/PerMo-dataset
+  download: https://github.com/AIRC-KETI-VISION/PerMo-dataset#overview
+  code: https://github.com/AIRC-KETI-VISION/PerMo-dataset
+  paper: https://arxiv.org/abs/2503.07390
+paper:
+  title: "PersonaBooth: Personalized Text-to-Motion Generation"
+  venue: CVPR 2025
+citation: |
+  @article{kim2025personabooth,
+    title={PersonaBooth: Personalized Text-to-Motion Generation},
+    author={Kim, Boeun and Jeong, Hea In and Sung, JungHoon and Cheng, Yihua and Lee, Jeongmin and Chang, Ju Yong and Choi, Sang-Il and Choi, Younggeun and Shin, Saim and Kim, Jungho and Chang, Hyung Jin},
+    journal={arXiv preprint arXiv:2503.07390},
+    year={2025}
+  }
+notes: >-
+  Short clips of ten actions, each acted in 34 styles grouped as age, character (zombie, robot, ninja, ...),
+  condition, emotion, traits and surroundings, by five actors so every style exists as five personas. Ships C3D markers,
+  BVH, SMPL-H parameters, rendered videos and 20 to 30 text descriptions per action.

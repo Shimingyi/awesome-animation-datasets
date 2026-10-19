@@ -1,0 +1,40 @@
+id: cmu
+name: CMU Mocap
+full_name: CMU Graphics Lab Motion Capture Database
+good_for: "Classic broad mocap library: quick prototyping, retargeting tests, baselines."
+year: 2003
+released: 2003-07
+subject: human-body
+content: general
+tags: [locomotion, sports, dance, acrobatics, daily-activity, interaction, martial-arts, gesture]
+capture: optical-mocap
+representation: [asf-amc, c3d]
+skeleton:
+  joints: 31
+  rig: CMU ASF skeleton, calibrated per subject (finger and thumb joints are not captured)
+fps: [120, 60]
+stats:
+  hours: 9.1
+  clips: 2605
+stats_note: >-
+  2605 trials in 6 categories and 23 subcategories according to the homepage; the subject index lists 109 subject
+  numbers (1-144), and the same person may appear under more than one number. Hours are counted from the BVH release
+  used by DATA.md (2,180 clips), so they cover only part of the trials. Most trials are 120 fps, some 60 fps.
+annotations: [action-labels, video]
+license:
+  name: CMU Graphics Lab free-use terms
+  url: http://mocap.cs.cmu.edu
+  commercial: true
+access: open
+links:
+  homepage: http://mocap.cs.cmu.edu
+  download: http://mocap.cs.cmu.edu/faqs.php
+variants:
+  - name: CMU BVH (cgspeed)
+    url: http://sites.google.com/a/cgspeed.com/cgspeed/motion-capture
+    note: Bruce Hahn's MotionBuilder- and 3ds Max-friendly BVH conversions, linked from the homepage
+notes: >-
+  Vicon captures (12 cameras, 41 markers) of walking, running, sports, dance, acrobatics, everyday behaviours and some
+  two-person interactions, released as ASF/AMC, C3D and video. The data is free for all uses, including commercial
+  products, but may not be resold directly; the site asks for an acknowledgment of mocap.cs.cmu.edu and NSF
+  EIA-0196217.

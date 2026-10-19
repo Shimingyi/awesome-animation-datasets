@@ -1,0 +1,50 @@
+id: humoto
+name: HUMOTO
+full_name: "HUMOTO: A 4D Dataset of Mocap Human Object Interactions"
+good_for: "Artist-cleaned full-body and finger interaction with 63 modelled objects on a Mixamo rig: human-object interaction."
+year: 2025
+released: 2025-04
+subject: human-body
+content: daily-activity
+content_note: "scripted household and outdoor tasks with objects (cooking, cleaning, picnics ...); not broken down"
+tags: [daily-activity, object-manipulation, text-annotated]
+capture: inertial-mocap
+representation: [fbx, glb]
+skeleton:
+  rig: Adobe Mixamo character (Mixamo bone layout, also convertible to an up-bone layout)
+fps: 30
+stats:
+  hours: 2.19
+  clips: 735
+  subjects: 1
+stats_note: >-
+  official: 735 sequences, 7,875 s at 30 fps, one performer, 63 objects with 72 articulated parts (arXiv v1 says 736
+  sequences); a 10% subset is public, the full set needs a research licence
+annotations: [text, object-trajectories]
+license:
+  name: Adobe Research License v1.1 (research; commercial licence on request)
+  url: https://github.com/adobe-research/humoto
+  commercial: false
+access: gated
+links:
+  homepage: https://jiaxin-lu.github.io/humoto/
+  download: https://adobe-research.github.io/humoto/
+  code: https://github.com/Jiaxin-Lu/humoto
+  paper: https://arxiv.org/abs/2504.10414
+paper:
+  title: "HUMOTO: A 4D Dataset of Mocap Human Object Interactions"
+  venue: ICCV 2025
+citation: |
+  @InProceedings{Lu_2025_HUMOTO,
+    author    = {Lu, Jiaxin and Huang, Chun-Hao Paul and Bhattacharya, Uttaran and Huang, Qixing and Zhou, Yi},
+    title     = {HUMOTO: A 4D Dataset of Mocap Human Object Interactions},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {10886-10897}
+  }
+notes: >-
+  LLM-scripted interaction scenes performed in Rokoko inertial suits and gloves, with object poses tracked from two
+  RGB-D cameras; professional artists cleaned every sequence to reduce foot sliding and penetration. Motion is retargeted
+  to a Mixamo-compatible character and ships as FBX/GLB scenes with object meshes and three levels of text per
+  sequence. A 10% subset is open on GitHub; the full set is licensed per institution by Adobe.

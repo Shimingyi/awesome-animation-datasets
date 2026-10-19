@@ -1,0 +1,33 @@
+dataset: snapmogen
+note: the released BVH on its own 24-joint skeleton
+items:
+- source: vault
+  clip: SnapMoGen/renamed_bvhs/dd_00110
+  label: dd_00110
+- source: vault
+  clip: SnapMoGen/renamed_bvhs/dd_00184
+  label: dd_00184
+- source: vault
+  clip: SnapMoGen/renamed_bvhs/ep1_00149
+  label: ep1_00149
+- source: vault
+  clip: SnapMoGen/renamed_bvhs/ep1_00249
+  label: ep1_00249
+- source: vault
+  clip: SnapMoGen/renamed_bvhs/ep2_01048
+  label: ep2_01048
+- source: vault
+  clip: SnapMoGen/renamed_bvhs/gp_00350
+  label: gp_00350
+- source: vault
+  clip: SnapMoGen/renamed_bvhs/sd_00062
+  label: sd_00062
+- source: vault
+  clip: SnapMoGen/renamed_bvhs/st1_00017
+  label: st1_00017
+- source: vault
+  clip: SnapMoGen/renamed_bvhs/st2_00134
+  label: st2_00134
+- source: vault
+  clip: SnapMoGen/renamed_bvhs/st3_00417
+  label: st3_00417

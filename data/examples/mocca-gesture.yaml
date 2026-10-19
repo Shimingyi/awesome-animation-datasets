@@ -1,0 +1,36 @@
+dataset: mocca-gesture
+note: the released full-body BVH (59 joints with fingers, Perception Neuron-style names), two monologues of each of the five speakers, middle 12 s
+pick:
+  vault: MOCCA_Gesture
+  n: 10
+items:
+- source: vault
+  clip: MOCCA_Gesture/Training_Data/Motion/speaker01_clip01
+  label: Speaker 1 · clip 1
+- source: vault
+  clip: MOCCA_Gesture/Test_Data/Motion/speaker01_clip03
+  label: Speaker 1 · clip 3
+- source: vault
+  clip: MOCCA_Gesture/Training_Data/Motion/speaker02_clip01
+  label: Speaker 2 · clip 1
+- source: vault
+  clip: MOCCA_Gesture/Test_Data/Motion/speaker02_clip05
+  label: Speaker 2 · clip 5
+- source: vault
+  clip: MOCCA_Gesture/Training_Data/Motion/speaker03_clip01
+  label: Speaker 3 · clip 1
+- source: vault
+  clip: MOCCA_Gesture/Test_Data/Motion/speaker03_clip04
+  label: Speaker 3 · clip 4
+- source: vault
+  clip: MOCCA_Gesture/Training_Data/Motion/speaker04_clip01
+  label: Speaker 4 · clip 1
+- source: vault
+  clip: MOCCA_Gesture/Test_Data/Motion/speaker04_clip05
+  label: Speaker 4 · clip 5
+- source: vault
+  clip: MOCCA_Gesture/Training_Data/Motion/speaker05_clip01
+  label: Speaker 5 · clip 1
+- source: vault
+  clip: MOCCA_Gesture/Test_Data/Motion/speaker05_clip04
+  label: Speaker 5 · clip 4

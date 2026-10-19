@@ -1,0 +1,37 @@
+dataset: hiphi
+pick:
+  vault: HiPHI
+  exclude:
+  - __mirror
+  n: 10
+items:
+- source: vault
+  clip: HiPHI/Adjusting/adjust/Adjusting-adjust_0026/motion_actor
+  label: Adjusting-adjust 0026
+- source: vault
+  clip: HiPHI/Body_movement/shiver/Body_movement-shiver_0016/motion_actor
+  label: Body movement-shiver 0016
+- source: vault
+  clip: HiPHI/Cause_motion/hit/Cause_motion-hit_0030/motion_actor
+  label: Cause motion-hit 0030
+- source: vault
+  clip: HiPHI/Cause_to_move_in_place/turn/Cause_to_move_in_place-turn_0033/motion_actor
+  label: Cause to move in place-turn 0033
+- source: vault
+  clip: HiPHI/Emptying/empty/Emptying-empty_0008/motion_actor
+  label: Emptying-empty 0008
+- source: vault
+  clip: HiPHI/Motion_directional/fall/Motion_directional-fall_0010/motion_actor
+  label: Motion directional-fall 0010
+- source: vault
+  clip: HiPHI/Posture/squat/Posture-squat_0022/motion_actor
+  label: Posture-squat 0022
+- source: vault
+  clip: HiPHI/Self_motion/dart/Self_motion-dart_0035/motion_actor
+  label: Self motion-dart 0035
+- source: vault
+  clip: HiPHI/Self_motion/scoot/Self_motion-scoot_0043/motion_actor
+  label: Self motion-scoot 0043
+- source: vault
+  clip: HiPHI/Taking/take/Taking-take_0010/motion_actor
+  label: Taking-take 0010

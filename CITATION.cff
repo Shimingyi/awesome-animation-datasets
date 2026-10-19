@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If this list or the Motion Viewer helps your work, please cite it (and the datasets you use)."
+title: "Awesome Animation Datasets: Every Motion Dataset Worth Knowing, Measured, Reviewed"
+type: dataset
+authors:
+  - family-names: Shi
+    given-names: Mingyi
+repository-code: "https://github.com/Shimingyi/awesome-animation-datasets"
+url: "https://huggingface.co/spaces/myshi/motion-viewer"
+license: CC-BY-4.0
+date-released: "2026-10-19"

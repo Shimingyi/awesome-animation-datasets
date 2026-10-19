@@ -1,0 +1,40 @@
+id: xia
+name: Xia
+full_name: Xia et al. stylistic human motion database
+good_for: "Classic stylized locomotion benchmark: real-time style transfer."
+year: 2015
+released: 2015-08
+subject: human-body
+content: locomotion
+content_note: "the paper describes walking, running, jumping, kicking and punching in eight styles: mostly locomotion (not measured)"
+tags: [style, emotion, locomotion, combat]
+capture: optical-mocap
+representation: [bvh]
+fps: 120
+stats:
+  hours: 0.2
+  clips: 572
+  subjects: 1
+stats_note: >-
+  About 11 minutes per the paper; the clip count is from the CMU-retargeted BVH copy used by DATA.md.
+annotations: [action-labels, style-labels, contacts]
+license:
+  name: Research use on request, no redistribution
+  url: https://web.archive.org/web/20210621091519/http://humanmotion.ict.ac.cn/papers/2015P1_StyleTransfer/details.htm
+  commercial: false
+access: gated
+links:
+  homepage: https://web.archive.org/web/20210621091519/http://humanmotion.ict.ac.cn/papers/2015P1_StyleTransfer/details.htm
+  paper: https://doi.org/10.1145/2766999
+paper:
+  title: Realtime Style Transfer for Unlabeled Heterogeneous Human Motion
+  venue: SIGGRAPH 2015
+variants:
+  - name: Xia (CMU-skeleton retarget)
+    url: https://drive.google.com/drive/folders/1C-_iZJj-PSUWZwh25yAsQe1tLpPm9EZ5
+    note: BVH retargeted to the CMU skeleton, distributed with the BFA data of Aberman et al. 2020 (mocap_xia.zip)
+notes: >-
+  Walking, running, jumping, kicking, punching and transitions, each in eight styles (neutral, proud, angry,
+  depressed, strutting, childlike, old, sexy), captured with an 18-camera Vicon system. The authors provide the data on
+  e-mail request for scientific use and do not allow passing it to third parties; the project page survives only
+  in the Web Archive.

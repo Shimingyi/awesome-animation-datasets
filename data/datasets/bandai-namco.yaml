@@ -1,0 +1,54 @@
+id: bandai-namco
+name: Bandai Namco Motion
+full_name: Bandai-Namco-Research-Motiondataset
+good_for: "Everyday actions in many styles and emotions, on a clean game rig: style transfer."
+year: 2022
+released: 2022-07
+subject: human-body
+content:
+  locomotion: 0.4
+  gesture: 0.31
+  daily-activity: 0.25
+  general: 0.02
+  dance: 0.02
+content_note: measured from the action in each file name, weighted by duration
+tags: [style, emotion, locomotion, gesture, combat, dance, elderly]
+capture: optical-mocap
+representation: [bvh]
+skeleton:
+  joints: 22
+  rig: Bandai Namco humanoid (industry-standard bone structure)
+fps: 30
+stats:
+  hours: 3.9
+  clips: 3077
+  frames: 421604
+stats_note: >-
+  Two sub-datasets: dataset-1 has 175 clips (36,673 frames) of 17 contents in 15 styles, dataset-2 has 2,902 clips
+  (384,931 frames) of 10 locomotion and hand-action contents in 7 styles; hours are computed from the official frame
+  counts at 30 fps.
+annotations: [action-labels, style-labels]
+license:
+  name: CC BY-NC 4.0
+  url: https://creativecommons.org/licenses/by-nc/4.0/
+  commercial: false
+access: open
+links:
+  homepage: https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset
+  paper: https://arxiv.org/abs/2306.08861
+paper:
+  title: Motion Capture Dataset for Practical Use of AI-based Motion Editing and Stylization
+  venue: arXiv 2023
+citation: |
+  @misc{kobayashi2023motion,
+    title = {Motion Capture Dataset for Practical Use of AI-based Motion Editing and Stylization},
+    author = {Makito Kobayashi and Chen-Chieh Liao and Keito Inoue and Sentaro Yojima and Masafumi Takahashi},
+    year = {2023},
+    eprint = {2306.08861},
+    archivePrefix = {arXiv},
+    primaryClass = {cs.CV}
+  }
+notes: >-
+  Professional actors captured at the Bandai Namco studio (Vicon) performing daily actions, fighting and dance in
+  styles such as happy, tired, old, childish or feminine, cleaned and released as BVH with JSON content and style
+  labels for motion style transfer.

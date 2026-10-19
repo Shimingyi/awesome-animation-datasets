@@ -1,0 +1,47 @@
+id: omomo
+name: OMOMO
+full_name: "OMOMO: Object Motion Guided Human Motion Synthesis dataset"
+good_for: "Full-body motion while manipulating 15 everyday objects: object-conditioned human motion."
+year: 2023
+released: 2023-09
+subject: human-body
+content: daily-activity
+content_note: "manipulating 15 everyday objects (vacuum, mop, lamp, suitcase, chairs, tables, boxes ...); not broken down"
+tags: [daily-activity, object-manipulation]
+capture: optical-mocap
+representation: [smplx]
+skeleton:
+  rig: SMPL-X body parameters (no hand pose in the release)
+fps: 30
+stats:
+  hours: 10
+  subjects: 17
+stats_note: >-
+  official: about 10 h by 17 subjects (13 male, 4 female) with 15 objects; captured with 12 Vicon cameras at 120 fps
+  (5 markers per object) and solved to SMPL-X with MoSh++; the release code processes it at 30 fps
+annotations: [object-trajectories, text]
+license:
+  name: Not stated for the data (code MIT)
+  url: https://github.com/lijiaman/omomo_release
+  commercial: unknown
+access: open
+links:
+  homepage: https://lijiaman.github.io/projects/omomo/
+  download: https://drive.google.com/file/d/1tZVqLB7II0whI-Qjz-z-AU3ponSEyAmm/view?usp=sharing
+  code: https://github.com/lijiaman/omomo_release
+  paper: https://arxiv.org/abs/2309.16237
+paper:
+  title: Object Motion Guided Human Motion Synthesis
+  venue: SIGGRAPH Asia 2023 (TOG)
+citation: |
+  @article{li2023object,
+    title={Object Motion Guided Human Motion Synthesis},
+    author={Li, Jiaman and Wu, Jiajun and Liu, C Karen},
+    journal={ACM Trans. Graph.},
+    volume={42},
+    number={6},
+    year={2023}
+  }
+notes: >-
+  Optical mocap of people moving, pushing and carrying 15 everyday objects, released as SMPL-X body parameters with
+  per-frame object pose and object meshes. Dexterous finger motion is not captured.

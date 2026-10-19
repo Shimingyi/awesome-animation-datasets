@@ -1,0 +1,52 @@
+id: mocca-gesture
+name: MOCCA Gesture
+full_name: MOCCA Gesture Dataset (Rhythmic Gesticulator)
+good_for: "Chinese monologue co-speech gesture with audio and transcripts: gesture generation beyond English."
+year: 2023
+released: 2023-12
+subject: human-body
+content: gesture
+content_note: "all co-speech monologue gesture"
+tags: [gesture, speech]
+capture: inertial-mocap
+representation: [bvh, wav, srt]
+skeleton:
+  joints: 59
+  rig: Perception Neuron-style skeleton with fingers
+fps: 60
+stats:
+  hours: 4.5
+  clips: 30
+  subjects: 5
+stats_note: >-
+  official: 30 sequences, 269.93 min of monologues by 5 male Chinese speakers (80/20 train/test), captured with a Noitom
+  Perception Neuron Pro system; 29.27 min of speaker01 come with hand-labelled gesture beats
+annotations: [audio, text]
+license:
+  name: MOCCA Gesture Dataset licence (non-commercial scientific research)
+  url: https://github.com/Aubrey-ao/HumanBehaviorAnimation/tree/main/HumanBehaviorAnimation/RhythmicGesticulator/MOCCA_Gesture_Dataset
+  commercial: false
+access: open
+links:
+  homepage: https://github.com/Aubrey-ao/HumanBehaviorAnimation/tree/main/HumanBehaviorAnimation/RhythmicGesticulator/MOCCA_Gesture_Dataset
+  download: https://drive.google.com/file/d/1zxbzGWSzw53d3GMVxUW-REFTdLq_jrMu/view?usp=sharing
+  code: https://github.com/Aubrey-ao/HumanBehaviorAnimation
+  paper: https://arxiv.org/abs/2210.01448
+paper:
+  title: "Rhythmic Gesticulator: Rhythm-Aware Co-Speech Gesture Synthesis with Hierarchical Neural Embeddings"
+  venue: SIGGRAPH Asia 2022 (TOG)
+citation: |
+  @article{ao2022rhythmic_gesticulator,
+    title={Rhythmic gesticulator: Rhythm-aware co-speech gesture synthesis with hierarchical neural embeddings},
+    author={Ao, Tenglong and Gao, Qingzhe and Lou, Yuke and Chen, Baoquan and Liu, Libin},
+    journal={ACM Transactions on Graphics (TOG)},
+    volume={41},
+    number={6},
+    pages={1--19},
+    year={2022},
+    publisher={ACM New York, NY, USA}
+  }
+notes: >-
+  Chinese monologues on topics such as cooking, fiction and academic talks, released as full-body BVH, speech WAV and
+  Whisper transcripts (SRT, utterance-level timing that can be off by seconds). The skeleton was retargeted to match the
+  Trinity Speech-Gesture data; a separate download adds manual gesture-beat labels for one speaker.

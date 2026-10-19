@@ -1,0 +1,253 @@
+{
+ "datasets": 28,
+ "counted": 25,
+ "hours": 739.5,
+ "caution": [
+  "motion-x",
+  "zeroeggs"
+ ],
+ "caution_hours": 146.4,
+ "clips": 149476,
+ "no_hours": [
+  "mixamo",
+  "truebones-zoo",
+  "unitree-lafan1-retarget"
+ ],
+ "derived": [
+  "humanml3d",
+  "smpl-interact-plus",
+  "unitree-lafan1-retarget"
+ ],
+ "by_subject": [
+  {
+   "id": "human-body",
+   "name": "Human body",
+   "emoji": "\ud83e\uddcd",
+   "datasets": 23,
+   "hours": 707.98,
+   "share": 0.9574024990533889,
+   "ids": [
+    "hiphi",
+    "bones-seed",
+    "beat",
+    "amass",
+    "motionpersona",
+    "humanml3d",
+    "animationgpt",
+    "100style",
+    "smpl-interact-plus",
+    "kit-ml",
+    "interact",
+    "cmu",
+    "motorica-dance",
+    "lafan1",
+    "bandai-namco",
+    "adult2child",
+    "multi-subject",
+    "bfa",
+    "humanact12",
+    "pfnn",
+    "edinburgh-locomotion",
+    "xia",
+    "mixamo"
+   ]
+  },
+  {
+   "id": "hands",
+   "name": "Hands",
+   "emoji": "\u270b",
+   "datasets": 1,
+   "hours": 10,
+   "share": 0.013523016173527342,
+   "ids": [
+    "for-elise"
+   ]
+  },
+  {
+   "id": "animal",
+   "name": "Animals",
+   "emoji": "\ud83d\udc3e",
+   "datasets": 2,
+   "hours": 0.5,
+   "share": 0.0006761508086763671,
+   "ids": [
+    "mann-dog",
+    "truebones-zoo"
+   ]
+  },
+  {
+   "id": "object",
+   "name": "Objects & creatures",
+   "emoji": "\ud83e\uddf8",
+   "datasets": 1,
+   "hours": 21.0,
+   "share": 0.02839833396440742,
+   "ids": [
+    "objaverse-xl-rigged-animated"
+   ]
+  },
+  {
+   "id": "robot",
+   "name": "Robots",
+   "emoji": "\ud83e\udd16",
+   "datasets": 1,
+   "hours": 0,
+   "share": 0.0,
+   "ids": [
+    "unitree-lafan1-retarget"
+   ]
+  }
+ ],
+ "by_content": [
+  {
+   "id": "locomotion",
+   "name": "Locomotion",
+   "datasets": 17,
+   "hours": 259.31,
+   "share": 0.35065920687108465,
+   "ids": [
+    "hiphi",
+    "bones-seed",
+    "amass",
+    "motionpersona",
+    "humanml3d",
+    "100style",
+    "kit-ml",
+    "lafan1",
+    "bandai-namco",
+    "adult2child",
+    "multi-subject",
+    "bfa",
+    "pfnn",
+    "edinburgh-locomotion",
+    "xia",
+    "mann-dog",
+    "unitree-lafan1-retarget"
+   ]
+  },
+  {
+   "id": "daily-activity",
+   "name": "Daily activities & objects",
+   "datasets": 6,
+   "hours": 251.24,
+   "share": 0.3397519463770902,
+   "ids": [
+    "hiphi",
+    "bones-seed",
+    "amass",
+    "humanml3d",
+    "kit-ml",
+    "bandai-namco"
+   ]
+  },
+  {
+   "id": "gesture",
+   "name": "Gesture & speech",
+   "datasets": 5,
+   "hours": 98.19,
+   "share": 0.13278012994949087,
+   "ids": [
+    "bones-seed",
+    "beat",
+    "amass",
+    "humanml3d",
+    "bandai-namco"
+   ]
+  },
+  {
+   "id": "combat",
+   "name": "Combat & action",
+   "datasets": 6,
+   "hours": 33.12,
+   "share": 0.044790995759931916,
+   "ids": [
+    "amass",
+    "humanml3d",
+    "animationgpt",
+    "lafan1",
+    "adult2child",
+    "unitree-lafan1-retarget"
+   ]
+  },
+  {
+   "id": "dance",
+   "name": "Dance",
+   "datasets": 4,
+   "hours": 26.52,
+   "share": 0.035865738139779245,
+   "ids": [
+    "bones-seed",
+    "motorica-dance",
+    "lafan1",
+    "unitree-lafan1-retarget"
+   ]
+  },
+  {
+   "id": "interaction",
+   "name": "Interaction",
+   "datasets": 2,
+   "hours": 10.0,
+   "share": 0.013523016173527342,
+   "ids": [
+    "smpl-interact-plus",
+    "interact"
+   ]
+  },
+  {
+   "id": "music",
+   "name": "Music performance",
+   "datasets": 1,
+   "hours": 10.0,
+   "share": 0.013523016173527342,
+   "ids": [
+    "for-elise"
+   ]
+  },
+  {
+   "id": "sports",
+   "name": "Sports & exercise",
+   "datasets": 3,
+   "hours": 8.42,
+   "share": 0.011392286900026615,
+   "ids": [
+    "amass",
+    "humanml3d",
+    "adult2child"
+   ]
+  },
+  {
+   "id": "general",
+   "name": "Unclassified",
+   "datasets": 10,
+   "hours": 42.68,
+   "share": 0.05771366365554173,
+   "ids": [
+    "amass",
+    "humanml3d",
+    "kit-ml",
+    "cmu",
+    "lafan1",
+    "humanact12",
+    "mixamo",
+    "truebones-zoo",
+    "objaverse-xl-rigged-animated",
+    "unitree-lafan1-retarget"
+   ]
+  }
+ ],
+ "commercial": {
+  "yes": 5,
+  "no": 15,
+  "unknown": 8
+ },
+ "access": {
+  "gated": 4,
+  "open": 20,
+  "registration": 3,
+  "paid": 1
+ },
+ "years": [
+  2003,
+  2026
+ ]
+}

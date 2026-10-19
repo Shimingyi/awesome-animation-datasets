@@ -1,0 +1,67 @@
+id: motion-x
+name: Motion-X
+full_name: 'Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset'
+good_for: "Very large whole-body SMPL-X with text, mostly from video: coverage over quality."
+year: 2023
+released: 2023-07
+subject: human-body
+content:
+  sports: 0.4
+  daily-activity: 0.19
+  general: 0.15
+  locomotion: 0.1
+  combat: 0.08
+  dance: 0.07
+  gesture: 0.01
+content_note: measured from the sub-dataset and clip names, weighted by duration
+tags: [daily-activity, dance, sports, martial-arts, text-annotated, action-labels]
+capture: mixed
+representation: [smplx]
+skeleton:
+  joints: 55
+  rig: SMPL-X
+fps: 30
+stats:
+  hours: 144.2
+  clips: 81084
+stats_note: >-
+  81,084 sequences, 144.2 h and 15.6M whole-body poses at 30 fps (official, Table 1 of the paper). The data distributed by
+  the authors, without the AMASS, GRAB and EgoBody subsets, is 52,464 clips (86.7 h) in the BVH release used by
+  DATA.md
+annotations: [text, pose-text, facial-expression]
+license:
+  name: Motion-X License (non-commercial; subsets also under their source licenses)
+  url: https://motion-x-dataset.github.io/static/license/Motion-X%20License.pdf
+  commercial: false
+access: gated
+links:
+  homepage: https://motion-x-dataset.github.io
+  code: https://github.com/IDEA-Research/Motion-X
+  paper: https://arxiv.org/abs/2307.00818
+paper:
+  title: 'Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset'
+  venue: NeurIPS 2023
+citation: |
+  @article{lin2023motionx,
+    title={Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset},
+    author={Lin, Jing and Zeng, Ailing and Lu, Shunlin and Cai, Yuanhao and Zhang, Ruimao and Wang, Haoqian and Zhang, Lei},
+    journal={Advances in Neural Information Processing Systems},
+    year={2023}
+  }
+variants:
+  - name: Motion-X++
+    url: https://huggingface.co/datasets/YuhongZhang/Motion-Xplusplus
+    note: >-
+      extended re-release (120.5K sequences, 19.5M poses) with re-annotated SMPL-X, video, audio and text
+      (arXiv:2501.05098)
+notes: >-
+  Whole-body SMPL-X motion (body, hands, face) with sequence- and frame-level text, unified from online videos, the
+  self-recorded IDEA400 set and eight existing datasets. The AMASS, GRAB and EgoBody motion is not redistributed and
+  must be obtained from those datasets; Motion-X provides text and face labels for them.
+review:
+  verdict: caution
+  issues: [jitter, foot-skating, penetration]
+  note: >-
+    Most of the motion is reconstructed from monocular video: strong jitter, foot skating and ground / self
+    penetration across the examples we inspected.
+  date: 2026-10-19

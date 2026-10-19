@@ -1,0 +1,36 @@
+dataset: motionmillion
+note: 'clips of its own web-video part (MotionGV), chosen from the worse end of foot skating and jitter in a 400-clip sample; SMPL-X body pose decoded from the 272-dim features'
+quality:
+  from:
+  - {reader: 'rpr272', source: 'mnt_raw', glob: 'MotionMillion/gv_sample/*.npy'}
+items:
+- source: vault
+  clip: MotionMillion/folder1__061406
+  label: MotionGV · folder1 · 061406
+- source: vault
+  clip: MotionMillion/folder0__034425
+  label: MotionGV · folder0 · 034425
+- source: vault
+  clip: MotionMillion/folder2__127572
+  label: MotionGV · folder2 · 127572
+- source: vault
+  clip: MotionMillion/folder9__532810
+  label: MotionGV · folder9 · 532810
+- source: vault
+  clip: MotionMillion/folder6__367744
+  label: MotionGV · folder6 · 367744
+- source: vault
+  clip: MotionMillion/folder4__226702
+  label: MotionGV · folder4 · 226702
+- source: vault
+  clip: MotionMillion/folder5__321819
+  label: MotionGV · folder5 · 321819
+- source: vault
+  clip: MotionMillion/folder7__402488
+  label: MotionGV · folder7 · 402488
+- source: vault
+  clip: MotionMillion/folder8__498746
+  label: MotionGV · folder8 · 498746
+- source: vault
+  clip: MotionMillion/folder1__067466
+  label: MotionGV · folder1 · 067466

@@ -1,0 +1,52 @@
+id: hiphi
+name: HiPHI
+full_name: 'HiPHI: High-Precision Human Motion and Object-Interaction'
+good_for: "Hundreds of hours of high-precision whole-body and object-interaction capture: large-scale training."
+year: 2026
+released: 2026-08
+subject: human-body
+content:
+  daily-activity: 0.65
+  locomotion: 0.33
+  gesture: 0.01
+  general: 0.01
+content_note: measured from the release's action-category folders, weighted by duration
+tags: [locomotion, object-manipulation, crawling, daily-activity, text-annotated, action-labels]
+capture: optical-mocap
+representation: [bvh, obj, csv]
+skeleton:
+  joints: 55
+  rig: HiPHI standardized 55-joint BVH
+fps: 90
+stats:
+  hours: 308.7
+  clips: 17626
+  subjects: 132
+stats_note: >-
+  308.7 h of original capture (the 617.5 h release adds one mirrored copy of every motion); hours and performers are
+  official, the clip count of the originals is from the BVH release used by DATA.md
+annotations: [text, action-labels, object-trajectories]
+license:
+  name: ModalityNet Open Research License v1.0
+  url: https://modalitynet.com/open-research-license
+  commercial: false
+access: gated
+links:
+  homepage: https://noitom-robotics.github.io/hiphi/
+  download: https://huggingface.co/datasets/noitomrobotics/HiPHI
+  code: https://github.com/noitom-robotics/hiphi
+  paper: https://arxiv.org/abs/2608.16222
+paper:
+  title: 'HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction'
+  venue: CoRL 2026
+citation: |
+  @article{ji2026hiphi,
+    title={HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction},
+    author={Ji, Jiahao and Ma, Ji and Zhang, Runhan and Yu, Runyi and Wang, Wenjia and Chi, Weiheng and Peng, Qianqian and Yan, Weichao and Gu, Yongfei and Tian, Ye and Wu, Ting and Li, Longwei and Yuan, Chun and Dai, Ruoli and Han, Lei},
+    journal={arXiv preprint arXiv:2608.16222},
+    year={2026}
+  }
+notes: >-
+  Optical mocap by Noitom Robotics organised by 214 FrameNet frame and lexical-unit labels, with synchronized object
+  trajectories and meshes for the 245.7 h (of 617.5 h, mirrors included) of human-object interaction. The release
+  pairs every motion with a mirrored copy; commercial licences are available separately from ModalityNet.

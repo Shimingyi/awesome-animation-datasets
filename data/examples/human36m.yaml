@@ -1,0 +1,37 @@
+dataset: human36m
+up: +z
+note: the official D3_Angles turned into BVH (the release's skeleton, each subject's bone lengths; matches its D3_Positions to 0.0 mm)
+quality:
+  from:
+  - {reader: 'vault', glob: 'Human36M/*'}
+items:
+- source: vault
+  clip: Human36M/S9/Walking
+  label: Walking · S9
+- source: vault
+  clip: Human36M/S1/WalkingDog
+  label: Walking a dog · S1
+- source: vault
+  clip: Human36M/S5/Eating
+  label: Eating · S5
+- source: vault
+  clip: Human36M/S6/Sitting_1
+  label: Sitting · S6
+- source: vault
+  clip: Human36M/S7/SittingDown
+  label: Sitting down · S7
+- source: vault
+  clip: Human36M/S8/Phoning
+  label: Phoning · S8
+- source: vault
+  clip: Human36M/S11/Greeting
+  label: Greeting · S11
+- source: vault
+  clip: Human36M/S9/Discussion_1
+  label: Discussion · S9
+- source: vault
+  clip: Human36M/S5/Photo
+  label: Taking a photo · S5
+- source: vault
+  clip: Human36M/S1/Posing
+  label: Posing · S1

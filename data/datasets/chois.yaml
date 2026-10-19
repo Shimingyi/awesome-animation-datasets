@@ -1,0 +1,47 @@
+id: chois
+name: CHOIS
+full_name: Controllable Human-Object Interaction Synthesis
+good_for: "Text- and waypoint-conditioned human-object interaction (carrying, pushing, pulling furniture and boxes) on SMPL-X."
+year: 2024
+released: 2024-09
+subject: human-body
+content: daily-activity
+content_note: "not broken down; every sequence is a person moving, lifting, pushing or pulling one of 15 large objects"
+tags: [object-manipulation, daily-activity, locomotion, text-annotated]
+capture: optical-mocap
+representation: [smplx]
+skeleton:
+  rig: SMPL-X (body pose, 16 shape coefficients) with per-frame object pose
+stats:
+  hours: 10
+  subjects: 17
+stats_note: >-
+  Numbers of the underlying OMOMO (FullBodyManipulation) capture as given in the CHOIS paper: 10 h of paired human and
+  object motion with 15 objects, 15 training and 2 test subjects. CHOIS leaves out the articulated vacuum and mop
+  sequences when training.
+annotations: [text, contacts, object-trajectories]
+license:
+  name: Not stated (repository code MIT)
+  url: https://github.com/lijiaman/chois_release/blob/main/LICENSE
+  commercial: unknown
+access: open
+links:
+  homepage: https://lijiaman.github.io/projects/chois/
+  download: https://drive.google.com/file/d/1ZG-9--RfUWj5oWYnvcONNuRuxaH_Zpw1/view?usp=sharing
+  code: https://github.com/lijiaman/chois_release
+  paper: https://arxiv.org/abs/2312.03913
+paper:
+  title: Controllable Human-Object Interaction Synthesis
+  venue: ECCV 2024
+citation: |
+  @inproceedings{li2023controllable,
+    title={Controllable human-object interaction synthesis},
+    author={Li, Jiaman and Clegg, Alexander and Mottaghi, Roozbeh and Wu, Jiajun and Puig, Xavier and Liu, C. Karen},
+    booktitle={ECCV},
+    year={2024}
+  }
+notes: >-
+  The release is a re-processed copy of the OMOMO full-body manipulation mocap (Li et al., SIGGRAPH Asia 2023; not
+  listed here separately) packaged with CHOIS's text descriptions, hand contact labels and object geometry, in joblib
+  pickles of SMPL-X parameters and object poses. It is meant for generating synchronized human and object motion from
+  language and sparse object waypoints.

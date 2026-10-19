@@ -1,0 +1,56 @@
+id: phuma
+name: PHUMA
+full_name: "PHUMA: Physically-Grounded Humanoid Locomotion Dataset"
+good_for: "Large physics-filtered human motion retargeted to Unitree G1 and H1-2: humanoid imitation learning."
+year: 2025
+released: 2025-10
+subject: robot
+content: general
+content_note: "mixed human motion (Motion-X video, AMASS, IDEA400, LAFAN1, AIST ...), not broken down by motion type"
+tags: [locomotion, dance, sports, retargeted]
+capture: retargeted
+representation: [npy]
+skeleton:
+  rig: Unitree G1 (29 DoF) and H1-2 (21 DoF without wrists), root position and quaternion plus joint angles
+fps: 30
+stats:
+  hours: 73
+  clips: 76010
+stats_note: >-
+  official: 72.96 h in 76.01K 4-second clips (7.88M frames) per robot. Sources: Motion-X video 31.98 h, AMASS 20.86 h,
+  IDEA400 9.10 h, LAFAN1 2.40 h, EgoBody 2.19 h, GRAB 1.88 h, AIST 1.66 h, HAA500 1.01 h, LocoMuJoCo 0.86 h, own video
+  0.56 h, HuMMan 0.47 h. The Hugging Face release leaves out the LAFAN1 and LocoMuJoCo parts, which the GitHub script
+  rebuilds.
+license:
+  name: Apache-2.0 (Hugging Face card; source motions keep their own licences)
+  url: https://huggingface.co/datasets/DAVIAN-Robotics/PHUMA
+  commercial: unknown
+access: open
+links:
+  homepage: https://davian-robotics.github.io/PHUMA/
+  download: https://huggingface.co/datasets/DAVIAN-Robotics/PHUMA
+  code: https://github.com/DAVIAN-Robotics/PHUMA
+  paper: https://arxiv.org/abs/2510.26236
+paper:
+  title: "PHUMA: Physically-Grounded Humanoid Locomotion Dataset"
+  venue: CoRL 2026
+citation: |
+  @article{lee2025phuma,
+    title={PHUMA: Physically-Grounded Humanoid Locomotion Dataset},
+    author={Kyungmin Lee and Sibeen Kim and Youngdo Lee and Minho Park and Hyunseung Kim and Dongyoon Hwang and Donghu Kim and Hojoon Lee and Jaegul Choo},
+    journal={arXiv preprint arXiv:2510.26236},
+    year={2025}
+  }
+derived_from: [amass, motion-x, lafan1]
+review:
+  verdict: caution
+  issues: [root-drift, foot-skating, unnatural-pose]
+  note: >-
+    In the examples we inspected the feet float above the floor and slide, and the motion looks unnatural; part of the
+    source motion is reconstructed from web video (Motion-X).
+  date: 2026-10-19
+notes: >-
+  Human motion from Humanoid-X sources (Motion-X video, AMASS, ...), LAFAN1 and LocoMuJoCo, filtered for physical
+  plausibility (foot contact, floating, penetration) and retargeted with PhySINK, a physics-constrained IK with joint
+  limits and ground contact, to Unitree G1 and H1-2. Each clip stores root translation, root quaternion and joint
+  positions at 30 fps; the same motions exist for both robots.

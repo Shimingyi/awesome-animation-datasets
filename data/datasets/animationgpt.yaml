@@ -1,0 +1,46 @@
+id: animationgpt
+name: AnimationGPT
+full_name: AnimationGPT CombatMotion dataset
+good_for: "Game-style combat moves with text: text-to-motion for fighting and action games."
+year: 2024
+released: 2024-07
+subject: human-body
+content: combat
+tags: [combat, martial-arts, text-annotated]
+capture: retargeted
+representation: [joints, features]
+skeleton:
+  joints: 22
+  rig: SMPL body joints (HumanML3D format)
+stats:
+  hours: 26.4
+  clips: 14883
+stats_note: >-
+  CombatMotionRaw (CMR) holds 14,883 animations with one text annotation each; CombatMotionProcessed (CMP) is a curated
+  subset of 8,700 animations with three annotations each. Hours are counted from the 14,762 CMR clips converted to BVH in
+  DATA.md.
+annotations: [text]
+license:
+  name: Not specified (repository MIT)
+  url: https://github.com/fyyakaxyy/AnimationGPT/blob/main/LICENSE
+  commercial: unknown
+access: open
+links:
+  homepage: https://github.com/fyyakaxyy/AnimationGPT
+  download: https://drive.google.com/file/d/148AwoovJrnh4F0q_HbU83WCWwFooLSZj/view?usp=drive_link
+  code: https://github.com/fyyakaxyy/AnimationGPT
+citation: |
+  @misc{CombatMotion,
+    title={AnimationGPT:An AIGC tool for generating game combat motion assets},
+    author={Yihao Liao, Yiyu Fu, Ziming Cheng, Jiangfeiyang Wang},
+    year={2024},
+    howpublished={\url{https://github.com/fyyakaxyy/AnimationGPT}}
+  }
+review:
+  verdict: caution
+  issues: [jitter, unnatural-pose]
+  note: Jittery motion that does not look real in the examples we inspected.
+  date: 2026-10-19
+notes: >-
+  Combat animations taken from game assets (FBX), retargeted to SMPL and annotated with action, weapon, attack, direction,
+  power and speed terms combined into sentences by GPT-4. Released in HumanML3D format for text-to-motion training.

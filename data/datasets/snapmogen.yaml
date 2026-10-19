@@ -1,0 +1,37 @@
+id: snapmogen
+name: SnapMoGen
+full_name: "SnapMoGen: Human Motion Generation from Expressive Texts"
+good_for: "Text-to-motion with long, expressive descriptions on continuous mocap: fine-grained text control."
+year: 2025
+released: 2025-07
+subject: human-body
+content: general
+content_note: "not broken down yet (daily activities, styled and emotional motion, dance ... per the release's scenario groups)"
+tags: [text-annotated, daily-activity, style, emotion, dance]
+capture: optical-mocap
+representation: [bvh, features]
+skeleton:
+  joints: 24
+fps: 30
+stats:
+  hours: 43.7
+  clips: 20450
+stats_note: "official (HF card); every clip is also mirrored in the release; 122,565 descriptions (2 written by people, 4 by an LLM per clip)"
+annotations: [text]
+license:
+  name: Snap Inc. Non-Commercial License
+  url: https://huggingface.co/datasets/Ericguo5513/SnapMoGen/blob/main/LICENSE
+  commercial: false
+access: open
+links:
+  homepage: https://snap-research.github.io/SnapMoGen/
+  download: https://huggingface.co/datasets/Ericguo5513/SnapMoGen
+  code: https://github.com/snap-research/SnapMoGen
+  paper: https://arxiv.org/abs/2507.09122
+paper:
+  title: "SnapMoGen: Human Motion Generation from Expressive Texts"
+  venue: arXiv 2025
+notes: >-
+  20,450 clips of 4 to 12 s cut from long, continuous mocap sequences, each with six detailed descriptions (about 48
+  words, four times HumanML3D's); BVH plus HumanML3D-like features whose rotations are global, so they convert back to
+  BVH directly.

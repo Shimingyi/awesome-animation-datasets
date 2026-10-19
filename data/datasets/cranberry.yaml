@@ -1,0 +1,45 @@
+id: cranberry
+name: Cranberry
+full_name: Cranberry motion capture dataset (Categorical Codebook Matching)
+good_for: "Unstructured VR-style locomotion and upper-body activity: three-point tracking and embodied avatar controllers."
+year: 2024
+released: 2024-08
+subject: human-body
+content: locomotion
+content_note: >-
+  not broken down; take names are mostly walking, running, turning, side steps, crouching, jumps and transitions, plus
+  VR games (Beat Saber, boxing, ping pong, baseball, shooting), gestures, speech, cooking, gardening and sitting
+tags: [locomotion, gesture, sports, combat, daily-activity, sitting]
+capture: optical-mocap
+representation: [fbx, glb]
+skeleton:
+  rig: Cranberry character skeleton (27 joints in the paper's controller)
+fps: 120
+stats:
+  hours: 3
+  clips: 91
+stats_note: >-
+  about 3 h of unstructured motion of one body size (paper); 91 FBX takes in five parts by our count of the archive
+  (4.1 GB), each also as GLB. 120 fps in the FBX we checked. The paper's training pipeline adds mirrored copies, not
+  shipped.
+license:
+  name: CC BY-NC 4.0
+  url: https://creativecommons.org/licenses/by-nc/4.0/
+  commercial: false
+access: open
+links:
+  homepage: https://github.com/sebastianstarke/AI4Animation
+  download: https://starke-consult.de/AI4Animation/SIGGRAPH_2024/Cranberry_Dataset.zip
+  code: https://github.com/sebastianstarke/AI4Animation/tree/master/AI4Animation/SIGGRAPH_2024
+  paper: https://github.com/sebastianstarke/AI4Animation/blob/master/Media/SIGGRAPH_2024/Paper.pdf
+paper:
+  title: Categorical Codebook Matching for Embodied Character Controllers
+  venue: SIGGRAPH 2024 (ACM TOG)
+variants:
+  - name: Cranberry MotionAssets (Unity)
+    url: https://starke-consult.de/AI4Animation/SIGGRAPH_2024/MotionAssets.zip
+    note: the same takes imported and pre-processed as AI4Animation Unity motion assets
+notes: >-
+  Released with Meta Reality Labs' codebook-matching controller, which maps headset and controller signals to full-body
+  motion; the takes mix free locomotion and transitions with typical VR and AR upper-body activity. The AI4Animation
+  repository puts its motion capture data under CC BY-NC 4.0.

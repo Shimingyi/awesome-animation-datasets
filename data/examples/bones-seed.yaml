@@ -1,0 +1,37 @@
+dataset: bones-seed
+up: +y
+note: clips streamed from soma_uniform.tar.gz (python -m tools.examples.hf_stream), one per category
+quality:
+  from:
+  - {reader: 'bvh', source: 'mnt_raw', glob: 'BONES-SEED/bvh/*.bvh'}
+items:
+- source: hf_bones_seed
+  bvh: clips/egypt_dance_R_003__A275.bvh
+  label: Egyptian style dance
+- source: hf_bones_seed
+  bvh: clips/screaming_001__A274.bvh
+  label: Screaming
+- source: hf_bones_seed
+  bvh: clips/jog_ff_stop_180_R_003__A273.bvh
+  label: Stop forward jog
+- source: hf_bones_seed
+  bvh: clips/horse_riding_R_001__A273.bvh
+  label: Ride a horse
+- source: hf_bones_seed
+  bvh: clips/body_search_003__A273.bvh
+  label: Body search
+- source: hf_bones_seed
+  bvh: clips/on_the_edge_001__A276.bvh
+  label: Standing on the edge of something
+- source: hf_bones_seed
+  bvh: clips/eating_apple_R_002__A276.bvh
+  label: Eating an apple
+- source: hf_bones_seed
+  bvh: clips/injured_R_leg_walk_ff_start_180_002__A070.bvh
+  label: Injured right leg start walk forward
+- source: hf_bones_seed
+  bvh: clips/reaching_far_R_002__A071.bvh
+  label: Reaching far
+- source: hf_bones_seed
+  bvh: clips/walk_ff_start_360_004__A072.bvh
+  label: Start walking backwards

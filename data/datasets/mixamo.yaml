@@ -1,0 +1,28 @@
+id: mixamo
+name: Mixamo
+full_name: Adobe Mixamo animation library
+good_for: "Ready-made game animations on many characters: prototyping and retargeting."
+year: 2009
+released: 2009-07
+subject: human-body
+content: general
+tags: [locomotion, idle, dance, combat, sports, acrobatics, daily-activity, gesture, sitting, falling]
+capture: mixed
+representation: [fbx, dae]
+skeleton:
+  rig: Mixamo humanoid rig
+stats_note: >-
+  Adobe gives no official animation count or duration (secondary sources cite roughly 2,000 to 2,500 animations), and
+  the library can only be downloaded one animation at a time, so the total length is not known.
+license:
+  name: Adobe Mixamo terms (royalty-free use in projects; no redistribution of raw files)
+  url: https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html
+  commercial: true
+access: registration
+links:
+  homepage: https://www.mixamo.com
+notes: >-
+  Online library of humanoid animations, created with motion capture and polished by keyframe animators, that can be
+  applied to Mixamo's auto-rigged characters and downloaded free with an Adobe ID. Adobe's FAQ allows royalty-free
+  personal and commercial use in projects; an Adobe community FAQ states that the raw files may not be redistributed
+  and may not be used to train machine-learning models.

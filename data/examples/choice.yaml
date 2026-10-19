@@ -1,0 +1,33 @@
+dataset: choice
+note: the released BVH (75 joints with fingers); the props of each take are not shown yet (no object meshes in the release)
+items:
+- source: vault
+  clip: CHOICE/JIntao0326-24Round-kitchen-0
+  label: kitchen · 0326-24Round-kitchen-0
+- source: vault
+  clip: CHOICE/JIntao0326-21Round-walking-2
+  label: walking · 0326-21Round-walking-2
+- source: vault
+  clip: CHOICE/JIntao0326-17Round-drinking-4
+  label: drinking · 0326-17Round-drinking-4
+- source: vault
+  clip: CHOICE/JIntao0314-6Round-large-1
+  label: large · 0314-6Round-large-1
+- source: vault
+  clip: CHOICE/New/JIntao0310-2Round-4
+  label: session 0310 · 0310-2Round-4
+- source: vault
+  clip: CHOICE/New/JIntao0314-3Round-2
+  label: session 0314 · 0314-3Round-2
+- source: vault
+  clip: CHOICE/JIntao0324-8Round-4
+  label: session 0324 · 0324-8Round-4
+- source: vault
+  clip: CHOICE/JIntao0325-11Round-2
+  label: session 0325 · 0325-11Round-2
+- source: vault
+  clip: CHOICE/JIntao0326-25Round-kitchen-1
+  label: kitchen · 0326-25Round-kitchen-1
+- source: vault
+  clip: CHOICE/New/JIntao1230-001-21
+  label: session 1230 · 1230-001-21

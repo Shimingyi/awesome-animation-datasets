@@ -1,0 +1,61 @@
+id: adult2child
+name: Adult2Child
+full_name: Kinder-Gator 2.0 (Adult2Child optical motion capture dataset)
+good_for: "Child vs adult motion: age-style transfer and child character animation."
+year: 2020
+released: 2020-10
+subject: human-body
+content:
+  locomotion: 0.76
+  sports: 0.12
+  combat: 0.09
+  daily-activity: 0.02
+  general: 0.01
+content_note: measured from the action in each file name, weighted by duration
+tags: [child, locomotion, style, sports]
+capture: optical-mocap
+representation: [bvh, fbx, csv]
+skeleton:
+  joints: 33
+  rig: Vicon Shogun skeleton, per subject
+fps: 120
+stats:
+  hours: 3.1
+  clips: 973
+  subjects: 17
+stats_note: >-
+  9 adults and 8 children aged 5-10, 23 locomotion and exercise motions with 2-4 repetitions each; the BVH folder of
+  the Zenodo release holds 973 clips (533 child, 440 adult). Hours are counted from that BVH release (DATA.md keeps
+  956 clips, 3.0 h after cleaning).
+annotations: [action-labels]
+license:
+  name: CC BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  commercial: true
+access: open
+links:
+  homepage: https://andreasaristidou.com/Adult2Child
+  download: https://zenodo.org/records/4079507
+  code: https://gitlab.com/jainlab/cyclegan-1-master
+  paper: https://doi.org/10.1145/3424636.3426909
+paper:
+  title: 'Adult2Child: Motion Style Transfer using CycleGANs'
+  venue: MIG 2020
+citation: |
+  @inproceedings{Dong:2020:MIG,
+    author = {Dong, Yuzhu and Aristidou, Andreas and Shamir, Ariel and Mahler, Moshe and Jain, Eakta},
+    title = {{A}dult2{C}hild: {M}otion Style Transfer using {CycleGANs}},
+    booktitle = {Proceedings of the ACM SIGGRAPH Conference on Motion, Interaction, and Games},
+    series = {MIG '20},
+    year = {2020},
+    location = {Charleston, South Carolina, USA},
+    pages = {1--11},
+    numpages = {11},
+    url = {https://doi.org/10.1145/3424636.3426909},
+    doi = {10.1145/3424636.3426909},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA}
+  }
+notes: >-
+  Matched adult and child performances of walking, jogging, jumping, throwing, punching and kicking, captured with a
+  10-camera Vicon system and labelled by motion type, subject type and subject ID.

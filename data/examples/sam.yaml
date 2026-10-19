@@ -1,0 +1,37 @@
+dataset: sam
+up: +z
+note: raw Vicon BVH of the release (the first takes of the archive)
+quality:
+  from:
+  - {reader: 'bvh', source: 'mnt_raw', glob: 'SAM/bvh/*.bvh'}
+items:
+- source: vault
+  clip: SAM/0000000
+  label: 0000000 · sound front · insensitive
+- source: vault
+  clip: SAM/0000001
+  label: 0000001 · sound front · neutral
+- source: vault
+  clip: SAM/0000002
+  label: 0000002 · sound front · sensitive
+- source: vault
+  clip: SAM/0000010
+  label: 0000010 · sound front · insensitive
+- source: vault
+  clip: SAM/0000011
+  label: 0000011 · sound front · neutral
+- source: vault
+  clip: SAM/0000012
+  label: 0000012 · sound front · sensitive
+- source: vault
+  clip: SAM/0000100
+  label: 0000100 · sound front · insensitive
+- source: vault
+  clip: SAM/0000101
+  label: 0000101 · sound front · neutral
+- source: vault
+  clip: SAM/0000102
+  label: 0000102 · sound front · sensitive
+- source: vault
+  clip: SAM/0000110
+  label: 0000110 · sound front · insensitive

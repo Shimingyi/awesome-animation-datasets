@@ -1,0 +1,61 @@
+id: mamma
+name: MAMMA
+full_name: "MAMMA: Markerless Accurate Multi-person Motion Acquisition"
+good_for: "Markerless multi-view SMPL-X capture of partner dance and close multi-person interaction, with the videos."
+year: 2026
+released: 2026-06
+subject: human-body
+content:
+  dance: 0.61
+  general: 0.32
+  interaction: 0.07
+content_note: >-
+  from the release's minutes per part: markerless dance 67 min (West Coast Swing, Bachata, Breakdance, Ballroom),
+  multi-people 8 min (3-6 people), iPhone captures 10 min and evaluation sequences 24 min (singles, dance, extra);
+  the synthetic MammaSyn renders are not counted
+tags: [dance, interaction]
+capture: video
+representation: [smplx, npz, video]
+skeleton:
+  joints: 55
+  rig: SMPL-X (body and hands)
+fps: 30
+stats:
+  hours: 3.1
+  clips: 251
+stats_note: >-
+  hours are ours, motion per person summed over the released SMPL-X predictions: dance 1.87 h (210 person tracks),
+  multi-people 0.60 h (143), iPhone 0.23 h (55), plus the evaluation ground truth 0.41 h (62 person tracks, MoSh fits
+  to optical markers); 9 dance / multi-people sequences have no prediction file. Official minutes per sequence (one take counted once): 123 dance
+  sequences (67 min), 34 multi-people (8 min), 42 iPhone (10 min), 52 evaluation (24 min), all at 30 fps. The
+  synthetic training set MammaSyn (about 333 min of renders at 6 fps, 8 views) is listed as a variant.
+annotations: [video]
+license:
+  name: MAMMA Dataset License (non-commercial research)
+  url: https://mamma.is.tue.mpg.de/license.html
+  commercial: false
+access: registration
+links:
+  homepage: https://mamma.is.tue.mpg.de/
+  download: https://mamma.is.tue.mpg.de/download.php
+  code: https://github.com/cuevhv/mamma
+  paper: https://arxiv.org/abs/2506.13040
+paper:
+  title: "MAMMA: Markerless Accurate Multi-person Motion Acquisition"
+  venue: CVPR 2026 (Oral)
+citation: |
+  @inproceedings{cuevas2026mamma,
+    title={MAMMA: Markerless Accurate Multi-person Motion Acquisition},
+    author={Cuevas Velasquez, Hanz and Yiannakidis, Anastasios and Shin, Soyong and Becherini, Giorgio and H{\"o}schle, Markus and Tesch, Joachim and Obersat, Taylor and Alexiadis, Tsvetelina and Halilaj, Eni and Black, Michael J.},
+    booktitle={CVPR},
+    year={2026}
+  }
+variants:
+  - name: MammaSyn
+    url: https://mamma.is.tue.mpg.de/download.php
+    note: synthetic training renders (interactions, singles, hands) from 8 views in WebDataset format, about 333 min at 6 fps
+notes: >-
+  SMPL-X bodies (with hands) recovered by the MAMMA markerless pipeline from 32 synchronised IOI cameras (4 iPhones for
+  the iPhone captures): partner dances with close contact, groups of 3-6 people, and evaluation sequences. Per sequence
+  the release has per-person SMPL-X parameters, camera calibration and the multi-view videos; registration at the
+  homepage is needed to download.

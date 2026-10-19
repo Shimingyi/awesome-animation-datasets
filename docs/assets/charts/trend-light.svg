@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1136" height="380" viewBox="0 0 1136 380" role="img" aria-label="Hours of motion over time" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+<rect x="0.5" y="0.5" width="1135" height="379" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="28" y="40" font-size="16" font-weight="600" fill="#1f2328">Hours of motion over time</text>
+<text x="28" y="62" font-size="12.5" fill="#59636e">cumulative hours in this list by release month · 42 datasets · 2,367 h</text>
+<line x1="84" y1="328.0" x2="1096" y2="328.0" stroke="#eff2f5" stroke-width="1"/>
+<text x="74" y="328.0" dy="0.35em" text-anchor="end" font-size="11.5" fill="#818b98">0 h</text>
+<line x1="84" y1="281.6" x2="1096" y2="281.6" stroke="#eff2f5" stroke-width="1"/>
+<text x="74" y="281.6" dy="0.35em" text-anchor="end" font-size="11.5" fill="#818b98">500 h</text>
+<line x1="84" y1="235.2" x2="1096" y2="235.2" stroke="#eff2f5" stroke-width="1"/>
+<text x="74" y="235.2" dy="0.35em" text-anchor="end" font-size="11.5" fill="#818b98">1,000 h</text>
+<line x1="84" y1="188.8" x2="1096" y2="188.8" stroke="#eff2f5" stroke-width="1"/>
+<text x="74" y="188.8" dy="0.35em" text-anchor="end" font-size="11.5" fill="#818b98">1,500 h</text>
+<line x1="84" y1="142.4" x2="1096" y2="142.4" stroke="#eff2f5" stroke-width="1"/>
+<text x="74" y="142.4" dy="0.35em" text-anchor="end" font-size="11.5" fill="#818b98">2,000 h</text>
+<line x1="84" y1="96.0" x2="1096" y2="96.0" stroke="#eff2f5" stroke-width="1"/>
+<text x="74" y="96.0" dy="0.35em" text-anchor="end" font-size="11.5" fill="#818b98">2,500 h</text>
+<line x1="84.0" y1="328" x2="84.0" y2="333" stroke="#d1d9e0"/>
+<text x="84.0" y="350" text-anchor="start" font-size="11.5" fill="#818b98">before 2018</text>
+<line x1="196.4" y1="328" x2="196.4" y2="333" stroke="#d1d9e0"/>
+<text x="196.4" y="350" text-anchor="middle" font-size="11.5" fill="#818b98">2019</text>
+<line x1="308.9" y1="328" x2="308.9" y2="333" stroke="#d1d9e0"/>
+<text x="308.9" y="350" text-anchor="middle" font-size="11.5" fill="#818b98">2020</text>
+<line x1="421.3" y1="328" x2="421.3" y2="333" stroke="#d1d9e0"/>
+<text x="421.3" y="350" text-anchor="middle" font-size="11.5" fill="#818b98">2021</text>
+<line x1="533.8" y1="328" x2="533.8" y2="333" stroke="#d1d9e0"/>
+<text x="533.8" y="350" text-anchor="middle" font-size="11.5" fill="#818b98">2022</text>
+<line x1="646.2" y1="328" x2="646.2" y2="333" stroke="#d1d9e0"/>
+<text x="646.2" y="350" text-anchor="middle" font-size="11.5" fill="#818b98">2023</text>
+<line x1="758.7" y1="328" x2="758.7" y2="333" stroke="#d1d9e0"/>
+<text x="758.7" y="350" text-anchor="middle" font-size="11.5" fill="#818b98">2024</text>
+<line x1="871.1" y1="328" x2="871.1" y2="333" stroke="#d1d9e0"/>
+<text x="871.1" y="350" text-anchor="middle" font-size="11.5" fill="#818b98">2025</text>
+<line x1="983.6" y1="328" x2="983.6" y2="333" stroke="#d1d9e0"/>
+<text x="983.6" y="350" text-anchor="middle" font-size="11.5" fill="#818b98">2026</text>
+<line x1="1096.0" y1="328" x2="1096.0" y2="333" stroke="#d1d9e0"/>
+<path d="M84,328 L84,325.7 L84.0,325.7 L149.6,325.7 L149.6,325.7 L177.7,325.7 L177.7,324.7 L224.6,324.7 L224.6,320.9 L346.4,320.9 L346.4,320.7 L365.1,320.7 L365.1,320.2 L393.2,320.2 L393.2,320.0 L421.3,320.0 L421.3,319.8 L533.8,319.8 L533.8,317.7 L552.5,317.7 L552.5,310.6 L590.0,310.6 L590.0,310.2 L608.7,310.2 L608.7,310.0 L674.3,310.0 L674.3,308.0 L711.8,308.0 L711.8,307.5 L721.2,307.5 L721.2,306.5 L730.6,306.5 L730.6,305.8 L749.3,305.8 L749.3,305.4 L777.4,305.4 L777.4,304.8 L796.1,304.8 L796.1,304.7 L805.5,304.7 L805.5,301.3 L824.3,301.3 L824.3,301.0 L833.6,301.0 L833.6,300.1 L889.9,300.1 L889.9,299.3 L899.2,299.3 L899.2,299.1 L918.0,299.1 L918.0,298.4 L927.3,298.4 L927.3,293.5 L946.1,293.5 L946.1,292.6 L955.4,292.6 L955.4,246.1 L1002.3,246.1 L1002.3,232.7 L1030.4,232.7 L1030.4,142.1 L1049.1,142.1 L1049.1,113.5 L1058.5,113.5 L1058.5,111.5 L1067.9,111.5 L1067.9,108.4 L1096.0,108.4 L1096.0,328 Z" fill="#2a78d6" fill-opacity="0.12"/>
+<path d="M84.0,325.7 L149.6,325.7 L149.6,325.7 L177.7,325.7 L177.7,324.7 L224.6,324.7 L224.6,320.9 L346.4,320.9 L346.4,320.7 L365.1,320.7 L365.1,320.2 L393.2,320.2 L393.2,320.0 L421.3,320.0 L421.3,319.8 L533.8,319.8 L533.8,317.7 L552.5,317.7 L552.5,310.6 L590.0,310.6 L590.0,310.2 L608.7,310.2 L608.7,310.0 L674.3,310.0 L674.3,308.0 L711.8,308.0 L711.8,307.5 L721.2,307.5 L721.2,306.5 L730.6,306.5 L730.6,305.8 L749.3,305.8 L749.3,305.4 L777.4,305.4 L777.4,304.8 L796.1,304.8 L796.1,304.7 L805.5,304.7 L805.5,301.3 L824.3,301.3 L824.3,301.0 L833.6,301.0 L833.6,300.1 L889.9,300.1 L889.9,299.3 L899.2,299.3 L899.2,299.1 L918.0,299.1 L918.0,298.4 L927.3,298.4 L927.3,293.5 L946.1,293.5 L946.1,292.6 L955.4,292.6 L955.4,246.1 L1002.3,246.1 L1002.3,232.7 L1030.4,232.7 L1030.4,142.1 L1049.1,142.1 L1049.1,113.5 L1058.5,113.5 L1058.5,111.5 L1067.9,111.5 L1067.9,108.4 L1096.0,108.4" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="149.6" cy="325.7" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="177.7" cy="324.7" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="224.6" cy="320.9" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="346.4" cy="320.7" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="365.1" cy="320.2" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="393.2" cy="320.0" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="421.3" cy="319.8" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="533.8" cy="317.7" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="552.5" cy="310.6" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="590.0" cy="310.2" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="608.7" cy="310.0" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="674.3" cy="308.0" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="711.8" cy="307.5" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="721.2" cy="306.5" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="730.6" cy="305.8" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="749.3" cy="305.4" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="777.4" cy="304.8" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="796.1" cy="304.7" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="805.5" cy="301.3" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="824.3" cy="301.0" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="833.6" cy="300.1" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="889.9" cy="299.3" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="899.2" cy="299.1" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="918.0" cy="298.4" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="927.3" cy="293.5" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="946.1" cy="292.6" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="955.4" cy="246.1" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1002.3" cy="232.7" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1030.4" cy="142.1" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1049.1" cy="113.5" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1058.5" cy="111.5" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1067.9" cy="108.4" r="3" fill="#2a78d6" stroke="#ffffff" stroke-width="1.5"/>
+<text x="897.2" y="134.1" font-size="12" fill="#1f2328"><tspan font-weight="600">MotionDecode</tspan> <tspan fill="#59636e">+976 h</tspan></text>
+<text x="842.0" y="238.1" font-size="12" fill="#1f2328"><tspan font-weight="600">Embody 3D</tspan> <tspan fill="#59636e">+501 h</tspan></text>
+<text x="962.1" y="105.5" font-size="12" fill="#1f2328"><tspan font-weight="600">HiPHI</tspan> <tspan fill="#59636e">+309 h</tspan></text>
+<text x="1008.3" y="248.7" font-size="12" fill="#1f2328"><tspan font-weight="600">BONES-SEED</tspan> <tspan fill="#59636e">+144 h</tspan></text>
+<text x="479.1" y="302.6" font-size="12" fill="#1f2328"><tspan font-weight="600">BEAT</tspan> <tspan fill="#59636e">+76 h</tspan></text>
+<text x="820.9" y="285.5" font-size="12" fill="#1f2328"><tspan font-weight="600">SnapMoGen</tspan> <tspan fill="#59636e">+53 h</tspan></text>
+<text x="144.6" y="312.9" font-size="12" fill="#1f2328"><tspan font-weight="600">AMASS</tspan> <tspan fill="#59636e">+42 h</tspan></text>
+<text x="712.3" y="293.3" font-size="12" fill="#1f2328"><tspan font-weight="600">Inter-X</tspan> <tspan fill="#59636e">+38 h</tspan></text>
+<path d="M1001.9,161.0 L1062.9,105.4" stroke="#818b98" stroke-width="1" fill="none"/>
+<text x="871.1" y="165.0" font-size="12" fill="#1f2328"><tspan font-weight="600">MotionPersona</tspan> <tspan fill="#59636e">+34 h</tspan></text>
+<path d="M992.5,179.0 L1053.5,108.5" stroke="#818b98" stroke-width="1" fill="none"/>
+<text x="749.5" y="183.0" font-size="12" fill="#1f2328"><tspan font-weight="600">Objaverse-XL Rigged &amp; Animated</tspan> <tspan fill="#59636e">+21 h</tspan></text>
+<text x="561.3" y="300.0" font-size="12" fill="#1f2328"><tspan font-weight="600">InterHuman</tspan> <tspan fill="#59636e">+21 h</tspan></text>
+<text x="727.2" y="322.5" font-size="12" fill="#1f2328"><tspan font-weight="600">OMOMO</tspan> <tspan fill="#59636e">+10 h</tspan></text>
+<text x="839.6" y="316.1" font-size="12" fill="#1f2328"><tspan font-weight="600">CHOIS</tspan> <tspan fill="#59636e">+10 h</tspan></text>
+<text x="952.1" y="308.6" font-size="12" fill="#1f2328"><tspan font-weight="600">InterAct</tspan> <tspan fill="#59636e">+10 h</tspan></text>
+</svg>

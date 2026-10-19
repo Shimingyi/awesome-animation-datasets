@@ -1,0 +1,36 @@
+dataset: adult2child
+pick:
+  vault: kid
+  collection: bvh/child
+  n: 10
+items:
+- source: vault
+  clip: kid/bvh/child/POSE-child001-broad_jump_fwd_two_feet-001
+  label: POSE-child001-broad jump fwd two feet-001
+- source: vault
+  clip: kid/bvh/child/POSE-child002-broad_jump_fwd_two_feet-002
+  label: POSE-child002-broad jump fwd two feet-002
+- source: vault
+  clip: kid/bvh/child/POSE-child002-walk-002
+  label: POSE-child002-walk-002
+- source: vault
+  clip: kid/bvh/child/POSE-child003-walk_as_fast_as_you_can-002
+  label: POSE-child003-walk as fast as you can-002
+- source: vault
+  clip: kid/bvh/child/POSE-child004-walk-003
+  label: POSE-child004-walk-003
+- source: vault
+  clip: kid/bvh/child/POSE-child005-kick_left-002
+  label: POSE-child005-kick left-002
+- source: vault
+  clip: kid/bvh/child/POSE-child006-jump-002
+  label: POSE-child006-jump-002
+- source: vault
+  clip: kid/bvh/child/POSE-child007-happy_walk-002
+  label: POSE-child007-happy walk-002
+- source: vault
+  clip: kid/bvh/child/POSE-child007-walk_as_fast_as_you_can-003
+  label: POSE-child007-walk as fast as you can-003
+- source: vault
+  clip: kid/bvh/child/POSE-child008-walk_as_fast_as_you_can-002
+  label: POSE-child008-walk as fast as you can-002

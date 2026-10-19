@@ -1,0 +1,61 @@
+id: kit-ml
+name: KIT-ML
+full_name: KIT Motion-Language Dataset
+good_for: "Text-to-motion benchmark with natural-language descriptions."
+year: 2016
+released: 2016-07
+subject: human-body
+content:
+  general: 0.47
+  locomotion: 0.35
+  daily-activity: 0.09
+  sports: 0.04
+  dance: 0.02
+  combat: 0.02
+  gesture: 0.01
+content_note: measured from the first text caption of each clip, weighted by duration
+tags: [text-annotated, locomotion, daily-activity, sports, gesture, dance]
+capture: optical-mocap
+representation: [c3d, mmm]
+skeleton:
+  rig: Master Motor Map (MMM)
+stats:
+  hours: 11.23
+  clips: 3911
+stats_note: >-
+  3,911 motions with 6,278 English annotations in the paper (Oct. 2016 release); the latest release (June 2017) has
+  6,353 annotations.
+annotations: [text]
+license:
+  name: Not specified
+  url: https://motion-annotation.humanoids.kit.edu/dataset/
+  commercial: unknown
+access: open
+links:
+  homepage: https://motion-annotation.humanoids.kit.edu/dataset/
+  download: https://motion-annotation.humanoids.kit.edu/downloads/4/
+  paper: https://arxiv.org/abs/1607.03827
+paper:
+  title: The KIT Motion-Language Dataset
+  venue: Big Data 2016
+citation: |
+  @article{Plappert2016,
+    author = {Matthias Plappert and Christian Mandery and Tamim Asfour},
+    title = {The {KIT} Motion-Language Dataset},
+    journal = {Big Data},
+    publisher = {Mary Ann Liebert Inc},
+    year = 2016,
+    month = {dec},
+    volume = {4},
+    number = {4},
+    pages = {236--252},
+    url = {http://dx.doi.org/10.1089/big.2016.0028},
+    doi = {10.1089/big.2016.0028},
+  }
+variants:
+  - name: KIT-ML (HumanML3D processing)
+    url: https://github.com/EricGuo5513/HumanML3D
+    note: 21-joint positions and features at 12.5 fps, processed like HumanML3D
+notes: >-
+  Optical mocap from the KIT Whole-Body Human Motion Database and the CMU Graphics Lab database, paired with
+  crowd-sourced natural-language descriptions. Most of its motions also appear in AMASS (KIT and CMU subsets).

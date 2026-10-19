@@ -1,0 +1,36 @@
+dataset: multi-subject
+pick:
+  vault: multi-subject-human-motion-dataset
+  collection: train
+  n: 10
+items:
+- source: vault
+  clip: multi-subject-human-motion-dataset/train/JB-JL-res-subject11_faceZ
+  label: JB-JL-res-subject11 faceZ
+- source: vault
+  clip: multi-subject-human-motion-dataset/train/JL-JR-res-subject11_faceZ
+  label: JL-JR-res-subject11 faceZ
+- source: vault
+  clip: multi-subject-human-motion-dataset/train/JL-ZW-res-subject3_faceZ
+  label: JL-ZW-res-subject3 faceZ
+- source: vault
+  clip: multi-subject-human-motion-dataset/train/JR-ZW-res-subject11_faceZ
+  label: JR-ZW-res-subject11 faceZ
+- source: vault
+  clip: multi-subject-human-motion-dataset/train/R-JR-res-subject2_faceZ
+  label: R-JR-res-subject2 faceZ
+- source: vault
+  clip: multi-subject-human-motion-dataset/train/W-JB-res-subject11_faceZ
+  label: W-JB-res-subject11 faceZ
+- source: vault
+  clip: multi-subject-human-motion-dataset/train/W-R-res-subject2_faceZ
+  label: W-R-res-subject2 faceZ
+- source: vault
+  clip: multi-subject-human-motion-dataset/train/WB-JB-res-subject3_faceZ
+  label: WB-JB-res-subject3 faceZ
+- source: vault
+  clip: multi-subject-human-motion-dataset/train/ZW-WB-res-subject11_faceZ
+  label: ZW-WB-res-subject11 faceZ
+- source: vault
+  clip: multi-subject-human-motion-dataset/train/subject9_F-R-JB-shot14-v01-res-subject9_faceZ
+  label: subject9 F-R-JB-shot14-v01-res-subject9 faceZ

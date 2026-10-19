@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "viewer-static",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8781", "--bind", "127.0.0.1", "--directory", "viewer"],
+      "port": 8781
+    },
+    {
+      "name": "viewer-vault",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "tools.vault.server", "--port", "8766"],
+      "port": 8766
+    }
+  ]
+}

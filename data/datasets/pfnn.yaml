@@ -1,0 +1,44 @@
+id: pfnn
+name: PFNN
+full_name: Phase-Functioned Neural Networks locomotion data
+good_for: "Terrain-aware locomotion (flat, stairs, obstacles): character controllers like PFNN."
+year: 2017
+released: 2017-08
+subject: human-body
+content: locomotion
+tags: [locomotion]
+capture: optical-mocap
+representation: [bvh]
+skeleton:
+  joints: 31
+  rig: CMU BVH skeleton (30 rotational joints plus a ground root)
+fps: 120
+stats:
+  hours: 1.0
+  clips: 40
+stats_note: >-
+  About 1 hour of raw capture per the paper; 40 BVH takes in pfnn.zip (plus mirrored copies), counted from the
+  release. The paper says 60 fps, the released BVH files are written at 120 fps.
+annotations: [contacts, phase, gait-labels]
+license:
+  name: Academic and non-commercial use (PFNN LICENSE.md)
+  url: https://theorangeduck.com/page/phase-functioned-neural-networks-character-control
+  commercial: false
+access: open
+links:
+  homepage: https://theorangeduck.com/page/phase-functioned-neural-networks-character-control
+  download: https://theorangeduck.com/media/uploads/other_stuff/pfnn.zip
+  paper: https://theorangeduck.com/media/uploads/other_stuff/phasefunction.pdf
+paper:
+  title: Phase-Functioned Neural Networks for Character Control
+  venue: SIGGRAPH 2017
+citation: |
+  @inproceedings{Holden:2017:PFNN,
+    author = {Holden, Daniel and Komura, Taku and Saito, Jun},
+    title = {Phase-Functioned Neural Networks for Character Control},
+    booktitle = {SIGGRAPH 2017},
+    year = {2017}
+  }
+notes: >-
+  Long locomotion takes in many gaits and directions, including walking, jogging and running over obstacles, ramps and
+  platforms, crouching and jumping, shipped with phase, gait and footstep labels and terrain heightmaps.

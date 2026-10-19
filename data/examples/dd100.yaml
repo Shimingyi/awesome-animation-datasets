@@ -1,0 +1,57 @@
+dataset: dd100
+up: +z
+note: SMPL-X bodies of both dancers (leader and follower) from the released parameters, one per genre
+quality:
+  from:
+  - {reader: 'dd100', source: 'mnt_raw', glob: 'DD100/data/motion/smplx/all/*.npy'}
+items:
+- source: dd100
+  smpl:
+  - Ballet_001_001_leader.npz
+  - Ballet_001_001_follower.npz
+  label: Ballet · choreography 001
+- source: dd100
+  smpl:
+  - Foxtrot_002_012_leader.npz
+  - Foxtrot_002_012_follower.npz
+  label: Foxtrot · choreography 002
+- source: dd100
+  smpl:
+  - Jive_003_002_leader.npz
+  - Jive_003_002_follower.npz
+  label: Jive · choreography 003
+- source: dd100
+  smpl:
+  - Lumba_004_003_leader.npz
+  - Lumba_004_003_follower.npz
+  label: Rumba · choreography 004
+- source: dd100
+  smpl:
+  - PasoDable_005_004_leader.npz
+  - PasoDable_005_004_follower.npz
+  label: Paso Doble · choreography 005
+- source: dd100
+  smpl:
+  - Qiaqiaqia_006_001_leader.npz
+  - Qiaqiaqia_006_001_follower.npz
+  label: Cha Cha · choreography 006
+- source: dd100
+  smpl:
+  - Quickstep_007_001_leader.npz
+  - Quickstep_007_001_follower.npz
+  label: Quickstep · choreography 007
+- source: dd100
+  smpl:
+  - Samba_008_001_leader.npz
+  - Samba_008_001_follower.npz
+  label: Samba · choreography 008
+- source: dd100
+  smpl:
+  - Tango_009_000_leader.npz
+  - Tango_009_000_follower.npz
+  label: Tango · choreography 009
+- source: dd100
+  smpl:
+  - Waltz_010_000_leader.npz
+  - Waltz_010_000_follower.npz
+  label: Waltz · choreography 010

@@ -1,0 +1,36 @@
+dataset: environment-motion-matching
+items:
+- source: vault
+  clip: EMM/emm/a1_1
+  label: a1 1
+- source: vault
+  clip: EMM/emm/a3_2
+  label: a3 2
+- source: vault
+  clip: EMM/emm/basic_locomotion_1
+  label: basic locomotion 1
+- source: vault
+  clip: EMM/emm/crouching
+  label: crouching
+- source: vault
+  clip: EMM/emm/locomotion_loops_4
+  label: locomotion loops 4
+- source: vault
+  clip: EMM/emm/o1_3
+  label: o1 3
+- source: vault
+  clip: EMM/emm/o3_2
+  label: o3 2
+- source: vault
+  clip: EMM/emm/o5_3
+  label: o5 3
+- source: vault
+  clip: EMM/emm/snakes
+  label: snakes
+- source: vault
+  clip: EMM/emm/turn_in_place
+  label: turn in place
+pick:
+  vault: EMM
+  collection: emm
+  n: 10

@@ -1,0 +1,26 @@
+# Copy to config.local.yaml (gitignored) and point the paths at your machine.
+# Any key can also be set by an environment variable AAD_<KEY>, e.g. AAD_VAULT=/data/motion_vault.
+
+# the npz motion vault built by `python -m tools.vault.ingest` (holds processed/<dataset>/... and models/)
+vault: /path/to/motion_vault
+
+# named folders that data/examples/<id>.yaml files refer to with `source: <name>` (for examples that do not come from
+# the vault: rigged FBX/GLB packs, render sets, ...)
+sources:
+  truebones: /path/to/truebones
+  objaverse: /path/to/objaverse_rigged_animated
+  render: /path/to/render_set
+
+# SMPL / SMPL-X model files (SMPL_NEUTRAL.pkl, SMPLX_NEUTRAL.npz, ...): only needed the first time a body model is used;
+# cut-down copies are cached in <vault>/models/
+smpl_models: /path/to/smpl_models
+
+blender: /Applications/Blender.app/Contents/MacOS/Blender
+chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+# the viewer's main home: a static Hugging Face Space (python -m tools.deploy_hf)
+hf_space: your-hf-user/motion-viewer
+
+# mirror on your own server (tools/deploy.sh)
+deploy_host: myserver
+deploy_path: /srv/playground/motion_viewer

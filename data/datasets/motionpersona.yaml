@@ -1,0 +1,48 @@
+id: motionpersona
+name: MotionPersona
+full_name: MotionPersona
+good_for: "Locomotion across body shapes, ages, emotions and personas: shape- and persona-aware controllers."
+year: 2026
+released: 2026-10
+subject: human-body
+content:
+  locomotion: 0.99
+  daily-activity: 0.01
+content_note: every persona is captured walking, running and turning, plus idle takes
+tags: [locomotion, style, emotion, persona, child, elderly]
+capture: optical-mocap
+representation: [smplx, bvh]
+skeleton:
+  joints: 55
+  rig: SMPL-X (also a 59-joint Vicon skeleton with fingers)
+fps: [30, 60, 120]
+stats:
+  hours: 34.0
+  clips: 2773
+  subjects: 48
+stats_note: 2,773 clips on the SMPL-X skeleton from 48 participants aged 5 to 68; 2,763 of them also on the Vicon skeleton
+annotations: [style-labels, emotion, persona, text]
+license:
+  name: CC BY-NC 4.0
+  url: https://creativecommons.org/licenses/by-nc/4.0/
+  commercial: false
+access: open
+links:
+  homepage: https://motionpersona25.github.io/
+  download: https://huggingface.co/datasets/myshi/MotionPersona
+  code: https://github.com/AIGAnimation/MotionPersona
+  paper: https://arxiv.org/abs/2506.00173
+paper:
+  title: 'MotionPersona: Real-Time Locomotion Control across Personas, Bodies, and Styles'
+  venue: arXiv 2025
+citation: |
+  @article{shi2025motionpersona,
+    title={MotionPersona: Characteristics-aware Locomotion Control},
+    author={Shi, Mingyi and Liu, Wei and Mei, Jidong and Tse, Wangpok and Chen, Rui and Chen, Xuelin and Komura, Taku},
+    journal={arXiv preprint arXiv:2506.00173},
+    year={2025}
+  }
+notes: >-
+  Vicon-captured walking, running and transitions performed by every participant in nine contexts (five emotions,
+  drunk, and three movement variants), with age, body measurements, SMPL-X shape and persona attributes for each
+  participant.

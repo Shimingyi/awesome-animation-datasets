@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Motion Viewer</title>
+<meta name="description" content="Browse example clips of every animation dataset in awesome-animation-datasets: human, hands, animals, objects and robots, with skeletons, SMPL bodies and textured rigged meshes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400..700&display=swap">
+<link rel="stylesheet" href="css/viewer.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"}}</script>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>Motion Viewer<small id="ver"></small></h1>
+    <p id="tagline">Example clips of <b>every dataset</b> in <a href="https://github.com/Shimingyi/awesome-animation-datasets" target="_blank" rel="noopener">awesome-animation-datasets</a>: pick a dataset on the left.</p>
+    <nav><span id="stats"></span><a href="https://github.com/Shimingyi/awesome-animation-datasets" target="_blank" rel="noopener">GitHub</a></nav>
+  </header>
+  <main>
+    <section id="left">
+      <div id="tabs"></div>
+      <input id="q" type="search" placeholder="search datasets and clips" autocomplete="off" spellcheck="false">
+      <div id="hint">click: view · ⌘/ctrl/shift-click or the box: compare (up to 6) · H: hide panels · space: pause</div>
+      <div id="list"></div>
+    </section>
+    <section id="right">
+      <div id="view">
+        <div id="title"></div>
+        <div id="hud"></div>
+        <div id="note"></div>
+        <div id="busy">select a dataset on the left</div>
+      </div>
+      <div id="bar">
+        <div class="r">
+          <button id="play" disabled>play</button>
+          <input id="seek" type="range" min="0" max="1000" value="0" step="1" disabled>
+          <span id="time">–</span>
+          <select id="speed" title="playback speed"><option value="0.1">0.1×</option><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option></select>
+          <button id="loop" class="on" title="loop">loop</button>
+          <button id="inplace" title="remove the root's horizontal travel (stay in the middle)">in place</button>
+          <button id="onfloor" title="lift / lower the clip so its lowest point (capsules / mesh included) touches the floor; off: the data's own ground">on floor</button>
+          <a id="dl" hidden>download</a>
+        </div>
+        <div class="r" id="opts1"></div>
+        <div class="r" id="opts2"></div>
+      </div>
+    </section>
+  </main>
+  <footer id="foot">Examples are short excerpts shown for non-commercial research and reference only; every dataset keeps its own licence — get the data from its source.</footer>
+</div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

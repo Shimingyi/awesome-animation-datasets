@@ -1,0 +1,56 @@
+id: aistpp
+name: AIST++
+full_name: "AIST++: 3D dance motion with music, reconstructed from the AIST Dance Video Database"
+good_for: "Street-dance motion paired with music in 10 genres: the standard benchmark for music-to-dance generation."
+year: 2021
+released: 2021-01
+subject: human-body
+content: dance
+content_note: "all dance: 10 street / jazz genres (breaking, popping, locking, middle and LA-style hip-hop, house, waack, krump, street jazz, ballet jazz)"
+tags: [dance, music]
+capture: video
+representation: [smpl, keypoints, pkl]
+skeleton:
+  joints: 24
+  rig: SMPL (no shape released) and 17 COCO 3D keypoints
+fps: 60
+stats:
+  hours: 5.2
+  clips: 1408
+  subjects: 30
+stats_note: >-
+  our count of the release: 1,408 solo sequences of 3D keypoints, 5.2 h at 60 fps (4.99 h without the 46 sequences on
+  the official ignore list of poor reconstructions), 30 dancers, matching the paper. The GitHub v1.0 re-release ships
+  SMPL fits for only 411 of them (1.27 h); the original Cloud Storage full set is no longer public.
+annotations: [music]
+license:
+  name: CC BY 4.0 (annotations); videos and music under the AIST Dance Video Database terms
+  url: https://google.github.io/aistplusplus_dataset/factsfigures.html
+  commercial: true
+access: open
+links:
+  homepage: https://google.github.io/aistplusplus_dataset/
+  download: https://github.com/google/aistplusplus_dataset/releases/tag/v1.0
+  code: https://github.com/google/aistplusplus_api
+  paper: https://arxiv.org/abs/2101.08779
+paper:
+  title: "AI Choreographer: Music Conditioned 3D Dance Generation with AIST++"
+  venue: ICCV 2021
+citation: |
+  @inproceedings{li2021aichoreographer,
+    title={AI Choreographer: Music Conditioned 3D Dance Generation with AIST++},
+    author={Li, Ruilong and Yang, Shan and Ross, David A. and Kanazawa, Angjoo},
+    booktitle={ICCV},
+    year={2021}
+  }
+review:
+  verdict: caution
+  issues: [foot-skating, unnatural-pose]
+  note: >-
+    Reconstructed from video (no markers): foot sliding throughout, and some sequences are broken (the official ignore
+    list marks 46 poor reconstructions, and more fail in the examples we inspected).
+  date: 2026-10-19
+notes: >-
+  Reconstructed without markers from the 9-camera videos of the AIST Dance Video Database: 2D keypoints triangulated
+  and fitted with SMPL. Basic (sBM) and advanced choreography (sFM) sequences of 10 genres by 30 professional dancers,
+  each with the music it was danced to; the official ignore list marks sequences with poor reconstructions.

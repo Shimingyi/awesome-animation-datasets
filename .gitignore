@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+config.local.yaml
+/vault/
+# baked viewer examples (python -m tools.examples.bake): built locally, deployed, never committed
+/viewer/examples/
+/build/

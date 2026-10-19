@@ -1,0 +1,38 @@
+dataset: pfnn
+pick:
+  vault: pfnn
+  collection: data/animations
+  exclude:
+  - _mirror
+  n: 10
+items:
+- source: vault
+  clip: pfnn/data/animations/LocomotionFlat01_000
+  label: LocomotionFlat01 000
+- source: vault
+  clip: pfnn/data/animations/LocomotionFlat05_000
+  label: LocomotionFlat05 000
+- source: vault
+  clip: pfnn/data/animations/LocomotionFlat08_001
+  label: LocomotionFlat08 001
+- source: vault
+  clip: pfnn/data/animations/LocomotionFlat12_000
+  label: LocomotionFlat12 000
+- source: vault
+  clip: pfnn/data/animations/NewCaptures04_000
+  label: NewCaptures04 000
+- source: vault
+  clip: pfnn/data/animations/NewCaptures08_000
+  label: NewCaptures08 000
+- source: vault
+  clip: pfnn/data/animations/WalkingUpSteps01_000
+  label: WalkingUpSteps01 000
+- source: vault
+  clip: pfnn/data/animations/WalkingUpSteps05_000
+  label: WalkingUpSteps05 000
+- source: vault
+  clip: pfnn/data/animations/WalkingUpSteps08_000
+  label: WalkingUpSteps08 000
+- source: vault
+  clip: pfnn/data/animations/WalkingUpSteps12_000
+  label: WalkingUpSteps12 000

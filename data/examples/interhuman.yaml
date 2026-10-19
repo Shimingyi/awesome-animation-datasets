@@ -1,0 +1,38 @@
+dataset: interhuman
+up: +z
+note: SMPL bodies of both performers from the released raw motions (neutral, 10 betas, no hands; 59.94 fps)
+quality:
+  from:
+  - {reader: 'joints22', source: 'mnt_raw', glob: 'InterHuman/motions_processed/person1/*.npy'}
+  - {reader: 'joints22', source: 'mnt_raw', glob: 'InterHuman/motions_processed/person2/*.npy'}
+items:
+- source: interhuman
+  smpl: [132_person1.npz, 132_person2.npz]
+  label: Meet and shake hands
+- source: interhuman
+  smpl: [1147_person1.npz, 1147_person2.npz]
+  label: Tug of war
+- source: interhuman
+  smpl: [1347_person1.npz, 1347_person2.npz]
+  label: Taekwondo sparring
+- source: interhuman
+  smpl: [1867_person1.npz, 1867_person2.npz]
+  label: Boxing match
+- source: interhuman
+  smpl: [2387_person1.npz, 2387_person2.npz]
+  label: Twirls the partner twice
+- source: interhuman
+  smpl: [2627_person1.npz, 2627_person2.npz]
+  label: Arms around shoulders, lift and spin
+- source: interhuman
+  smpl: [2867_person1.npz, 2867_person2.npz]
+  label: Tai chi practice
+- source: interhuman
+  smpl: [4987_person1.npz, 4987_person2.npz]
+  label: Spinning dance
+- source: interhuman
+  smpl: [5067_person1.npz, 5067_person2.npz]
+  label: Read a manuscript, then cheer
+- source: interhuman
+  smpl: [2707_person1.npz, 2707_person2.npz]
+  label: Rehearsing lines, one seated

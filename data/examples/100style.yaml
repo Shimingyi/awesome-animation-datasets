@@ -1,0 +1,36 @@
+dataset: 100style
+pick:
+  vault: 100style
+  collection: 100STYLE_raw
+  n: 10
+items:
+- source: vault
+  clip: 100style/100STYLE_raw/Aeroplane/Aeroplane_TR1
+  label: Aeroplane TR1
+- source: vault
+  clip: 100style/100STYLE_raw/BigSteps/BigSteps_SW
+  label: BigSteps SW
+- source: vault
+  clip: 100style/100STYLE_raw/DragRightLeg/DragRightLeg_SW
+  label: DragRightLeg SW
+- source: vault
+  clip: 100style/100STYLE_raw/Heavyset/Heavyset_SW
+  label: Heavyset SW
+- source: vault
+  clip: 100style/100STYLE_raw/LimpLeft/LimpLeft_BR
+  label: LimpLeft BR
+- source: vault
+  clip: 100style/100STYLE_raw/OnPhoneRight/OnPhoneRight_SW
+  label: OnPhoneRight SW
+- source: vault
+  clip: 100style/100STYLE_raw/RightHop/RightHop_BR
+  label: RightHop BR
+- source: vault
+  clip: 100style/100STYLE_raw/Star/Star_SW
+  label: Star SW
+- source: vault
+  clip: 100style/100STYLE_raw/Tiptoe/Tiptoe_TR1
+  label: Tiptoe TR1
+- source: vault
+  clip: 100style/100STYLE_raw/Zombie/Zombie_SW
+  label: Zombie SW

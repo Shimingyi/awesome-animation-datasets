@@ -1,0 +1,35 @@
+dataset: motion-x
+pick:
+  vault: motionX
+  n: 10
+items:
+- source: vault
+  clip: motionX/HAA500/subset_0001/Badminton_Underswing_clip_1
+  label: Badminton Underswing clip 1
+- source: vault
+  clip: motionX/fitness/subset_0010/Plank_To_Pike
+  label: Plank To Pike
+- source: vault
+  clip: motionX/fitness/subset_0053/Reverse_Lunge_To_Twist_L_clip_10
+  label: Reverse Lunge To Twist L clip 10
+- source: vault
+  clip: motionX/fitness/subset_0098/Standing_Jackknife_To_Twist_Out_R_clip_10
+  label: Standing Jackknife To Twist Out R clip 10
+- source: vault
+  clip: motionX/humman/subset_0007/Tuck_The_Legs_Extend
+  label: Tuck The Legs Extend
+- source: vault
+  clip: motionX/idea400/subset_0012/Shake_Hands_And_Say_Goodbye_During_Standing
+  label: Shake Hands And Say Goodbye During Standing
+- source: vault
+  clip: motionX/idea400/subset_0025/Head_Scratching_During_Walking_clip_1
+  label: Head Scratching During Walking clip 1
+- source: vault
+  clip: motionX/idea400/subset_0039/Eating_Hot_Pot_During_Sitting
+  label: Eating Hot Pot During Sitting
+- source: vault
+  clip: motionX/idea400/subset_0052/Acting_Like_A_Baby_While_Walking
+  label: Acting Like A Baby While Walking
+- source: vault
+  clip: motionX/perform/subset_0002/Yawn
+  label: Yawn

@@ -1,0 +1,36 @@
+dataset: bfa
+pick:
+  vault: bfa
+  collection: mocap_bfa
+  n: 10
+items:
+- source: vault
+  clip: bfa/mocap_bfa/Angry_01
+  label: Angry 01
+- source: vault
+  clip: bfa/mocap_bfa/Drunk_02
+  label: Drunk 02
+- source: vault
+  clip: bfa/mocap_bfa/FemaleModel_01
+  label: FemaleModel 01
+- source: vault
+  clip: bfa/mocap_bfa/Heavy_01
+  label: Heavy 01
+- source: vault
+  clip: bfa/mocap_bfa/Lazy_01
+  label: Lazy 01
+- source: vault
+  clip: bfa/mocap_bfa/Neutral_01
+  label: Neutral 01
+- source: vault
+  clip: bfa/mocap_bfa/Proud_01
+  label: Proud 01
+- source: vault
+  clip: bfa/mocap_bfa/Sneaky_01
+  label: Sneaky 01
+- source: vault
+  clip: bfa/mocap_bfa/Soldier_01
+  label: Soldier 01
+- source: vault
+  clip: bfa/mocap_bfa/Zombie_01
+  label: Zombie 01

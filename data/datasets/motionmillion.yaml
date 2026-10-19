@@ -1,0 +1,45 @@
+id: motionmillion
+name: MotionMillion
+good_for: "Very large text-annotated motion corpus for zero-shot text-to-motion; quality varies (video mocap)."
+year: 2025
+released: 2025-07
+subject: human-body
+content:
+  sports: 0.29
+  combat: 0.24
+  dance: 0.15
+  general: 0.32
+content_note: "from the dataset card's category shares (fitness and sports, martial arts, dance; performance, non-human and the rest unclassified)"
+tags: [text-annotated, martial-arts, sports, dance]
+capture: video
+representation: [features]
+skeleton:
+  joints: 22
+  rig: SMPL body joints (272-dim MotionStreamer features)
+fps: 30
+stats:
+  hours: 988
+  clips: 684580
+stats_note: >-
+  our count of the released non-mirrored archives (684,580 clips, 987.8 h at 30 fps); the card's "over 2000 hours"
+  includes the mirrored copy, and BABEL, AIST and HumanML3D are not redistributed (processing scripts only)
+annotations: [text, age, body-characteristics, style, emotion, environment]
+license:
+  name: CC BY-NC-SA 4.0 (MotionMillion community licence, gated)
+  url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  commercial: false
+access: gated
+links:
+  homepage: https://huggingface.co/datasets/InternRobotics/MotionMillion
+  download: https://huggingface.co/datasets/InternRobotics/MotionMillion
+review:
+  verdict: caution
+  issues: [foot-skating, unnatural-pose]
+  note: >-
+    Reconstructed from web video (video mocap): foot skating and motion that does not look physically real in the
+    examples we inspected.
+  date: 2026-10-19
+notes: >-
+  Motion recovered from web video (the card says over 2000 hours), plus several existing sets re-processed into one 272-dim
+  representation (root velocity and heading, 22 joint positions, velocities and 6D rotations), each motion with 20+
+  annotations (age, body, style, emotion, environment).

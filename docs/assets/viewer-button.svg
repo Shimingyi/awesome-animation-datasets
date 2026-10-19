@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="64" viewBox="0 0 300 64" role="img" aria-label="Open the Motion Viewer: dataset 3D preview" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0c0e12"/><stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="64" fill="url(#g)"/>
+  <rect x="0.5" y="0.5" width="299" height="63" fill="none" stroke="#2a3340"/>
+  <rect width="64" height="64" fill="#3987e5"/>
+  <path d="M26 21 L44 32 L26 43 Z" fill="#ffffff"/>
+  <text x="84" y="27" font-size="11" font-weight="600" letter-spacing="2.6" fill="#6aa8f0">MOTION VIEWER</text>
+  <text x="84" y="47" font-size="16" font-weight="600" fill="#f4f6f8">Dataset 3D preview</text>
+  <path d="M266 32 H278 M273 27 L278 32 L273 37" stroke="#6aa8f0" stroke-width="2" fill="none" stroke-linecap="square"/>
+</svg>

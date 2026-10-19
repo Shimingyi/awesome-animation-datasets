@@ -1,0 +1,53 @@
+id: semantic-gesticulator
+name: SeG (Semantic Gesticulator)
+full_name: MOCCA Semantic Gesture Dataset (SeG)
+good_for: "A library of 208 labelled semantic gestures with fingers: semantic gesture retrieval and insertion."
+year: 2024
+released: 2024-05
+subject: human-body
+content: gesture
+content_note: "all isolated semantic gestures (no speech audio)"
+tags: [gesture, action-labels, text-annotated]
+capture: optical-mocap
+representation: [bvh]
+skeleton:
+  joints: 51
+  rig: SeG BVH skeleton with fingers
+fps: 60
+stats:
+  hours: 0.6
+  clips: 544
+  subjects: 1
+stats_note: >-
+  our count of the release: 544 BVH clips (2.4 to 6.5 s, 36 min at 60 fps) of 208 gesture types by one male performer;
+  the paper describes 1.5 h by two performers (male and female), of which only the male performer's data is released
+annotations: [semantic-labels, text]
+license:
+  name: MOCCA Semantic Gesture Dataset licence (non-commercial research; code MIT)
+  url: https://github.com/LuMen-ze/Semantic-Gesticulator-Official/tree/main/SeG_dataset
+  commercial: false
+access: open
+links:
+  homepage: https://pku-mocca.github.io/Semantic-Gesticulator-Page/
+  download: https://github.com/LuMen-ze/Semantic-Gesticulator-Official/tree/main/SeG_dataset
+  code: https://github.com/LuMen-ze/Semantic-Gesticulator-Official
+  paper: https://arxiv.org/abs/2405.09814
+paper:
+  title: "Semantic Gesticulator: Semantics-Aware Co-Speech Gesture Synthesis"
+  venue: SIGGRAPH 2024 (TOG)
+citation: |
+  @article{Zhang2024SemanticGesture,
+    author = {Zhang, Zeyi and Ao, Tenglong and Zhang, Yuyao and Gao, Qingzhe and Lin, Chuan and Chen, Baoquan and Liu, Libin},
+    title = {Semantic Gesticulator: Semantics-Aware Co-Speech Gesture Synthesis},
+    journal = {ACM Trans. Graph.},
+    issue_date = {July 2024},
+    numpages = {17},
+    doi = {10.1145/3658134},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {co-speech gesture synthesis, multi-modality, retrieval augmentation}
+  }
+notes: >-
+  Short mocap clips of commonly used semantic (iconic and emblematic) gestures, each performed in about 2.6 variations,
+  with an index of label, description, contextual meaning and example sentence per gesture (SeG_list.xlsx). The
+  co-speech model of the paper is trained on ZEGGS and BEAT; this set is the retrieval library.

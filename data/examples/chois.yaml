@@ -1,0 +1,34 @@
+dataset: chois
+up: +z
+note: SMPL fitted to the released joint positions of 120-frame test windows (human only; objects not shown)
+items:
+- source: fitted
+  smpl: chois/sub16_clothesstand_000.npz
+  label: sub16 · clothesstand_000
+- source: fitted
+  smpl: chois/sub16_largebox_000.npz
+  label: sub16 · largebox_000
+- source: fitted
+  smpl: chois/sub16_largetable_000.npz
+  label: sub16 · largetable_000
+- source: fitted
+  smpl: chois/sub16_plasticbox_000.npz
+  label: sub16 · plasticbox_000
+- source: fitted
+  smpl: chois/sub16_trashcan_000.npz
+  label: sub16 · trashcan_000
+- source: fitted
+  smpl: chois/sub17_floorlamp_000.npz
+  label: sub17 · floorlamp_000
+- source: fitted
+  smpl: chois/sub17_monitor_000.npz
+  label: sub17 · monitor_000
+- source: fitted
+  smpl: chois/sub17_smallbox_001.npz
+  label: sub17 · smallbox_001
+- source: fitted
+  smpl: chois/sub17_smalltable_000.npz
+  label: sub17 · smalltable_000
+- source: fitted
+  smpl: chois/sub17_suitcase_000.npz
+  label: sub17 · suitcase_000

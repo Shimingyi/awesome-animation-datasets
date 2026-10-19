@@ -1,0 +1,63 @@
+dataset: embody-3d
+note: SMPL-X bodies (neutral, 300 betas, hands) of every participant in the take, from the released parameters
+quality:
+  from:
+  - {reader: 'embody3d', source: 'mnt_raw', glob: 'Embody3D/*/c--*'}
+items:
+- source: embody3d
+  smpl:
+  - c--20250108--1300--DXG448--SZM479--JON169--BWW760--pilot--MotionPrior--DAYLIFE_Home_Renovations--167811-176212__BWW760.npz
+  - c--20250108--1300--DXG448--SZM479--JON169--BWW760--pilot--MotionPrior--DAYLIFE_Home_Renovations--167811-176212__DXG448.npz
+  - c--20250108--1300--DXG448--SZM479--JON169--BWW760--pilot--MotionPrior--DAYLIFE_Home_Renovations--167811-176212__JON169.npz
+  - c--20250108--1300--DXG448--SZM479--JON169--BWW760--pilot--MotionPrior--DAYLIFE_Home_Renovations--167811-176212__SZM479.npz
+  label: Day in the life · home renovations
+- source: embody3d
+  smpl:
+  - c--20250110--1335--APU795--AVL958--BST815--ZVV024--pilot--MotionPrior--DAYLIFE_Doing_chores_together--166841-168340__APU795.npz
+  - c--20250110--1335--APU795--AVL958--BST815--ZVV024--pilot--MotionPrior--DAYLIFE_Doing_chores_together--166841-168340__AVL958.npz
+  - c--20250110--1335--APU795--AVL958--BST815--ZVV024--pilot--MotionPrior--DAYLIFE_Doing_chores_together--166841-168340__BST815.npz
+  - c--20250110--1335--APU795--AVL958--BST815--ZVV024--pilot--MotionPrior--DAYLIFE_Doing_chores_together--166841-168340__ZVV024.npz
+  label: Day in the life · doing chores together
+- source: embody3d
+  smpl:
+  - c--20250113--1401--RVB240--GBM952--EYX463--UFK987--pilot--MotionPrior--DAYLIFE_Getting_ready_in_the_morning--175793-179842__EYX463.npz
+  - c--20250113--1401--RVB240--GBM952--EYX463--UFK987--pilot--MotionPrior--DAYLIFE_Getting_ready_in_the_morning--175793-179842__GBM952.npz
+  - c--20250113--1401--RVB240--GBM952--EYX463--UFK987--pilot--MotionPrior--DAYLIFE_Getting_ready_in_the_morning--175793-179842__RVB240.npz
+  - c--20250113--1401--RVB240--GBM952--EYX463--UFK987--pilot--MotionPrior--DAYLIFE_Getting_ready_in_the_morning--175793-179842__UFK987.npz
+  label: Day in the life · getting ready in the morning
+- source: embody3d
+  smpl:
+  - c--20250115--1153--AYI006--SNF112--FZR584--NPD266--pilot--MotionPrior--DAYLIFE_Indoor_Dinner_party--082317-082916__AYI006.npz
+  - c--20250115--1153--AYI006--SNF112--FZR584--NPD266--pilot--MotionPrior--DAYLIFE_Indoor_Dinner_party--082317-082916__FZR584.npz
+  - c--20250115--1153--AYI006--SNF112--FZR584--NPD266--pilot--MotionPrior--DAYLIFE_Indoor_Dinner_party--082317-082916__NPD266.npz
+  - c--20250115--1153--AYI006--SNF112--FZR584--NPD266--pilot--MotionPrior--DAYLIFE_Indoor_Dinner_party--082317-082916__SNF112.npz
+  label: Day in the life · indoor dinner party
+- source: embody3d
+  smpl:
+  - c--20250506--0935--HWG246--XCM975--pilot--MotionPrior3--LOCOMOTION_catwalk_fashion_walk--022870-027969__XCM975.npz
+  label: Locomotion · catwalk fashion walk
+- source: embody3d
+  smpl:
+  - c--20250506--0935--HWG246--XCM975--pilot--MotionPrior3--LOCOMOTION_crouched_sneaking_hiding--017450-022849__HWG246.npz
+  - c--20250506--0935--HWG246--XCM975--pilot--MotionPrior3--LOCOMOTION_crouched_sneaking_hiding--017450-022849__XCM975.npz
+  label: Locomotion · crouched sneaking hiding
+- source: embody3d
+  smpl:
+  - c--20250507--0939--NGK823--PZA883--pilot--MotionPrior3--LOCOMOTION_injured_limp--039142-044532__NGK823.npz
+  - c--20250507--0939--NGK823--PZA883--pilot--MotionPrior3--LOCOMOTION_injured_limp--039142-044532__PZA883.npz
+  label: Locomotion · injured limp
+- source: embody3d
+  smpl:
+  - c--20250507--1116--GYX784--KEX363--pilot--MotionPrior3--LOCOMOTION_runners_stride--022850-028248__GYX784.npz
+  - c--20250507--1116--GYX784--KEX363--pilot--MotionPrior3--LOCOMOTION_runners_stride--022850-028248__KEX363.npz
+  label: Locomotion · runners stride
+- source: embody3d
+  smpl:
+  - c--20250508--0947--YQW182--VYX882--pilot--MotionPrior3--LOCOMOTION_jump_rope--019514-020406__VYX882.npz
+  - c--20250508--0947--YQW182--VYX882--pilot--MotionPrior3--LOCOMOTION_jump_rope--019514-020406__YQW182.npz
+  label: Locomotion · jump rope
+- source: embody3d
+  smpl:
+  - c--20250508--0947--YQW182--VYX882--pilot--MotionPrior3--LOCOMOTION_robot_walk--048101-049002__VYX882.npz
+  - c--20250508--0947--YQW182--VYX882--pilot--MotionPrior3--LOCOMOTION_robot_walk--048101-049002__YQW182.npz
+  label: Locomotion · robot walk

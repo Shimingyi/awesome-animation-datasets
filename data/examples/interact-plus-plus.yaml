@@ -1,0 +1,56 @@
+dataset: interact-plus-plus
+note: SMPL-X bodies of both performers from the Hugging Face release
+quality:
+  from:
+  - {reader: 'smpl', source: 'mnt_raw', glob: 'SMPL-Interact-Plus/smpl/*.npz'}
+items:
+- source: hf_smpl_interact
+  smpl:
+  - smpl/20231119_051_001Sky.npz
+  - smpl/20231119_051_002Shirley.npz
+  label: Take 20231119_051
+- source: hf_smpl_interact
+  smpl:
+  - smpl/20231119_063_001Sky.npz
+  - smpl/20231119_063_002Shirley.npz
+  label: Take 20231119_063
+- source: hf_smpl_interact
+  smpl:
+  - smpl/20231119_076_001Sky.npz
+  - smpl/20231119_076_002Shirley.npz
+  label: Take 20231119_076
+- source: hf_smpl_interact
+  smpl:
+  - smpl/20231119_777_001Sky.npz
+  - smpl/20231119_777_002Shirley.npz
+  label: Take 20231119_777
+- source: hf_smpl_interact
+  smpl:
+  - smpl/20231119_789_001Sky.npz
+  - smpl/20231119_789_002Shirley.npz
+  label: Take 20231119_789
+- source: hf_smpl_interact
+  smpl:
+  - smpl/20231126_207_003Alan.npz
+  - smpl/20231126_207_007Jessica.npz
+  label: Take 20231126_207
+- source: hf_smpl_interact
+  smpl:
+  - smpl/20231126_219_003Alan.npz
+  - smpl/20231126_219_007Jessica.npz
+  label: Take 20231126_219
+- source: hf_smpl_interact
+  smpl:
+  - smpl/20231126_307_003Alan.npz
+  - smpl/20231126_307_007Jessica.npz
+  label: Take 20231126_307
+- source: hf_smpl_interact
+  smpl:
+  - smpl/20231126_319_003Alan.npz
+  - smpl/20231126_319_007Jessica.npz
+  label: Take 20231126_319
+- source: hf_smpl_interact
+  smpl:
+  - smpl/20231126_331_003Alan.npz
+  - smpl/20231126_331_007Jessica.npz
+  label: Take 20231126_331

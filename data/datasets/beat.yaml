@@ -1,0 +1,49 @@
+id: beat
+name: BEAT
+full_name: 'BEAT: Body-Expression-Audio-Text Dataset'
+good_for: "Co-speech gesture generation from audio and text, with emotion labels."
+year: 2022
+released: 2022-03
+subject: human-body
+content: gesture
+tags: [gesture, speech, emotion, text-annotated]
+capture: optical-mocap
+representation: [bvh, smplx]
+skeleton:
+  joints: 75
+  rig: BEAT body and finger skeleton
+fps: 120
+stats:
+  hours: 76
+  subjects: 30
+stats_note: >-
+  76 h from 30 speakers in four languages (English 60 h, Chinese 12 h, Spanish 2 h, Japanese 2 h); the English v0.2.1
+  release is 1,945 takes (62.6 h) in the BVH release used by DATA.md
+annotations: [audio, text, emotion, semantic-labels, facial-blendshapes]
+license:
+  name: Non-commercial license
+  url: https://pantomatrix.github.io/BEAT/
+  commercial: false
+access: open
+links:
+  homepage: https://pantomatrix.github.io/BEAT/
+  download: https://huggingface.co/datasets/H-Liu1997/BEAT
+  code: https://github.com/PantoMatrix/BEAT
+  paper: https://arxiv.org/abs/2203.05297
+paper:
+  title: 'BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis'
+  venue: ECCV 2022
+citation: |
+  @article{liu2022beat,
+    title   = {BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis},
+    author  = {Haiyang Liu, Zihao Zhu, Naoya Iwamoto, Yichen Peng, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng},
+    journal = {European Conference on Computer Vision},
+    year    = {2022}
+  }
+variants:
+  - name: BEAT2 (BEATX)
+    url: https://huggingface.co/datasets/H-Liu1997/BEAT2
+    note: English data as SMPL-X body and FLAME head parameters, released with EMAGE
+notes: >-
+  Co-speech gesture capture of speech and conversation sessions, with audio, transcripts, facial blendshapes, eight
+  emotion labels and per-segment semantic-relevancy scores.

@@ -1,0 +1,36 @@
+dataset: beat
+pick:
+  vault: BEAT
+  collection: bvh
+  n: 10
+items:
+- source: vault
+  clip: BEAT/bvh/10_kieks_0_103_103
+  label: 10 kieks 0 103 103
+- source: vault
+  clip: BEAT/bvh/13_lu_0_2_2
+  label: 13 lu 0 2 2
+- source: vault
+  clip: BEAT/bvh/16_jorge_0_3_3
+  label: 16 jorge 0 3 3
+- source: vault
+  clip: BEAT/bvh/1_wayne_0_11_11
+  label: 1 wayne 0 11 11
+- source: vault
+  clip: BEAT/bvh/22_luqi_0_5_5
+  label: 22 luqi 0 5 5
+- source: vault
+  clip: BEAT/bvh/25_goto_0_88_88
+  label: 25 goto 0 88 88
+- source: vault
+  clip: BEAT/bvh/28_tiffnay_0_103_103
+  label: 28 tiffnay 0 103 103
+- source: vault
+  clip: BEAT/bvh/3_solomon_0_108_108
+  label: 3 solomon 0 108 108
+- source: vault
+  clip: BEAT/bvh/6_carla_0_20_20
+  label: 6 carla 0 20 20
+- source: vault
+  clip: BEAT/bvh/9_miranda_0_100_100
+  label: 9 miranda 0 100 100

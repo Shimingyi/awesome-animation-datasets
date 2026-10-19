@@ -1,0 +1,38 @@
+dataset: omomo
+up: +z
+note: SMPL-X bodies from the released parameters (male / female, 16 betas, flat hands; human only, objects not shown yet)
+quality:
+  from:
+  - {reader: 'omomo', source: 'mnt_raw', glob: 'OMOMO/data/train_diffusion_manip_seq_joints24.p'}
+  - {reader: 'omomo', source: 'mnt_raw', glob: 'OMOMO/data/test_diffusion_manip_seq_joints24.p'}
+items:
+- source: omomo
+  smpl: sub12_woodchair_027.npz
+  label: Wood chair · lift overhead and walk
+- source: omomo
+  smpl: sub17_suitcase_011.npz
+  label: Suitcase · lift and rotate
+- source: omomo
+  smpl: sub5_largetable_028.npz
+  label: Large table · lift by an edge and drag
+- source: omomo
+  smpl: sub10_largebox_025.npz
+  label: Large box · carry
+- source: omomo
+  smpl: sub9_floorlamp_016.npz
+  label: Floor lamp · pull
+- source: omomo
+  smpl: sub13_clothesstand_031.npz
+  label: Clothes stand · turn around
+- source: omomo
+  smpl: sub4_whitechair_062.npz
+  label: White chair · flip onto the table
+- source: omomo
+  smpl: sub14_smalltable_024.npz
+  label: Small table · carry overhead
+- source: omomo
+  smpl: sub8_vacuum_004.npz
+  label: Vacuum
+- source: omomo
+  smpl: sub1_mop_021.npz
+  label: Mop

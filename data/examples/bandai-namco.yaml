@@ -1,0 +1,35 @@
+dataset: bandai-namco
+pick:
+  vault: Bandai-Namco-Research-Motiondataset
+  n: 10
+items:
+- source: vault
+  clip: Bandai-Namco-Research-Motiondataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_bow_musical_001
+  label: dataset-1 bow musical 001
+- source: vault
+  clip: Bandai-Namco-Research-Motiondataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_guide_active_001
+  label: dataset-1 guide active 001
+- source: vault
+  clip: Bandai-Namco-Research-Motiondataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_walk-right_chimpira_001
+  label: dataset-1 walk-right chimpira 001
+- source: vault
+  clip: Bandai-Namco-Research-Motiondataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_bow_feminine_001
+  label: dataset-1 bow feminine 001
+- source: vault
+  clip: Bandai-Namco-Research-Motiondataset/Bandai-Namco-Research-Motiondataset-1/data/dataset-1_dash_masculinity_001
+  label: dataset-1 dash masculinity 001
+- source: vault
+  clip: Bandai-Namco-Research-Motiondataset/Bandai-Namco-Research-Motiondataset-2/data/dataset-2_raise-up-both-hands_elderly_019
+  label: dataset-2 raise-up-both-hands elderly 019
+- source: vault
+  clip: Bandai-Namco-Research-Motiondataset/Bandai-Namco-Research-Motiondataset-2/data/dataset-2_raise-up-right-hand_exhausted_019
+  label: dataset-2 raise-up-right-hand exhausted 019
+- source: vault
+  clip: Bandai-Namco-Research-Motiondataset/Bandai-Namco-Research-Motiondataset-2/data/dataset-2_raise-up-right-hand_feminine_061
+  label: dataset-2 raise-up-right-hand feminine 061
+- source: vault
+  clip: Bandai-Namco-Research-Motiondataset/Bandai-Namco-Research-Motiondataset-2/data/dataset-2_wave-left-hand_exhausted_004
+  label: dataset-2 wave-left-hand exhausted 004
+- source: vault
+  clip: Bandai-Namco-Research-Motiondataset/Bandai-Namco-Research-Motiondataset-2/data/dataset-2_run_active_018
+  label: dataset-2 run active 018

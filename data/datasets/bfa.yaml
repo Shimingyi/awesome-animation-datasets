@@ -1,0 +1,49 @@
+id: bfa
+name: BFA
+full_name: BFA motion style dataset (Unpaired Motion Style Transfer from Video to Animation)
+good_for: "Small style-transfer benchmark: the same motions in 16 styles."
+year: 2020
+released: 2020-05
+subject: human-body
+content: locomotion
+content_note: "style takes of mainly walking and running (not measured)"
+tags: [style, emotion, locomotion]
+capture: optical-mocap
+representation: [bvh]
+skeleton:
+  rig: CMU mocap skeleton (retargeted)
+stats:
+  hours: 2.2
+  clips: 64
+  subjects: 1
+stats_note: >-
+  Counted from the BVH release used by DATA.md; the paper describes one performer in 16 styles. Third-party papers
+  report about 193 minutes (696,117 frames), so the hours depend on the frame rate assumed.
+annotations: [style-labels]
+license:
+  name: Not stated (repository code is BSD-2-Clause)
+  url: https://github.com/DeepMotionEditing/deep-motion-editing/blob/master/LICENSE
+  commercial: unknown
+access: open
+links:
+  homepage: https://deepmotionediting.github.io/style_transfer
+  download: https://drive.google.com/drive/folders/1C-_iZJj-PSUWZwh25yAsQe1tLpPm9EZ5
+  code: https://github.com/DeepMotionEditing/deep-motion-editing
+  paper: https://arxiv.org/abs/2005.05751
+paper:
+  title: Unpaired Motion Style Transfer from Video to Animation
+  venue: SIGGRAPH 2020
+citation: |
+  @article{aberman2020unpaired,
+    author = {Aberman, Kfir and Weng, Yijia and Lischinski, Dani and Cohen-Or, Daniel and Chen, Baoquan},
+    title = {Unpaired Motion Style Transfer from Video to Animation},
+    journal = {ACM Transactions on Graphics (TOG)},
+    volume = {39},
+    number = {4},
+    pages = {64},
+    year = {2020},
+    publisher = {ACM}
+  }
+notes: >-
+  Stylised motion of a single performer in 16 styles, captured for the style-transfer paper and released as BVH
+  retargeted to the CMU skeleton. The same download also holds a CMU-retargeted copy of the Xia et al. data (see xia).

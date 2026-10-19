@@ -1,0 +1,37 @@
+dataset: amass
+up: +z
+note: SMPL-X bodies with each subject's own shape, from the SMPL-X N release (HumanEva, SFU and Transitions subsets)
+quality:
+  from:
+  - {reader: 'smpl', source: 'mnt_raw', glob: 'AMASS/*/*/*_stageii.npz'}
+items:
+- source: amass_smplx
+  smpl: SFU/0007/0007_Cartwheel001_stageii.npz
+  label: SFU · cartwheel
+- source: amass_smplx
+  smpl: SFU/0017/0017_MonkeyVault001_stageii.npz
+  label: SFU · parkour monkey vault
+- source: amass_smplx
+  smpl: SFU/0018/0018_TraditionalChineseDance001_stageii.npz
+  label: SFU · Chinese dance
+- source: amass_smplx
+  smpl: SFU/0018/0018_Moonwalk001_stageii.npz
+  label: SFU · moonwalk
+- source: amass_smplx
+  smpl: SFU/0017/0017_WushuKicks001_stageii.npz
+  label: SFU · wushu kicks
+- source: amass_smplx
+  smpl: SFU/0008/0008_ChaCha001_stageii.npz
+  label: SFU · cha-cha
+- source: amass_smplx
+  smpl: HumanEva/S1/Box_1_stageii.npz
+  label: HumanEva · boxing
+- source: amass_smplx
+  smpl: HumanEva/S3/ThrowCatch_1_stageii.npz
+  label: HumanEva · throw and catch
+- source: amass_smplx
+  smpl: Transitions/mazen_c3d/punchkarate_kick_stageii.npz
+  label: Transitions · karate punch to kick
+- source: amass_smplx
+  smpl: Transitions/mazen_c3d/crawl_stand_stageii.npz
+  label: Transitions · crawl to stand

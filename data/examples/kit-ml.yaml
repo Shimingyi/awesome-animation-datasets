@@ -1,0 +1,35 @@
+dataset: kit-ml
+pick:
+  vault: KIT
+  n: 10
+items:
+- source: vault
+  clip: KIT/new_joints/00014
+  label: '00014'
+- source: vault
+  clip: KIT/new_joints/00608
+  label: 00608
+- source: vault
+  clip: KIT/new_joints/01056
+  label: '01056'
+- source: vault
+  clip: KIT/new_joints/01426
+  label: '01426'
+- source: vault
+  clip: KIT/new_joints/02152
+  label: '02152'
+- source: vault
+  clip: KIT/new_joints/03095
+  label: 03095
+- source: vault
+  clip: KIT/new_joints/M00014
+  label: M00014
+- source: vault
+  clip: KIT/new_joints/M01056
+  label: M01056
+- source: vault
+  clip: KIT/new_joints/M02152
+  label: M02152
+- source: vault
+  clip: KIT/new_joints/M03095
+  label: M03095

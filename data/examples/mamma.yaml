@@ -1,0 +1,67 @@
+dataset: mamma
+up: +z
+note: SMPL-X bodies (with hands) of every person in the take, from the released pred/params files
+quality:
+  from:
+  - {reader: 'smpl', source: 'mnt_raw', glob: 'MAMMA/data/mamma_markerless_dance/*/pred/params_*.npz'}
+  - {reader: 'smpl', source: 'mnt_raw', glob: 'MAMMA/data/mamma_markerless_multiple_people/*/pred/params_*.npz'}
+  - {reader: 'smpl', source: 'mnt_raw', glob: 'MAMMA/data/mamma_markerless_iphones/*/*/pred/params_*.npz'}
+items:
+- source: mamma
+  smpl:
+  - mamma_markerless_dance/050825_WestCoastSwing_Telemark_03688_03689_1/pred/params_00.npz
+  - mamma_markerless_dance/050825_WestCoastSwing_Telemark_03688_03689_1/pred/params_01.npz
+  label: West Coast Swing · telemark
+- source: mamma
+  smpl:
+  - mamma_markerless_dance/140725_Bachata_Improv_1_03684_03685_1/pred/params_00.npz
+  - mamma_markerless_dance/140725_Bachata_Improv_1_03684_03685_1/pred/params_01.npz
+  label: Bachata · improvisation
+- source: mamma
+  smpl:
+  - mamma_markerless_dance/140725_Breakdance_Improv_4_03684_1/pred/params_00.npz
+  label: Breakdance · improvisation
+- source: mamma
+  smpl:
+  - mamma_markerless_dance/250903_Ballroom_ChangeOfDirection_03694_03695_1/pred/params_00.npz
+  - mamma_markerless_dance/250903_Ballroom_ChangeOfDirection_03694_03695_1/pred/params_01.npz
+  label: Ballroom · change of direction
+- source: mamma
+  smpl:
+  - mamma_markerless_multiple_people/260216_MultiMama_3_group_hug_101010_1/pred/params_00.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_3_group_hug_101010_1/pred/params_01.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_3_group_hug_101010_1/pred/params_02.npz
+  label: Three people · group hug
+- source: mamma
+  smpl:
+  - mamma_markerless_multiple_people/260216_MultiMama_4_conga_line_011101_1/pred/params_00.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_4_conga_line_011101_1/pred/params_01.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_4_conga_line_011101_1/pred/params_02.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_4_conga_line_011101_1/pred/params_03.npz
+  label: Four people · conga line
+- source: mamma
+  smpl:
+  - mamma_markerless_multiple_people/260216_MultiMama_5_group_photo_111110_1/pred/params_00.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_5_group_photo_111110_1/pred/params_01.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_5_group_photo_111110_1/pred/params_02.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_5_group_photo_111110_1/pred/params_03.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_5_group_photo_111110_1/pred/params_04.npz
+  label: Five people · group photo
+- source: mamma
+  smpl:
+  - mamma_markerless_multiple_people/260216_MultiMama_6_dance_hands_circle_111111_1/pred/params_00.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_6_dance_hands_circle_111111_1/pred/params_01.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_6_dance_hands_circle_111111_1/pred/params_02.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_6_dance_hands_circle_111111_1/pred/params_03.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_6_dance_hands_circle_111111_1/pred/params_04.npz
+  - mamma_markerless_multiple_people/260216_MultiMama_6_dance_hands_circle_111111_1/pred/params_05.npz
+  label: Six people · dance circle
+- source: mamma
+  smpl:
+  - mamma_markerless_iphones/indoors/grappling/pred/params_00.npz
+  - mamma_markerless_iphones/indoors/grappling/pred/params_01.npz
+  label: iPhone · grappling
+- source: mamma
+  smpl:
+  - mamma_markerless_iphones/outdoors/long_jump/pred/params_00.npz
+  label: iPhone · long jump

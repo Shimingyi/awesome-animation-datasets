@@ -1,0 +1,39 @@
+dataset: motionpersona
+default: true
+up: +z
+note: SMPL-X bodies from the Hugging Face release, ten performers chosen for the widest spread of body shapes
+quality:
+  up: auto
+  from:
+  - {reader: 'vault', glob: 'MotionPersona/raw/motion/*'}
+items:
+- source: hf_motionpersona
+  smpl: smpl_skeleton/smpl/p40/p40_neutral_fw.npz
+  label: p40 · neutral · walk forward
+- source: hf_motionpersona
+  smpl: smpl_skeleton/smpl/p43/p43_happy_mix.npz
+  label: p43 · happy · mixed
+- source: hf_motionpersona
+  smpl: smpl_skeleton/smpl/p26/p26_angry_fw.npz
+  label: p26 · angry · walk forward
+- source: hf_motionpersona
+  smpl: smpl_skeleton/smpl/p23/p23_depressed_fw.npz
+  label: p23 · depressed · walk forward
+- source: hf_motionpersona
+  smpl: smpl_skeleton/smpl/p42/p42_fear_fw.npz
+  label: p42 · fear · walk forward
+- source: hf_motionpersona
+  smpl: smpl_skeleton/smpl/p37/p37_bigstep_fw.npz
+  label: p37 · bigstep · walk forward
+- source: hf_motionpersona
+  smpl: smpl_skeleton/smpl/p19/p19_drunk_fw.npz
+  label: p19 · drunk · walk forward
+- source: hf_motionpersona
+  smpl: smpl_skeleton/smpl/p34/p34_swimming_fw.npz
+  label: p34 · swimming · walk forward
+- source: hf_motionpersona
+  smpl: smpl_skeleton/smpl/b27/b27_twofootjump_fw.npz
+  label: b27 · twofootjump · walk forward
+- source: hf_motionpersona
+  smpl: smpl_skeleton/smpl/p35/p35_neutral_fw.npz
+  label: p35 · neutral · walk forward

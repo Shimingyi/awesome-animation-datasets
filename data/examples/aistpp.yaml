@@ -1,0 +1,36 @@
+dataset: aistpp
+note: SMPL bodies (neutral shape; AIST++ releases no shape) from the released SMPL fits, one advanced choreography per genre
+quality:
+  from:
+  - {reader: 'aistpp', source: 'mnt_raw', glob: 'AIST++/motions/*.pkl'}
+items:
+- source: aistpp
+  smpl: gBR_sFM_cAll_d04_mBR0_ch01.npz
+  label: Breaking · choreography
+- source: aistpp
+  smpl: gPO_sFM_cAll_d11_mPO1_ch09.npz
+  label: Popping · choreography
+- source: aistpp
+  smpl: gLO_sFM_cAll_d14_mLO2_ch10.npz
+  label: Locking · choreography
+- source: aistpp
+  smpl: gMH_sFM_cAll_d23_mMH3_ch11.npz
+  label: Middle hip-hop · choreography
+- source: aistpp
+  smpl: gLH_sFM_cAll_d17_mLH4_ch12.npz
+  label: LA-style hip-hop · choreography
+- source: aistpp
+  smpl: gHO_sFM_cAll_d21_mHO5_ch20.npz
+  label: House · choreography
+- source: aistpp
+  smpl: gWA_sFM_cAll_d26_mWA0_ch08.npz
+  label: Waack · choreography
+- source: aistpp
+  smpl: gKR_sFM_cAll_d29_mKR2_ch10.npz
+  label: Krump · choreography
+- source: aistpp
+  smpl: gJS_sFM_cAll_d02_mJS3_ch04.npz
+  label: Street jazz · choreography
+- source: aistpp
+  smpl: gJB_sFM_cAll_d08_mJB5_ch14.npz
+  label: Ballet jazz · choreography

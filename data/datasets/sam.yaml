@@ -1,0 +1,52 @@
+id: sam
+name: SAM
+full_name: Spatial Audio-driven human Motion (SAM)
+good_for: "Reacting to where a sound comes from: spatial-audio-driven motion generation with binaural audio and source locations."
+year: 2025
+released: 2025-07
+subject: human-body
+content: daily-activity
+content_note: >-
+  not broken down; 20 everyday reactions to sounds (look around, step aside, cover ears, run, squat, dance, ...) in
+  three intensities
+tags: [daily-activity, locomotion, dance, action-labels]
+capture: optical-mocap
+representation: [bvh, c3d, npz, wav]
+skeleton:
+  rig: Vicon Shogun skeleton (raw BVH/C3D); NPZ features retargeted to SMPL-X
+fps: 120
+stats:
+  hours: 9.5
+  subjects: 12
+stats_note: >-
+  34,356 s (paper, Table 1) from 12 subjects (5 female, 7 male), in 10 s sequences: 27 sound scenarios, 70+ audio clips,
+  each played from 16 speaker positions and acted in three intensities; the paper splits about 3,000 sequences 8:1:1.
+  The NPZ files are MOSPA training features at 30 fps.
+annotations: [audio, action-labels, sound-source-location]
+license:
+  name: CC BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  commercial: true
+access: open
+links:
+  homepage: https://people.csail.mit.edu/frankzydou/projects/MOSPA/index.html
+  download: https://huggingface.co/datasets/JimSYXu/SAM
+  code: https://github.com/xsy27/Mospa-Acoustic-driven-Motion-Generation
+  paper: https://arxiv.org/abs/2507.11949
+paper:
+  title: "MOSPA: Human Motion Generation Driven by Spatial Audio"
+  venue: NeurIPS 2025
+citation: |
+  @misc{xu2025mospahumanmotiongeneration,
+        title={MOSPA: Human Motion Generation Driven by Spatial Audio},
+        author={Shuyang Xu and Zhiyang Dou and Mingyi Shi and Liang Pan and Leo Ho and Jingbo Wang and Yuan Liu and Cheng Lin and Yuexin Ma and Wenping Wang and Taku Komura},
+        year={2025},
+        eprint={2507.11949},
+        archivePrefix={arXiv},
+        primaryClass={cs.GR},
+        url={https://arxiv.org/abs/2507.11949},
+  }
+notes: >-
+  Vicon mocap of people reacting to sounds played from loudspeakers around them, recorded with binaural microphones at
+  the ears and annotated with the sound-source location; the release ships raw BVH and C3D, retargeted BVH, MOSPA-ready
+  NPZ and stereo audio (one 25 GB archive). The card flags noisy source annotations and an ignore list.

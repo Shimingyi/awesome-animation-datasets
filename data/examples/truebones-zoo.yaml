@@ -1,0 +1,42 @@
+dataset: truebones-zoo
+items:
+- source: codec_assets
+  bvh: clips/animals-elephant-walk.bvh
+  mesh: meshes/57806016098c.glb
+  label: Elephant · walk
+- source: codec_assets
+  bvh: clips/animals-horse-run-jump.bvh
+  mesh: meshes/7613edb1150d.glb
+  label: Horse · run jump
+- source: codec_assets
+  bvh: clips/animals-lion-walk.bvh
+  mesh: meshes/9e077c8bfde3.glb
+  label: Lion · walk
+- source: codec_assets
+  bvh: clips/animals-dragon-fly.bvh
+  mesh: meshes/5ff34dd20646.glb
+  label: Dragon · fly
+- source: codec_assets
+  bvh: clips/animals-parrot-circle-fly.bvh
+  mesh: meshes/876412242177.glb
+  label: Parrot · circle fly
+- source: codec_assets
+  bvh: clips/animals-spider-slow-idle.bvh
+  mesh: meshes/df36e30a8c02.glb
+  label: Spider · slow idle
+- source: codec_assets
+  bvh: clips/animals-crab-defeated.bvh
+  mesh: meshes/8f946f49c6a9.glb
+  label: Crab · defeated
+- source: codec_assets
+  bvh: clips/animals-king-cobra-attack.bvh
+  mesh: meshes/9a705778e9a2.glb
+  label: King Cobra · attack
+- source: codec_assets
+  bvh: clips/animals-trex-rex-walk-back.bvh
+  mesh: meshes/28a0254de2b6.glb
+  label: Trex · rex-walk back
+- source: codec_assets
+  bvh: clips/animals-jaws-swim.bvh
+  mesh: meshes/5a3fbd77b1fd.glb
+  label: Jaws · swim

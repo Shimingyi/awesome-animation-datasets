@@ -1,0 +1,53 @@
+dataset: objaverse-xl-rigged-animated
+items:
+- source: codec_assets
+  bvh: clips/objaverse-xl-hummingbird-hover.bvh
+  mesh: meshes/a56380434c85.glb
+  label: Hummingbird · hover
+  credit: “Animated Hovering Flying Hummingbird Loop” by LasquetiSpice (CC-BY-4.0), https://sketchfab.com/3d-models/102884713a2742ce829e368d2a790c45
+- source: codec_assets
+  bvh: clips/objaverse-xl-octopus-kraken-tentacles.bvh
+  mesh: meshes/3ac46a55f9bf.glb
+  label: Octopus (kraken) · tentacles
+  credit: “Kraken v2” by lawtrigg (CC-BY-4.0), https://sketchfab.com/3d-models/4691fa1b881b4d43936b706f18dba169
+- source: codec_assets
+  bvh: clips/objaverse-xl-green-sea-turtle-swim.bvh
+  mesh: meshes/0db375b04e91.glb
+  label: Green sea turtle · swim
+  credit: “Tortuga verde (Chelonia mydas)” by Innoceana (CC-BY-4.0), https://sketchfab.com/3d-models/1cb59946558d41ccbe1719c13238afd9
+- source: codec_assets
+  bvh: clips/objaverse-xl-snowman-dance.bvh
+  mesh: meshes/0d264b0e039b.glb
+  label: Snowman · dance
+  credit: “Snowman” by Horizon Studio (CC-BY-4.0), https://sketchfab.com/3d-models/f214d11ccd11444fa0d1e32ed9602c51
+- source: codec_assets
+  bvh: clips/objaverse-xl-carnivorous-plant-snap.bvh
+  mesh: meshes/1f013f619026.glb
+  label: Carnivorous plant · snap
+  credit: “Monster Plant Enemy” by Jacqueline Sweeney (CC-BY-4.0), https://sketchfab.com/3d-models/02f912bbb5ea42958c30ecbf1cb949a6
+- source: codec_assets
+  bvh: clips/objaverse-xl-wyvern-flap.bvh
+  mesh: meshes/1b74a08e094e.glb
+  label: Wyvern · flap
+  credit: “Flint Maw” by Spinnee (CC-BY-4.0), https://sketchfab.com/3d-models/f301bd397cd6492b9df719313ecc51fe
+- source: codec_assets
+  bvh: clips/objaverse-xl-robot-dinosaur-walk.bvh
+  mesh: meshes/6219f565f82b.glb
+  label: Robot dinosaur · walk
+  credit: “Robot Dinosaur Walking - First Mechanics Test” by Instinto Ideal Studio (CC-BY-4.0), https://sketchfab.com/3d-models/03954e5eefbe4afd94ccf06ceaacf9ab
+- source: codec_assets
+  bvh: clips/objaverse-xl-bee-take-off-land.bvh
+  mesh: meshes/8f0ca0932ed9.glb
+  label: Bee · take off & land
+  credit: “high poly bee modle” by shreebaghel72 (CC-BY-4.0), https://sketchfab.com/3d-models/bc6564c1221241eb9a06cc32526fb1b7
+- source: codec_assets
+  bvh: clips/objaverse-xl-fennec-fox-run.bvh
+  mesh: meshes/f15f86b58729.glb
+  label: Fennec fox · run
+  credit: “Fennec Fox Free” by Evil_Katz (CC-BY-4.0), https://sketchfab.com/3d-models/68a1c810abee435a8207410b31c0456c
+- source: codec_assets
+  bvh: clips/objaverse-xl-crab-scuttle.bvh
+  mesh: meshes/5150a1460401.glb
+  label: Crab · scuttle
+  credit: “Pangxie” by wsrttys (CC-BY-4.0), https://sketchfab.com/3d-models/0846167f9302450cba1926c6fc5d6d42
+note: ''

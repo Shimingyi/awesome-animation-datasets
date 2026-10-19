@@ -1,0 +1,36 @@
+dataset: semantic-gesticulator
+note: the released SeG BVH skeleton (51 joints, five 3-joint fingers per hand), ten semantic gesture types of the male performer
+pick:
+  vault: SemanticGesticulator
+  n: 10
+items:
+- source: vault
+  clip: SemanticGesticulator/ARM_FLEX-1
+  label: Arm flex · strength
+- source: vault
+  clip: SemanticGesticulator/ARMS_AKIMBO-1
+  label: Arms akimbo
+- source: vault
+  clip: SemanticGesticulator/CHEST_BEAT-1
+  label: Chest beat
+- source: vault
+  clip: SemanticGesticulator/FINGERS_AIR_QUOTES-1
+  label: Fingers air quotes
+- source: vault
+  clip: SemanticGesticulator/FINGERS_FIVE-1
+  label: Fingers 'five' · counting
+- source: vault
+  clip: SemanticGesticulator/FOREHEAD_WIPE-1
+  label: Forehead wipe · relief
+- source: vault
+  clip: SemanticGesticulator/HAND_V_SIGN-1
+  label: Hand V-sign · victory
+- source: vault
+  clip: SemanticGesticulator/HANDS_STEERING-1
+  label: Hands steering
+- source: vault
+  clip: SemanticGesticulator/PALM_LOWER-1
+  label: Palm lower · calm down
+- source: vault
+  clip: SemanticGesticulator/TEMPLE_TOUCH-1
+  label: Temple touch · idea

@@ -1,0 +1,124 @@
+# The two axes every dataset is filed under. tools/registry.py checks that each dataset uses these ids only.
+#
+# subject   WHO moves: exactly one per dataset. Drives the category pages (docs/categories/<subject>.md), the viewer's
+#           left-hand groups and the "hours by subject" chart.
+# content   WHAT the motion is, as shares of the dataset's duration ({locomotion: 0.6, combat: 0.4}) or one id. Measured
+#           from clip labels where we can (python -m tools.composition); drives the "hours by motion type" chart.
+# tags      any number of motion_tags give the finer picture (style, emotion, persona, ...).
+#
+# Order here = order in the README, the charts and the viewer.
+
+subjects:
+  - id: human-body
+    name: Human body
+    emoji: "🧍"
+    description: Full-body human motion, one performer or several interacting (mocap, video reconstruction, artist-made).
+  - id: hands
+    name: Hands
+    emoji: "✋"
+    description: Finger and hand motion (piano, manipulation, sign).
+  - id: animal
+    name: Animals
+    emoji: "🐾"
+    description: Quadrupeds, birds, insects, fish and other creatures, captured or keyframed.
+  - id: object
+    name: Objects & creatures
+    emoji: "🧸"
+    description: Rigged and animated 3D assets of any kind (props, toys, plants, fantasy creatures, vehicles).
+  - id: robot
+    name: Robots
+    emoji: "🤖"
+    description: Motion on robot kinematics (humanoids, quadrupeds), usually retargeted from human or animal data.
+
+content:                 # WHAT the motion is; how it is performed (style, emotion, persona, age) is a tag, not a type
+  - id: locomotion
+    name: Locomotion
+    description: Walking, running, turning, jumping, stairs, crawling, in any style, emotion or persona.
+  - id: daily-activity
+    name: Daily activities & objects
+    description: Everyday actions, posture changes, idling, picking up, carrying and handling objects.
+  - id: gesture
+    name: Gesture & speech
+    description: Co-speech gesture and conversational body language, usually with audio.
+  - id: dance
+    name: Dance
+    description: Dance, usually with music.
+  - id: combat
+    name: Combat & action
+    description: Fighting, martial arts, weapons, hits, falls and other game action.
+  - id: sports
+    name: Sports & exercise
+    description: Ball games, fitness, stretching, acrobatics.
+  - id: interaction
+    name: Interaction
+    description: Two or more people interacting.
+  - id: music
+    name: Music performance
+    description: Playing instruments (piano, ...).
+  - id: general
+    name: Unclassified
+    description: Not broken down (no labels to measure it from) or mixed beyond the types above.
+
+# free-form but checked against this list so spelling stays consistent
+motion_tags: [locomotion, idle, dance, gesture, speech, combat, martial-arts, sports, acrobatics, daily-activity, style,
+              emotion, interaction, object-manipulation, sitting, crawling, falling, music, piano, text-annotated,
+              action-labels, gait, flight, swimming, keyframed, retargeted, child, elderly, persona]
+
+capture:
+  - id: optical-mocap
+    name: Optical mocap
+  - id: inertial-mocap
+    name: Inertial mocap
+  - id: video
+    name: Reconstructed from video
+  - id: keyframed
+    name: Keyframed by artists
+  - id: retargeted
+    name: Retargeted / re-solved from another dataset
+  - id: mixed
+    name: Mixed sources
+
+# how a user gets the data
+access:
+  - id: open
+    name: Open download
+  - id: registration
+    name: Free after registration
+  - id: gated
+    name: Gated (request / agreement)
+  - id: paid
+    name: Paid
+
+# our own quality review of a dataset (`review:` in data/datasets/<id>.yaml). Not the authors' claims: what we saw in the
+# data. No review = unreviewed (listed normally). `caution` datasets leave their subject and are listed in a category of
+# their own ("Use with caution": README section, docs/categories/caution.md, a viewer tab); totals and charts leave them out.
+review_verdicts:
+  - id: recommended
+    name: Recommended
+    mark: "⭐"
+  - id: usable
+    name: Usable
+    mark: ""
+  - id: caution
+    name: Use with caution
+    mark: ""
+
+review_issues:
+  - id: jitter
+    name: Jitter / high-frequency noise
+  - id: foot-skating
+    name: Foot skating
+  - id: penetration
+    name: Ground or self penetration
+  - id: root-drift
+    name: Root drift / floating
+  - id: retarget-artifacts
+    name: Retargeting artifacts
+  - id: missing-fingers
+    name: No or broken finger motion
+  - id: low-fps
+    name: Low frame rate
+  - id: inconsistent-skeleton
+    name: Inconsistent skeletons across clips
+  - id: unnatural-pose
+    name: Unnatural body angles

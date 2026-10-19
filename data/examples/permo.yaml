@@ -1,0 +1,36 @@
+dataset: permo
+note: the released OptiTrack BVH skeleton (20 bones, no fingers), ten personas spread over the six style groups and all five actors
+pick:
+  vault: PerMo
+  n: 10
+items:
+- source: vault
+  clip: PerMo/Character/Zombie/A01/Zombie_Walk_A01_001
+  label: Zombie · walk · actor 1
+- source: vault
+  clip: PerMo/Character/Robot/A01/Robot_Wave_A01_001
+  label: Robot · wave · actor 1
+- source: vault
+  clip: PerMo/Character/Ninja/A02/Ninja_Kick_A02_001
+  label: Ninja · kick · actor 2
+- source: vault
+  clip: PerMo/Character/Ballerina/A02/Ballerina_Jump_A02_001
+  label: Ballerina · jump · actor 2
+- source: vault
+  clip: PerMo/Age/Old/A03/Old_Walk_A03_001
+  label: Old · walk · actor 3
+- source: vault
+  clip: PerMo/Character/Monkey/A03/Monkey_Jump_A03_001
+  label: Monkey · jump · actor 3
+- source: vault
+  clip: PerMo/Condition/Drunken/A04/Drunken_Walk_A04_001
+  label: Drunken · walk · actor 4
+- source: vault
+  clip: PerMo/Surroundings/Muddyfloor/A04/Muddyfloor_Walk_A04_001
+  label: Muddy floor · walk · actor 4
+- source: vault
+  clip: PerMo/Emotion/Angry/A05/Angry_Punch_A05_001
+  label: Angry · punch · actor 5
+- source: vault
+  clip: PerMo/Traits/Elegant/A05/Elegant_KickSth_A05_001
+  label: Elegant · kick something · actor 5

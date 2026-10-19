@@ -1,0 +1,55 @@
+id: trinity-speech-gesture
+name: Trinity Speech-Gesture
+full_name: Trinity Speech-Gesture Dataset (I and II)
+good_for: "Long spontaneous conversational monologues with speech: co-speech gesture generation and the GENEA 2020 benchmark."
+year: 2018
+released: 2018-11
+subject: human-body
+content: gesture
+content_note: "all spontaneous co-speech gesture"
+tags: [gesture, speech]
+capture: optical-mocap
+representation: [bvh, fbx, wav]
+skeleton:
+  rig: Vicon full-body skeleton with fingers (56 joints in part I, 69 to 71 in part II)
+fps: 120
+stats:
+  hours: 10
+  clips: 48
+  subjects: 2
+stats_note: >-
+  over 10 h from two male English speakers (ExpressGesture paper; part II alone is 6 h); our count of the BVH headers:
+  part I 23 takes (4.1 h), part II 25 takes (6.5 h), all stored at 120 fps. Part II was captured with 59 markers and
+  20 Vicon cameras at 120 fps, part I at 59.94 fps; a gesture-stroke segmentation of about 23,700 gestures is provided.
+annotations: [audio, text, gesture-segmentation]
+license:
+  name: Trinity Speech-Gesture Dataset licence (non-commercial research; commercial licence on request)
+  url: https://trinityspeechgesture.scss.tcd.ie/
+  commercial: false
+access: open
+links:
+  homepage: https://trinityspeechgesture.scss.tcd.ie/
+  download: https://trinityspeechgesture.scss.tcd.ie/data/
+  paper: https://dl.acm.org/doi/10.1145/3267851.3267898
+paper:
+  title: Investigating the use of recurrent motion modelling for speech gesture generation
+  venue: IVA 2018
+citation: |
+  @inproceedings{ferstl2018investigating,
+    title={Investigating the use of recurrent motion modelling for speech gesture generation},
+    author={Ferstl, Ylva and McDonnell, Rachel},
+    booktitle={Proceedings of the 18th International Conference on Intelligent Virtual Agents},
+    pages={93--98},
+    year={2018}
+  }
+variants:
+  - name: GENEA Challenge 2020 data release
+    url: https://trinityspeechgesture.scss.tcd.ie/data/Trinity%20Speech-Gesture%20I/GENEA_Challenge_2020_data_release/
+    note: >-
+      part I re-exported by KTH as upper-body BVH with audio re-aligned and time-aligned transcripts, split into
+      training and test data
+notes: >-
+  A male actor speaking freely on many topics, captured with body and finger markers and synchronised audio. Part I is
+  the data of the GENEA 2020 challenge (which adds transcripts); part II (ExpressGesture, CAVW 2021) is a second speaker
+  with a calmer style. Both ship as BVH and FBX with WAV audio and clapper alignment times; data is behind a
+  click-through licence page.

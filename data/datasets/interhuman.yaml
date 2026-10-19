@@ -1,0 +1,52 @@
+id: interhuman
+name: InterHuman
+full_name: InterHuman two-person interaction dataset (InterGen)
+good_for: "Text-to-two-person interaction: daily interactions plus fighting, dance and sports duets."
+year: 2023
+released: 2023-04
+subject: human-body
+content: interaction
+content_note: "two-person daily interactions plus professional ones (Taekwondo, Latin dance, boxing ...); not broken down by duration"
+tags: [interaction, daily-activity, martial-arts, combat, dance, text-annotated]
+capture: video
+representation: [smpl, joints]
+skeleton:
+  joints: 22
+  rig: SMPL (22-joint AMASS-style kinematic tree in the processed data)
+fps: 30
+stats:
+  hours: 20.9
+  clips: 7777
+  subjects: 60
+stats_note: >-
+  our count of the processed release, both people counted: 7,777 two-person clips (ids 1-7779, two missing), 10.47 h per
+  take at 30 fps, 20.9 h of motion per person (raw motions
+  at 59.94 fps); the paper states 7,779 sequences and 6.56 h, by 30 pairs of performers, with 23,337 descriptions
+  (three per clip); reconstructed from 76 synchronised RGB cameras without markers
+annotations: [text]
+license:
+  name: CC BY-NC-SA 4.0 (redistribution prohibited)
+  url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  commercial: false
+access: open
+links:
+  homepage: https://tr3e.github.io/intergen-page/
+  download: https://drive.google.com/drive/folders/1oyozJ4E7Sqgsr7Q747Na35tWo5CjNYk3?usp=sharing
+  code: https://github.com/tr3e/InterGen
+  paper: https://arxiv.org/abs/2304.05684
+paper:
+  title: "InterGen: Diffusion-based Multi-human Motion Generation under Complex Interactions"
+  venue: IJCV 2024
+citation: |
+  @article{liang2024intergen,
+    title={Intergen: Diffusion-based multi-human motion generation under complex interactions},
+    author={Liang, Han and Zhang, Wenqian and Li, Wenxuan and Yu, Jingyi and Xu, Lan},
+    journal={International Journal of Computer Vision},
+    pages={1--21},
+    year={2024},
+    publisher={Springer}
+  }
+notes: >-
+  Two-person interactions captured on a 76-camera markerless stage and solved to SMPL; released as raw per-person
+  motion "standardised as SMPL, similar to AMASS" plus processed joint positions and 6D rotations, with clips of
+  mostly a few seconds (median 2.3 s, a few over a minute) and three crowd-sourced descriptions each.

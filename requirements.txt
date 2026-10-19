@@ -1,0 +1,6 @@
+# tools/ (registry, README, vault, baking); the viewer itself needs nothing (three.js from a CDN)
+numpy
+pyyaml
+pillow        # thumbnails, contact sheet
+websockets    # thumbnails: drives headless Chrome over the DevTools protocol
+# also used, not pip-installable: Blender (FBX/GLB conversion), Google Chrome (thumbnails)

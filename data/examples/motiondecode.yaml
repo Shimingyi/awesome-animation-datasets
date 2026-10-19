@@ -1,0 +1,43 @@
+dataset: motiondecode
+note: Unitree G1 joint trajectories of the Hugging Face release (120 fps, kept at 30 fps), on the robot meshes of the G1 URDF
+items:
+- source: motiondecode
+  bvh: g1_clips/BG_Normal_Walking_00166.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · basic gait · normal walking
+- source: motiondecode
+  bvh: g1_clips/CRA_Bear_Crawling_00005.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · crawling · bear crawl
+- source: motiondecode
+  bvh: g1_clips/EEI_Front_Flip_00019.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · parkour · front flip
+- source: motiondecode
+  bvh: g1_clips/BI_Forehand_Attack_00150.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · table tennis · forehand attack
+- source: motiondecode
+  bvh: g1_clips/CI_Straight_Punch_00004.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · boxing · straight punch
+- source: motiondecode
+  bvh: g1_clips/DP_Korean_Ethnic_00457.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · folk dance · Korean
+- source: motiondecode
+  bvh: g1_clips/Havana.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · pop dance · Havana
+- source: motiondecode
+  bvh: g1_clips/SO_Chopping_Vegetables_00425.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · kitchen · chopping vegetables
+- source: motiondecode
+  bvh: g1_clips/SII_Handshake_00266.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · greetings · handshake
+- source: motiondecode
+  bvh: g1_clips/EESB_Welcome_Gesture_00223.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · social etiquette · welcome gesture

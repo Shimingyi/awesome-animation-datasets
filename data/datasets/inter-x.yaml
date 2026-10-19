@@ -1,0 +1,50 @@
+id: inter-x
+name: Inter-X
+full_name: "Inter-X: Towards Versatile Human-Human Interaction Analysis"
+good_for: "Two-person interactions with hands and part-level text: text-to-interaction and reaction generation."
+year: 2024
+released: 2024-06
+subject: human-body
+content: interaction
+content_note: "40 daily two-person interaction categories (not broken down by duration)"
+tags: [interaction, daily-activity, text-annotated, action-labels]
+capture: optical-mocap
+representation: [smplx, joints]
+skeleton:
+  joints: 55
+  rig: SMPL-X (body and hands); also 64-joint OptiTrack skeleton positions
+fps: 120
+stats:
+  hours: 37.5
+  clips: 11388
+  subjects: 89
+stats_note: >-
+  official: 11,388 two-person sequences, more than 8.1M frames, 34,164 part-level text descriptions, 40 action
+  categories, 89 volunteers in 59 pairs/groups. Hours count both people (motion per person), our count of the
+  released SMPL-X parameters: 22,776 person tracks, 37.5 h at 120 fps (18.75 h per take).
+annotations: [text, action-labels]
+license:
+  name: Research use only (request form; licence file ships with the data)
+  url: https://github.com/liangxuy/Inter-X#dataset-download
+  commercial: false
+access: gated
+links:
+  homepage: https://liangxuy.github.io/inter-x/
+  code: https://github.com/liangxuy/Inter-X
+  paper: https://arxiv.org/abs/2312.16051
+paper:
+  title: "Inter-X: Towards Versatile Human-Human Interaction Analysis"
+  venue: CVPR 2024
+citation: |
+  @inproceedings{xu2024inter,
+    title={Inter-x: Towards versatile human-human interaction analysis},
+    author={Xu, Liang and Lv, Xintao and Yan, Yichao and Jin, Xin and Wu, Shuwen and Xu, Congsheng and Liu, Yifan and Zhou, Yizhou and Rao, Fengyun and Sheng, Xingdong and others},
+    booktitle={CVPR},
+    pages={22260--22271},
+    year={2024}
+  }
+notes: >-
+  Pairs of volunteers perform 40 everyday interaction types (actor and reactor), released as per-person SMPL-X
+  parameters (body and fingers) and skeleton joint positions at 120 fps, with fine-grained body-part text, interaction
+  order, relationship (familiarity) and Big-Five personality labels. Access is granted through a form for academic
+  users.

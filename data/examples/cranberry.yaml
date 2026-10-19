@@ -1,0 +1,36 @@
+dataset: cranberry
+up: +z
+quality:
+  from:
+  - {reader: 'bvh', source: 'mnt_raw', glob: 'Cranberry/bvh/*/*.bvh'}
+items:
+- source: vault
+  clip: Cranberry/Sh02_cranberry_s01.crouching_and_loco_002
+  label: Sh02 cranberry s01.crouching and loco 002
+- source: vault
+  clip: Cranberry/Sh02_cranberry_S01.walking_forward_S01
+  label: Sh02 cranberry S01.walking forward S01
+- source: vault
+  clip: Cranberry/Sh04_cranberry_S01.walking_sidestepping_S01
+  label: Sh04 cranberry S01.walking sidestepping S01
+- source: vault
+  clip: Cranberry/Sh05_cranberry_S01.turning_S01
+  label: Sh05 cranberry S01.turning S01
+- source: vault
+  clip: Cranberry/Sh05_cranberry_s01.ground_sit_stand
+  label: Sh05 cranberry s01.ground sit stand
+- source: vault
+  clip: Cranberry/Sh09_cranberry_S01.unstrucutred_locomotions_S01
+  label: Sh09 cranberry S01.unstrucutred locomotions S01
+- source: vault
+  clip: Cranberry/Sh12_cranberry_s01.vr_fighting_games_S01
+  label: Sh12 cranberry s01.vr fighting games S01
+- source: vault
+  clip: Cranberry/Sh20_cranberry_s01.running_S01
+  label: Sh20 cranberry s01.running S01
+- source: vault
+  clip: Cranberry/jump-walk-run-mix-1
+  label: jump-walk-run-mix-1
+pick:
+  vault: Cranberry
+  n: 10

@@ -1,0 +1,47 @@
+id: interact-plus-plus
+name: InterACT++
+full_name: "It Takes Two: Real-time Co-Speech Two-person's Interaction Generation via Reactive Auto-regressive Diffusion Model"
+good_for: "Two-person interaction as SMPL-X bodies: interaction generation with body models."
+year: 2024
+released: 2024-12
+subject: human-body
+content: interaction
+tags: [interaction, speech, gesture, daily-activity]
+capture: retargeted
+representation: [smplx, npz]
+skeleton:
+  joints: 55
+  rig: SMPL-X (165-D pose, 16 shape coefficients)
+fps: 30
+stats:
+  hours: 13.5
+  clips: 811
+stats_note: >-
+  Counted from the Hugging Face release: 811 two-person sequences as 1,622 per-actor npz files, 13.5 h summed over both
+  actors (6.8 h of two-person interaction). 240 of the sequences share their recording ids with InterAct (all but one of
+  its 241); 564 of the other 571 come from four later 2024 sessions.
+annotations: [audio, video]
+license:
+  name: Not specified
+  url: https://huggingface.co/datasets/dafeiqin/SMPL-Interact-Plus
+  commercial: unknown
+access: open
+links:
+  homepage: https://huggingface.co/datasets/dafeiqin/SMPL-Interact-Plus
+  download: https://huggingface.co/datasets/dafeiqin/SMPL-Interact-Plus
+  paper: https://arxiv.org/abs/2412.02419
+paper:
+  title: "It Takes Two: Real-time Co-Speech Two-person's Interaction Generation via Reactive Auto-regressive Diffusion Model"
+  venue: arXiv 2024
+citation: |
+  @article{shi2024ittakestwo,
+    title={It Takes Two: Real-time Co-Speech Two-person's Interaction Generation via Reactive Auto-regressive Diffusion Model},
+    author={Shi, Mingyi and Qin, Dafei and Ho, Leo and Liao, Zhouyingcheng and Huang, Yinghao and Yamagishi, Junichi and Komura, Taku},
+    journal={arXiv preprint arXiv:2412.02419},
+    year={2024}
+  }
+derived_from: [interact]
+notes: >-
+  The two-person co-speech interaction data of "It Takes Two" (published on the Hugging Face Hub as SMPL-Interact-Plus):
+  SMPL-X body fits of InterAct recordings plus additional sessions in the same naming scheme, with per-actor audio and
+  videos. The repository has no dataset card or license.

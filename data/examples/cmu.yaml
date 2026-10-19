@@ -1,0 +1,36 @@
+dataset: cmu
+pick:
+  vault: cmu
+  collection: data
+  n: 10
+items:
+- source: vault
+  clip: cmu/data/001/01_04
+  label: 01 04
+- source: vault
+  clip: cmu/data/014/14_32
+  label: 14 32
+- source: vault
+  clip: cmu/data/027/27_08
+  label: 27 08
+- source: vault
+  clip: cmu/data/039/39_14
+  label: 39 14
+- source: vault
+  clip: cmu/data/061/61_07
+  label: 61 07
+- source: vault
+  clip: cmu/data/079/79_59
+  label: 79 59
+- source: vault
+  clip: cmu/data/093/93_05
+  label: 93 05
+- source: vault
+  clip: cmu/data/115/115_07
+  label: 115 07
+- source: vault
+  clip: cmu/data/132/132_06
+  label: 132 06
+- source: vault
+  clip: cmu/data/144/144_12
+  label: 144 12

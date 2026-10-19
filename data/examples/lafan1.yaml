@@ -1,0 +1,47 @@
+dataset: lafan1
+up: +y
+note: rendered on the Geno character (Geno LAFAN1 re-solve)
+quality:
+  from:
+  - {reader: 'bvh', source: 'mnt_raw', glob: 'LAFAN1/bvh/*.bvh'}
+items:
+- source: codec_assets
+  bvh: clips/geno-fight.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Fight
+- source: codec_assets
+  bvh: clips/geno-jumps.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Jumps
+- source: codec_assets
+  bvh: clips/geno-fall-and-get-up.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Fall and get up
+- source: codec_assets
+  bvh: clips/geno-dance.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Dance
+- source: codec_assets
+  bvh: clips/geno-aiming.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Aiming
+- source: codec_assets
+  bvh: clips/geno-ground.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Ground
+- source: codec_assets
+  bvh: clips/geno-multiple-actions.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Multiple actions
+- source: codec_assets
+  bvh: clips/geno-obstacles.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Obstacles
+- source: codec_assets
+  bvh: clips/geno-run.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Run
+- source: codec_assets
+  bvh: clips/geno-walk.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Walk

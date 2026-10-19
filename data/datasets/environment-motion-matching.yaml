@@ -1,0 +1,54 @@
+id: environment-motion-matching
+name: Environment-aware Motion Matching
+full_name: Environment-aware Motion Matching motion database
+good_for: "A compact motion-matching database for walking around obstacles and through crowds: drop-in Unity controllers."
+year: 2025
+released: 2025-10
+subject: human-body
+content: locomotion
+content_note: >-
+  not broken down; locomotion loops, circles, strafing, turns, jumps and crouching plus takes avoiding static and
+  moving obstacles, and a few styled sets (boxing, weapon, crowd, elbows up)
+tags: [locomotion, style]
+capture: inertial-mocap
+representation: [bvh]
+skeleton:
+  joints: 23
+  rig: Xsens skeleton (24 joints in the box and weapon takes)
+fps: 60
+stats:
+  hours: 0.85
+  clips: 60
+  subjects: 1
+stats_note: >-
+  "over 50 minutes" (Zenodo record); our count of the release is 60 BVH takes, 51.3 min (29.0 min main database,
+  22.3 min extra styles), not counting T-poses. One actor in an Xsens Awinda suit.
+license:
+  name: CC BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  commercial: true
+access: open
+links:
+  homepage: https://upc-virvig.github.io/Environment-aware-Motion-Matching/
+  download: https://zenodo.org/records/17220516
+  code: https://github.com/UPC-ViRVIG/Environment-aware-Motion-Matching
+  paper: https://arxiv.org/abs/2510.22632
+paper:
+  title: Environment-aware Motion Matching
+  venue: SIGGRAPH Asia 2025 (ACM TOG)
+citation: |
+  @article{2025:ponton:emm,
+    author = {Ponton, Jose Luis and Andrews, Sheldon and Andujar, Carlos and Pelechano, Nuria},
+    title = {Environment-aware Motion Matching},
+    year = {2025},
+    publisher = {Association for Computing Machinery},
+    booktitle = {SIGGRAPH Asia 2025},
+    address = {New York, NY, USA},
+    issn = {0730-0301},
+    doi = {10.1145/3763334},
+    journal = {ACM Trans. Graph.},
+  }
+notes: >-
+  Raw Xsens takes of one actor following pre-designed navigation tasks: obstacle-free locomotion as in classic motion
+  matching, plus scenarios with static and moving obstacles and other agents. The same BVH files drive the paper's
+  Unity project.

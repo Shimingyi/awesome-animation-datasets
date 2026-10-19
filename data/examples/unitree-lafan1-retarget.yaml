@@ -1,0 +1,43 @@
+dataset: unitree-lafan1-retarget
+note: Unitree G1 joint trajectories of the release, on the robot meshes of its URDF (tools/examples/urdf2clip.py)
+items:
+- source: hf_lafan1_robot
+  bvh: g1_clips/dance1_subject2.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · dance1 s2
+- source: hf_lafan1_robot
+  bvh: g1_clips/dance2_subject3.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · dance2 s3
+- source: hf_lafan1_robot
+  bvh: g1_clips/fallAndGetUp1_subject1.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · fallAndGetUp1 s1
+- source: hf_lafan1_robot
+  bvh: g1_clips/fight1_subject2.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · fight1 s2
+- source: hf_lafan1_robot
+  bvh: g1_clips/fightAndSports1_subject1.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · fightAndSports1 s1
+- source: hf_lafan1_robot
+  bvh: g1_clips/jumps1_subject1.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · jumps1 s1
+- source: hf_lafan1_robot
+  bvh: g1_clips/run1_subject2.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · run1 s2
+- source: hf_lafan1_robot
+  bvh: g1_clips/sprint1_subject2.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · sprint1 s2
+- source: hf_lafan1_robot
+  bvh: g1_clips/walk1_subject1.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · walk1 s1
+- source: hf_lafan1_robot
+  bvh: g1_clips/walk3_subject2.bvh
+  mesh: g1_clips/g1_29dof_rev_1_0.glb
+  label: G1 · walk3 s2

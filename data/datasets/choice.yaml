@@ -1,0 +1,45 @@
+id: choice
+name: CHOICE
+full_name: "CHOICE: Coordinated Human-Object Interaction in Cluttered Environments for Pick-and-Place Actions"
+good_for: "Long bimanual pick-and-place, cooking and drawer/door interactions in cluttered rooms, with fingers: scene-interaction controllers."
+year: 2025
+released: 2025-06
+subject: human-body
+content:
+  daily-activity: 0.86
+  locomotion: 0.14
+content_note: >-
+  from the paper's per-frame hip labels (Table 2): walking to and from objects 14.1% of the duration, standing or
+  squatting while handling objects 85.9%
+tags: [object-manipulation, daily-activity, locomotion, action-labels]
+capture: optical-mocap
+representation: [bvh]
+skeleton:
+  rig: Vicon Shogun body template with hand skeleton
+stats:
+  hours: 6.75
+  clips: 131
+stats_note: >-
+  our count of the released ProcessedData: 131 BVH takes, 6.75 h at 120 fps; the paper describes 150 sequences of about
+  3 min each (27,197 s in its Table 2). Captured with Vicon Shogun, finger-object penetration minimized in
+  post-processing. Also released as a Unity project with the labels.
+annotations: [action-labels, contacts]
+license:
+  name: Not stated
+  commercial: unknown
+access: open
+links:
+  homepage: https://lujintaozju.github.io/publications/CHOICE/
+  download: https://connecthkuhk-my.sharepoint.com/:f:/g/personal/u3008430_connect_hku_hk/IgCVytmit6wVSqImN5oBra6BAZ2C-u1cfbieAHH_P-Ddc9o?e=Q6ruZn
+  paper: https://arxiv.org/abs/2412.06702
+paper:
+  title: "CHOICE: Coordinated Human-Object Interaction in Cluttered Environments for Pick-and-Place Actions"
+  venue: ACM TOG 2025
+variants:
+  - name: CHOICE Unity data
+    url: https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3008430_connect_hku_hk/EYdBUoqeejVCp8SgqodZHR0Bgb6LiMIAM5dCRdO2oAF68w?e=7kjyTl
+    note: the same captures as Unity motion assets with the action, goal and contact labels (see its Readme.md)
+notes: >-
+  One-goal-per-take sequences such as cooking a steak, making milk tea or clearing a table, with 14 pieces of
+  furniture, 12 movable objects, 6 doors and 4 drawers in varied layouts; hands and hip are labelled per frame with
+  actions and object contacts.

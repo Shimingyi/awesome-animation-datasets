@@ -1,0 +1,61 @@
+id: embody-3d
+name: Embody 3D
+full_name: "Embody 3D: A Large-scale Multimodal Motion and Behavior Dataset"
+good_for: "Hundreds of hours of SMPL-X body and hands with per-person audio: conversation, multi-person behaviour and prompted actions."
+year: 2025
+released: 2025-10
+subject: human-body
+content:
+  general: 0.399
+  gesture: 0.368
+  interaction: 0.098
+  daily-activity: 0.093
+  locomotion: 0.042
+content_note: >-
+  from the official per-section hours (Charades 88.9, Hand Interactions 111.3, Locomotion 21.0, Dyadic Conversations
+  59.4, Multi-Person Conversations 125.2, Scenarios 49.2, Day in the Life 46.4); conversations counted as gesture,
+  Charades and hand interactions as general
+tags: [gesture, speech, interaction, emotion, daily-activity, locomotion, text-annotated]
+capture: video
+representation: [smplx]
+skeleton:
+  rig: SMPL-X (body, hand and shape parameters; no face/expression parameters shipped)
+fps: 30
+stats:
+  hours: 500
+  clips: 9151
+  subjects: 439
+stats_note: >-
+  official 500 "individual" hours (person-hours, so a two-person hour counts twice) and over 54M frames from 439
+  participants; our count of the dataset.json index files on GitHub gives 9,151 captures, 26,767 per-person
+  sequences, 500.9 person-hours and 188.6 h of capture time
+annotations: [audio, text, video]
+license:
+  name: Meta XRCIA Noncommercial Research License Agreement
+  url: https://www.meta.com/emerging-tech/codec-avatars/embody-3d/
+  commercial: false
+access: gated
+links:
+  homepage: https://www.meta.com/emerging-tech/codec-avatars/embody-3d/
+  code: https://github.com/facebookresearch/embody-3d
+  paper: https://arxiv.org/abs/2510.16258
+paper:
+  title: "Embody 3D: A Large-scale Multimodal Motion and Behavior Dataset"
+  venue: arXiv 2025 (technical report)
+citation: |
+  @techreport{mclean2025embody3d,
+    title     = {Embody 3D: A Large-scale Multimodal Motion and Behavior Dataset},
+    author    = {Claire McLean and Makenzie Meendering and Tristan Swartz and Orri Gabbay and Alexandra Olsen and Rachel Jacobs and Nicholas Rosen and Philippe de Bree and Tony Garcia and Gadsden Merrill and Jake Sandakly and Julia Buffalini and Neham Jain and Steven Krenn and Moneish Kumar and Dejan Markovic and Evonne Ng and Fabian Prada and Andrew Saba and Siwei Zhang and Vasu Agrawal and Tim Godisart and Alexander Richard and Michael Zollhoefer},
+    institution = {arXiv},
+    year      = {2025},
+    type      = {Technical Report},
+    note      = {arXiv preprint},
+    url       = {https://arxiv.org/pdf/2510.16258},
+  }
+notes: >-
+  Captured by Meta's Codec Avatars Lab on an 80-camera stage (64 body and 16 face cameras) without markers: Sapiens
+  keypoints are triangulated and solved to SMPL-X body, hand and shape parameters, with a per-frame flag for corrupted
+  tracking. Seven sections (Charades, Hand Interactions, Locomotion, Dyadic and Multi-Person Conversations, Scenarios,
+  Day in the Life) cover prompted actions, hand gestures, conversations in different emotional states, collaborative
+  tasks and co-living in an apartment set, with speaker-separated audio, a bird's-eye video and, for some sections, text
+  descriptions per 10 s. Download links are sent after accepting the licence on the Meta page.

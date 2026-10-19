@@ -1,0 +1,44 @@
+id: edinburgh-locomotion
+name: Edinburgh Locomotion
+full_name: Edinburgh locomotion database (Holden et al. motion synthesis data)
+good_for: "Short locomotion set from the deep motion synthesis work: small character-control experiments."
+year: 2016
+released: 2016-08
+subject: human-body
+content: locomotion
+tags: [locomotion]
+capture: optical-mocap
+representation: [bvh]
+skeleton:
+  joints: 31
+  rig: CMU skeleton (retargeted)
+stats:
+  hours: 0.3
+  clips: 47
+stats_note: >-
+  About 20 minutes of raw data per the release README; the processed folder splits 13 long takes into 47 BVH clips
+  (our count).
+annotations: [contacts, phase]
+license:
+  name: Free to use, modify and redistribute, with citation
+  url: https://theorangeduck.com/page/deep-learning-framework-character-motion-synthesis-and-editing
+  commercial: unknown
+access: open
+links:
+  homepage: https://theorangeduck.com/page/deep-learning-framework-character-motion-synthesis-and-editing
+  download: https://theorangeduck.com/media/uploads/other_stuff/motionsynth_data.zip
+  paper: https://theorangeduck.com/page/deep-learning-framework-character-motion-synthesis-and-editing
+paper:
+  title: A Deep Learning Framework for Character Motion Synthesis and Editing
+  venue: SIGGRAPH 2016
+citation: |
+  @inproceedings{Holden:2016:DLF,
+    author = {Holden, Daniel and Saito, Jun and Komura, Taku},
+    title = {A Deep Learning Framework for Character Motion Synthesis and Editing},
+    booktitle = {SIGGRAPH 2016},
+    year = {2016}
+  }
+notes: >-
+  Long walking, jogging, running and sidestepping takes captured at the University of Edinburgh and released in the
+  motionsynth_data archive of Holden et al. 2016, retargeted to the CMU skeleton. It comes from the same group as the
+  PFNN data (see pfnn) but is a separate capture, not part of pfnn.zip.

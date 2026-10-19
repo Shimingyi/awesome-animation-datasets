@@ -1,0 +1,55 @@
+id: amass
+name: AMASS
+full_name: Archive of Motion Capture as Surface Shapes
+good_for: "The standard large SMPL corpus: pretraining body motion priors, text-to-motion, pose estimation."
+year: 2019
+released: 2019-04
+subject: human-body
+content:
+  locomotion: 0.45
+  daily-activity: 0.28
+  sports: 0.08
+  gesture: 0.05
+  combat: 0.05
+  general: 0.06
+  dance: 0.03
+content_note: measured from the HumanML3D text captions of the AMASS clips, weighted by duration
+tags: [locomotion, daily-activity, sports, dance, martial-arts, acrobatics, gesture, interaction, object-manipulation]
+capture: optical-mocap
+representation: [smplh, smplx, npz]
+skeleton:
+  joints: 52
+  rig: SMPL-H (SMPL-X fits also released)
+stats:
+  hours: 41.5
+  clips: 11451
+  subjects: 346
+stats_note: >-
+  Totals of the 15 marker datasets in the paper (arXiv 1904.03278, Table 1: 2,488 min; the ICCV text rounds to over 40 h, 300 subjects and 11,000 motions); later additions (BMLmovi, BMLhandball, DanceDB,
+  HUMAN4D, MoYo and others) make the current release larger. Frame rates follow the source mocap.
+license:
+  name: AMASS Dataset Copyright License (non-commercial scientific research)
+  url: https://amass.is.tue.mpg.de/license.html
+  commercial: false
+access: registration
+links:
+  homepage: https://amass.is.tue.mpg.de/
+  download: https://amass.is.tue.mpg.de/download.php
+  code: https://github.com/nghorbani/amass
+  paper: https://arxiv.org/abs/1904.03278
+paper:
+  title: 'AMASS: Archive of Motion Capture as Surface Shapes'
+  venue: ICCV 2019
+citation: |
+  @conference{AMASS:ICCV:2019,
+    title = {{AMASS}: Archive of Motion Capture as Surface Shapes},
+    author = {Mahmood, Naureen and Ghorbani, Nima and Troje, Nikolaus F. and Pons-Moll, Gerard and Black, Michael J.},
+    booktitle = {International Conference on Computer Vision},
+    pages = {5442--5451},
+    month = oct,
+    year = {2019}
+  }
+notes: >-
+  Unifies many optical marker-based mocap datasets (CMU, KIT, BMLrub, HDM05, ACCAD and others) by fitting SMPL-H, and
+  since 2022 SMPL-X, bodies to the original markers with MoSh++. It is the motion source of HumanML3D and many other
+  text-to-motion datasets.

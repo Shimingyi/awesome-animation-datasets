@@ -1,0 +1,35 @@
+dataset: edinburgh-locomotion
+pick:
+  vault: edin_locomotion
+  n: 10
+items:
+- source: vault
+  clip: edin_locomotion/locomotion_jog_sidestep_000_005
+  label: locomotion jog sidestep 000 005
+- source: vault
+  clip: edin_locomotion/locomotion_transitions_000_008
+  label: locomotion transitions 000 008
+- source: vault
+  clip: edin_locomotion/locomotion_walk_sidestep_001_001
+  label: locomotion walk sidestep 001 001
+- source: vault
+  clip: edin_locomotion/locomotion_jog_001_002
+  label: locomotion jog 001 002
+- source: vault
+  clip: edin_locomotion/locomotion_run_000_000
+  label: locomotion run 000 000
+- source: vault
+  clip: edin_locomotion/locomotion_jog_sidestep_001_000
+  label: locomotion jog sidestep 001 000
+- source: vault
+  clip: edin_locomotion/locomotion_jog_sidestep_001_002
+  label: locomotion jog sidestep 001 002
+- source: vault
+  clip: edin_locomotion/locomotion_run_sidestep_001_000
+  label: locomotion run sidestep 001 000
+- source: vault
+  clip: edin_locomotion/locomotion_run_000_002
+  label: locomotion run 000 002
+- source: vault
+  clip: edin_locomotion/locomotion_jog_sidestep_001_003
+  label: locomotion jog sidestep 001 003

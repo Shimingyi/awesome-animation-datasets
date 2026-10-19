@@ -1,0 +1,48 @@
+id: mann-dog
+name: MANN Dog
+full_name: Mode-Adaptive Neural Networks quadruped (dog) motion capture
+good_for: "Quadruped (dog) gaits and transitions: quadruped character control."
+year: 2018
+released: 2018-08
+subject: animal
+content: locomotion
+content_note: "gaits (walk, pace, trot, canter) with some sitting, standing and lying (not measured)"
+tags: [locomotion, gait, idle, sitting]
+capture: optical-mocap
+representation: [bvh]
+skeleton:
+  joints: 21
+  rig: MANN dog skeleton
+fps: 60
+stats:
+  hours: 0.5
+  clips: 51
+stats_note: >-
+  About 30 minutes of unstructured dog capture per the paper; 51 BVH takes in MotionCapture.zip, counted from the
+  release.
+license:
+  name: CC BY-NC 4.0
+  url: https://creativecommons.org/licenses/by-nc/4.0/
+  commercial: false
+access: open
+links:
+  homepage: https://github.com/sebastianstarke/AI4Animation
+  download: https://starke-consult.de/AI4Animation/SIGGRAPH_2018/MotionCapture.zip
+  code: https://github.com/sebastianstarke/AI4Animation/tree/master/AI4Animation/SIGGRAPH_2018
+  paper: https://github.com/sebastianstarke/AI4Animation/blob/master/Media/SIGGRAPH_2018/Paper.pdf
+paper:
+  title: Mode-Adaptive Neural Networks for Quadruped Motion Control
+  venue: SIGGRAPH 2018
+citation: |
+  @article{zhang2018mann,
+    author = {Zhang, He and Starke, Sebastian and Komura, Taku and Saito, Jun},
+    title = {Mode-Adaptive Neural Networks for Quadruped Motion Control},
+    journal = {ACM Transactions on Graphics},
+    volume = {37},
+    number = {4},
+    pages = {145},
+    year = {2018}
+  }
+notes: >-
+  Unstructured capture of a dog on flat ground: walk, pace, trot and canter plus sitting, standing, idling, lying and
+  jumping. The raw BVH carries no labels; the paper's motion labels are assigned in the AI4Animation Unity tools.

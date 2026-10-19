@@ -1,0 +1,36 @@
+dataset: humoto
+note: the public 10 % subset; the Mixamo character with every object it handles, from the released glTF
+quality:
+  from:
+  - {reader: 'scene', source: 'mnt_raw', glob: 'HUMOTO/humoto/*/*.glb'}
+items:
+- source: humoto
+  scene: baking_with_spatula_mixing_bowl_and_scooping_to_tray-244/baking_with_spatula_mixing_bowl_and_scooping_to_tray-244.glb
+  label: baking with a spatula
+- source: humoto
+  scene: flipping_pancake_in_frying_pan_with_turner-998/flipping_pancake_in_frying_pan_with_turner-998.glb
+  label: flipping a pancake
+- source: humoto
+  scene: lifting_and_putting_down_dining_chair-368/lifting_and_putting_down_dining_chair-368.glb
+  label: lifting a dining chair
+- source: humoto
+  scene: step_on_step_stool_and_transfer_woven_basket_from_top_shelf_to_ground-267/step_on_step_stool_and_transfer_woven_basket_from_top_shelf_to_ground-267.glb
+  label: step stool and basket
+- source: humoto
+  scene: drag_floor_lamp_walk_back-386/drag_floor_lamp_walk_back-386.glb
+  label: dragging a floor lamp
+- source: humoto
+  scene: taking_off_clothes_and_hanging_on_rack-645/taking_off_clothes_and_hanging_on_rack-645.glb
+  label: hanging clothes on a rack
+- source: humoto
+  scene: sit_on_dining_chair_and_drink_from_mug_and_shake_mug-654/sit_on_dining_chair_and_drink_from_mug_and_shake_mug-654.glb
+  label: drinking on a chair
+- source: humoto
+  scene: chopping_and_slitting_with_knife-706/chopping_and_slitting_with_knife-706.glb
+  label: chopping with a knife
+- source: humoto
+  scene: lifting_and_lowering_utility_cart_with_both_hands-397/lifting_and_lowering_utility_cart_with_both_hands-397.glb
+  label: lifting a utility cart
+- source: humoto
+  scene: getting_off_bed_and_touch_table_lamp_then_grasp_clothes_from_clothes_rack-752/getting_off_bed_and_touch_table_lamp_then_grasp_clothes_from_clothes_rack-752.glb
+  label: getting off the bed

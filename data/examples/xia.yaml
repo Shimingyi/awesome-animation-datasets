@@ -1,0 +1,39 @@
+dataset: xia
+pick:
+  vault: xia
+  collection: mocap_xia_emily
+  n: 10
+quality:
+  from:
+  - {reader: 'vault', glob: 'xia/xia_raw/*'}
+items:
+- source: vault
+  clip: xia/mocap_xia_emily/angry_05_000
+  label: angry 05 000
+- source: vault
+  clip: xia/mocap_xia_emily/angry_08_001
+  label: angry 08 001
+- source: vault
+  clip: xia/mocap_xia_emily/childlike_09_000
+  label: childlike 09 000
+- source: vault
+  clip: xia/mocap_xia_emily/childlike_21_001
+  label: childlike 21 001
+- source: vault
+  clip: xia/mocap_xia_emily/depressed_12_000
+  label: depressed 12 000
+- source: vault
+  clip: xia/mocap_xia_emily/neutral_11_002
+  label: neutral 11 002
+- source: vault
+  clip: xia/mocap_xia_emily/old_19_001
+  label: old 19 001
+- source: vault
+  clip: xia/mocap_xia_emily/proud_03_001
+  label: proud 03 001
+- source: vault
+  clip: xia/mocap_xia_emily/sexy_22_001
+  label: sexy 22 001
+- source: vault
+  clip: xia/mocap_xia_emily/strutting_04_000
+  label: strutting 04 000

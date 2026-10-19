@@ -1,0 +1,45 @@
+id: bones-seed
+name: BONES-SEED
+full_name: 'BONES-SEED: Skeletal Everyday Embodiment Dataset'
+good_for: "Huge, varied and clean everyday motion from 500+ performers: pretraining and motion matching."
+year: 2026
+released: 2026-03
+subject: human-body
+content:
+  locomotion: 0.47
+  daily-activity: 0.25
+  dance: 0.13
+  gesture: 0.11
+  sports: 0.03
+  combat: 0.02
+content_note: measured from the release's metadata (move category and movement type), weighted by duration
+tags: [locomotion, gesture, dance, object-manipulation, daily-activity, sports, martial-arts, text-annotated,
+       action-labels]
+capture: optical-mocap
+representation: [bvh, csv]
+skeleton:
+  joints: 77
+  rig: NVIDIA SOMA (plus Unitree G1 joint trajectories)
+fps: 120
+stats:
+  hours: 144.2
+  clips: 71132
+  subjects: 522
+stats_note: >-
+  71,132 original motions by 522 actors (official); the release also holds 71,088 mirrored copies, and the official
+  ~288 h includes them. The hours of the originals are from the BVH release used by DATA.md
+annotations: [text, action-labels]
+license:
+  name: BONES-SEED Dataset License Agreement
+  url: https://bones.studio/info/seed-license
+  commercial: false
+access: gated
+links:
+  homepage: https://bones.studio/datasets/seed
+  download: https://huggingface.co/datasets/bones-studio/seed
+  code: https://github.com/bones-studio/seed-viewer
+notes: >-
+  Vicon-captured everyday, locomotion, communication, dance, gaming and sport motions with up to six text
+  descriptions per motion, released on the NVIDIA SOMA body model and retargeted to the Unitree G1 humanoid. The
+  licence covers academic non-commercial research and startups under USD 1M annual revenue, and forbids
+  redistribution.

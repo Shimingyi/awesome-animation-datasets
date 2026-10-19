@@ -1,0 +1,66 @@
+dataset: interact
+note: rendered on the Geno character (Geno InterAct multi retarget)
+quality:
+  from:
+  - {reader: 'vault', glob: 'InterAct/bvh/*'}
+items:
+- source: codec_assets
+  bvh:
+  - clips/two-people-take-051-p1.bvh
+  - clips/two-people-take-051-p2.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Take 051
+- source: codec_assets
+  bvh:
+  - clips/two-people-take-054-p1.bvh
+  - clips/two-people-take-054-p2.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Take 054
+- source: codec_assets
+  bvh:
+  - clips/two-people-take-065-p1.bvh
+  - clips/two-people-take-065-p2.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Take 065
+- source: codec_assets
+  bvh:
+  - clips/two-people-take-223-p1.bvh
+  - clips/two-people-take-223-p2.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Take 223
+- source: codec_assets
+  bvh:
+  - clips/two-people-take-227-p1.bvh
+  - clips/two-people-take-227-p2.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Take 227
+- source: codec_assets
+  bvh:
+  - clips/two-people-take-043-p1.bvh
+  - clips/two-people-take-043-p2.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Take 043
+- source: codec_assets
+  bvh:
+  - clips/two-people-take-046-p1.bvh
+  - clips/two-people-take-046-p2.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Take 046
+- source: codec_assets
+  bvh:
+  - clips/two-people-take-101-p1.bvh
+  - clips/two-people-take-101-p2.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Take 101
+- source: codec_assets
+  bvh:
+  - clips/two-people-take-104-p1.bvh
+  - clips/two-people-take-104-p2.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Take 104
+- source: codec_assets
+  bvh:
+  - clips/two-people-take-124-p1.bvh
+  - clips/two-people-take-124-p2.bvh
+  mesh: meshes/a673559ab3a3.glb
+  label: Take 124

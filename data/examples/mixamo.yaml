@@ -1,0 +1,35 @@
+dataset: mixamo
+pick:
+  vault: mixamo
+  n: 10
+items:
+- source: vault
+  clip: mixamo/raw_bvh/Armada To Esquiva
+  label: Armada To Esquiva
+- source: vault
+  clip: mixamo/raw_bvh/Big Body Blow
+  label: Big Body Blow
+- source: vault
+  clip: mixamo/raw_bvh/Booty Hip Hop Dance
+  label: Booty Hip Hop Dance
+- source: vault
+  clip: mixamo/raw_bvh/Death
+  label: Death
+- source: vault
+  clip: mixamo/raw_bvh/Goalkeeper Body Block (2)
+  label: Goalkeeper Body Block (2)
+- source: vault
+  clip: mixamo/raw_bvh/Hook
+  label: Hook
+- source: vault
+  clip: mixamo/raw_bvh/Knee Jab
+  label: Knee Jab
+- source: vault
+  clip: mixamo/raw_bvh/Mutant Swiping
+  label: Mutant Swiping
+- source: vault
+  clip: mixamo/raw_bvh/Toss Grenade
+  label: Toss Grenade
+- source: vault
+  clip: mixamo/raw_bvh/Zombie Neck Bite
+  label: Zombie Neck Bite

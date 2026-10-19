@@ -1,0 +1,52 @@
+id: human36m
+name: Human3.6M
+full_name: "Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing in Natural Environments"
+good_for: "The classic benchmark for 3D human pose estimation from video, and short-term motion prediction."
+year: 2014
+released: 2014-07
+subject: human-body
+content:
+  daily-activity: 0.8
+  locomotion: 0.2
+content_note: "from the 15 scenarios (walking, walking a dog and walking together are locomotion, the rest everyday activities), not measured"
+tags: [daily-activity, locomotion, sitting, action-labels]
+capture: optical-mocap
+representation: [cdf, video]
+skeleton:
+  joints: 32
+  rig: Human3.6M (Vicon)
+fps: 50
+stats:
+  hours: 2.9
+  clips: 210
+  subjects: 7
+stats_note: >-
+  our count of the released 3D data: 210 takes (15 scenarios, 2 each) of the 7 subjects with public 3D poses (S1, S5,
+  S6, S7, S8, S9, S11), 2.93 h at 50 fps; the authors' 3.6 M poses count each frame once per camera (4 views) and include
+  the 4 test subjects whose 3D poses are withheld
+annotations: [video, action-labels, body-part-labels, depth, laser-scans]
+license:
+  name: Human3.6M academic licence (commercial licence on request)
+  url: http://vision.imar.ro/human3.6m/eula.php
+  commercial: false
+access: registration
+links:
+  homepage: http://vision.imar.ro/human3.6m/description.php
+  paper: https://ieeexplore.ieee.org/document/6682899
+paper:
+  title: "Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing in Natural Environments"
+  venue: TPAMI 2014
+citation: |
+  @article{h36m_pami,
+    author = {Ionescu, Catalin and Papava, Dragos and Olaru, Vlad and Sminchisescu, Cristian},
+    title = {Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing in Natural Environments},
+    journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    volume = {36},
+    number = {7},
+    pages = {1325-1339},
+    year = {2014}
+  }
+notes: >-
+  Eleven actors in fifteen everyday scenarios (directions, discussion, eating, greeting, phoning, posing, purchases,
+  sitting, smoking, photo, waiting, walking ...) captured with Vicon and four synchronized 50 Hz video cameras, plus
+  time-of-flight depth and body scans. Downloading needs an account; the data is not in our examples yet.

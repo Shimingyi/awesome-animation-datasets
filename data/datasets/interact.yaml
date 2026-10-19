@@ -1,0 +1,62 @@
+id: interact
+name: InterAct
+full_name: 'InterAct: two-person interaction dataset'
+good_for: "Two-person conversation and interaction with audio and face: multi-character generation."
+year: 2025
+released: 2025-09
+subject: human-body
+content: interaction
+tags: [interaction, speech, gesture, emotion, daily-activity]
+capture: optical-mocap
+representation: [bvh, blendshapes, wav]
+skeleton:
+  joints: 60
+  rig: Vicon body with fingers (InterAct BVH)
+fps: 30
+stats:
+  hours: 10
+  clips: 241
+  subjects: 7
+stats_note: >-
+  241 two-person sequences (482 per-actor BVH files) by 7 actors, about 1.2 min each; the 10 h in the paper counts both
+  actors. Captured at 120 fps with a 28-camera Vicon system; the release is resampled to 30 fps.
+annotations: [audio, face, emotion, text]
+license:
+  name: CC BY-NC-SA 4.0
+  url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  commercial: false
+access: open
+links:
+  homepage: https://hku-cg.github.io/interact/
+  download: https://huggingface.co/datasets/leohocs/interact
+  paper: https://arxiv.org/abs/2509.05747
+paper:
+  title: 'InterAct: A Large-Scale Dataset of Dynamic, Expressive and Interactive Activities between Two People in Daily Scenarios'
+  venue: SCA 2025 (PACMCGIT)
+citation: |
+  @article{ho2025interact,
+    title={InterAct: A Large-Scale Dataset of Dynamic, Expressive and Interactive Activities between Two People in Daily Scenarios},
+    author={Ho, Leo and Huang, Yinghao and Qin, Dafei and Shi, Mingyi and Tse, Wangpok and Liu, Wei and Yamagishi, Junichi and Komura, Taku},
+    journal={Proceedings of the ACM on Computer Graphics and Interactive Techniques},
+    volume={8},
+    number={4},
+    pages={1--27},
+    year={2025},
+    publisher={ACM New York, NY},
+    doi={10.1145/3747871}
+  }
+variants:
+  - name: InterAct retargeted BVH
+    url: https://huggingface.co/datasets/leohocs/interact
+    note: bvhs_retarget folder of the same repository, retargeted onto the rigs of the bundled Blender render scene
+  - name: Geno InterAct single
+    url: https://theorangeduck.com/media/uploads/Geno/interact-retarget/bvh_single.zip
+    note: >-
+      retargeted onto Daniel Holden's Geno character, each actor scaled to fit Geno, so the two actors no longer line up
+  - name: Geno InterAct multi
+    url: https://theorangeduck.com/media/uploads/Geno/interact-retarget/bvh_multi.zip
+    note: retargeted onto Daniel Holden's Geno character without rescaling, so the two actors' interaction is preserved
+notes: >-
+  Two actors with assigned relationships and emotions act out about one-minute everyday scenarios, captured with body
+  and finger mocap, iPhone facial blendshapes and per-actor speech audio. It targets speech-driven two-person body and
+  face generation.

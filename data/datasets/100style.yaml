@@ -1,0 +1,60 @@
+id: 100style
+name: 100STYLE
+full_name: 100STYLE Dataset
+good_for: "Style-conditioned locomotion and style transfer: 100 walking / running styles from one actor."
+year: 2022
+released: 2022-01
+subject: human-body
+content:
+  locomotion: 0.96
+  daily-activity: 0.04
+content_note: every style is performed as forward / backward / sideways / turning walks and runs plus an idle take
+tags: [locomotion, style, idle]
+capture: inertial-mocap
+representation: [bvh]
+skeleton:
+  joints: 23
+  rig: Xsens 28-bone skeleton (23 joints plus end sites)
+fps: 60
+stats:
+  hours: 22.1
+  clips: 810
+  subjects: 1
+stats_note: >-
+  100 locomotion styles by one actor, over 4 million frames according to the homepage; hours and clip count are counted
+  from the BVH release used by DATA.md. Each style has forward, backward and sidestep walking and running, idling and
+  transitions.
+annotations: [style-labels]
+license:
+  name: CC BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  commercial: true
+access: open
+links:
+  homepage: https://www.ianxmason.com/100style/
+  download: https://zenodo.org/record/8127870
+  paper: https://arxiv.org/abs/2201.04439
+paper:
+  title: Real-Time Style Modelling of Human Locomotion via Feature-Wise Transformations and Local Motion Phases
+  venue: I3D 2022 (PACMCGIT)
+citation: |
+  @article{mason2022local,
+    author = {Mason, Ian and Starke, Sebastian and Komura, Taku},
+    title = {Real-Time Style Modelling of Human Locomotion via Feature-Wise Transformations and Local Motion Phases},
+    year = {2022},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {5},
+    number = {1},
+    doi = {10.1145/3522618},
+    journal = {Proceedings of the ACM on Computer Graphics and Interactive Techniques},
+    month = {may},
+    articleno = {6}
+  }
+variants:
+  - name: Geno 100STYLE (retargeted)
+    url: https://theorangeduck.com/media/uploads/Geno/100style-retarget/bvh.zip
+    note: retargeted onto Daniel Holden's Geno character (https://github.com/orangeduck/100style-retarget)
+notes: >-
+  Unedited Xsens captures of one actor performing the same locomotion set in 100 styles, from animal impressions to
+  emotional and character walks. Hosted on Zenodo with raw BVH and processed, labelled data.
