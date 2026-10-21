@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19",
+ "generated": "2026-10-20",
  "fps": 30.0,
  "windows": 100,
  "thresholds": {
@@ -291,6 +291,37 @@
     "selfpen_frac": 0.0
    },
    "flags": []
+  },
+  "both57m": {
+   "clips": 99,
+   "median": {
+    "phys_residual_g": 0.007,
+    "phys_bad_frac": 0.0,
+    "A1_pull_frac": 0.0,
+    "float_frac": 0.571,
+    "floor_drift_cm": 1.5,
+    "skate_mm": 1.54,
+    "penetrate_cm": 0.09,
+    "jitter": 44.6,
+    "hf_ratio": 0.1444,
+    "pops_per_min": 0.0,
+    "rom_bad_frac": 0.0,
+    "selfpen_frac": 0.0
+   },
+   "share": {
+    "phys_residual_g": 0.374,
+    "float_frac": 0.7,
+    "skate_mm": 0.01,
+    "hf_ratio": 0.616,
+    "floor_drift_cm": 0.202,
+    "rom_bad_frac": 0.152,
+    "selfpen_frac": 0.222
+   },
+   "flags": [
+    "phys_residual_g",
+    "float_frac",
+    "hf_ratio"
+   ]
   },
   "choice": {
    "clips": 100,

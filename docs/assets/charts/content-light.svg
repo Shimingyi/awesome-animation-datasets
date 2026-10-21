@@ -1,45 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360" role="img" aria-label="Hours of motion by type" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
 <rect x="0.5" y="0.5" width="559" height="359" fill="#ffffff" stroke="#d1d9e0"/>
 <text x="28" y="40" font-size="16" font-weight="600" fill="#1f2328">Hours of motion by type</text>
-<text x="28" y="62" font-size="12.5" fill="#59636e">45 datasets above our quality bar · split by measured content</text>
+<text x="28" y="62" font-size="12.5" fill="#59636e">44 datasets above our quality bar · split by measured content</text>
 <text x="28" y="92.0" dy="0.35em" font-size="13" fill="#1f2328">Daily activities &amp; objects</text>
 <rect x="178" y="88.0" width="250" height="8" rx="4.0" fill="#eff2f5"/>
 <rect x="178" y="88.0" width="250.00" height="8" rx="4.0" fill="#2a78d6"/>
-<text x="480" y="92.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">899 h</text>
+<text x="480" y="92.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">898 h</text>
 <text x="532" y="92.0" dy="0.35em" text-anchor="end" font-size="12" fill="#59636e">38 %</text>
 <text x="28" y="118.0" dy="0.35em" font-size="13" fill="#1f2328">Gesture &amp; speech</text>
 <rect x="178" y="114.0" width="250" height="8" rx="4.0" fill="#eff2f5"/>
-<rect x="178" y="114.0" width="126.04" height="8" rx="4.0" fill="#2a78d6"/>
+<rect x="178" y="114.0" width="126.15" height="8" rx="4.0" fill="#2a78d6"/>
 <text x="480" y="118.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">453 h</text>
 <text x="532" y="118.0" dy="0.35em" text-anchor="end" font-size="12" fill="#59636e">19 %</text>
 <text x="28" y="144.0" dy="0.35em" font-size="13" fill="#1f2328">Locomotion</text>
 <rect x="178" y="140.0" width="250" height="8" rx="4.0" fill="#eff2f5"/>
-<rect x="178" y="140.0" width="105.62" height="8" rx="4.0" fill="#2a78d6"/>
-<text x="480" y="144.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">380 h</text>
+<rect x="178" y="140.0" width="104.64" height="8" rx="4.0" fill="#2a78d6"/>
+<text x="480" y="144.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">376 h</text>
 <text x="532" y="144.0" dy="0.35em" text-anchor="end" font-size="12" fill="#59636e">16 %</text>
 <text x="28" y="170.0" dy="0.35em" font-size="13" fill="#1f2328">Interaction</text>
 <rect x="178" y="166.0" width="250" height="8" rx="4.0" fill="#eff2f5"/>
-<rect x="178" y="166.0" width="54.90" height="8" rx="4.0" fill="#2a78d6"/>
+<rect x="178" y="166.0" width="54.96" height="8" rx="4.0" fill="#2a78d6"/>
 <text x="480" y="170.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">197 h</text>
-<text x="532" y="170.0" dy="0.35em" text-anchor="end" font-size="12" fill="#59636e">8.3 %</text>
+<text x="532" y="170.0" dy="0.35em" text-anchor="end" font-size="12" fill="#59636e">8.4 %</text>
 <text x="28" y="196.0" dy="0.35em" font-size="13" fill="#1f2328">Dance</text>
 <rect x="178" y="192.0" width="250" height="8" rx="4.0" fill="#eff2f5"/>
-<rect x="178" y="192.0" width="22.95" height="8" rx="4.0" fill="#2a78d6"/>
-<text x="480" y="196.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">83 h</text>
+<rect x="178" y="192.0" width="22.91" height="8" rx="4.0" fill="#2a78d6"/>
+<text x="480" y="196.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">82 h</text>
 <text x="532" y="196.0" dy="0.35em" text-anchor="end" font-size="12" fill="#59636e">3.5 %</text>
 <text x="28" y="222.0" dy="0.35em" font-size="13" fill="#1f2328">Sports &amp; exercise</text>
 <rect x="178" y="218.0" width="250" height="8" rx="4.0" fill="#eff2f5"/>
-<rect x="178" y="218.0" width="15.60" height="8" rx="4.0" fill="#2a78d6"/>
+<rect x="178" y="218.0" width="15.49" height="8" rx="4.0" fill="#2a78d6"/>
 <text x="480" y="222.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">56 h</text>
 <text x="532" y="222.0" dy="0.35em" text-anchor="end" font-size="12" fill="#59636e">2.4 %</text>
 <text x="28" y="248.0" dy="0.35em" font-size="13" fill="#1f2328">Combat &amp; action</text>
 <rect x="178" y="244.0" width="250" height="8" rx="4.0" fill="#eff2f5"/>
 <rect x="178" y="244.0" width="8.00" height="8" rx="4.0" fill="#2a78d6"/>
-<text x="480" y="248.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">12 h</text>
+<text x="480" y="248.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">11 h</text>
 <text x="532" y="248.0" dy="0.35em" text-anchor="end" font-size="12" fill="#59636e">0.5 %</text>
 <text x="28" y="274.0" dy="0.35em" font-size="13" fill="#1f2328">Unclassified</text>
 <rect x="178" y="270.0" width="250" height="8" rx="4.0" fill="#eff2f5"/>
-<rect x="178" y="270.0" width="79.82" height="8" rx="4.0" fill="#2a78d6"/>
-<text x="480" y="274.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">287 h</text>
+<rect x="178" y="270.0" width="78.44" height="8" rx="4.0" fill="#2a78d6"/>
+<text x="480" y="274.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">282 h</text>
 <text x="532" y="274.0" dy="0.35em" text-anchor="end" font-size="12" fill="#59636e">12 %</text>
 </svg>

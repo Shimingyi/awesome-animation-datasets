@@ -1,0 +1,54 @@
+id: both57m
+name: BOTH57M
+full_name: 'BOTH57M: body and two-hand motion with text (BOTH2Hands)'
+good_for: "Two-hand motion with finger-level text, on a moving body: hand generation from text and body dynamics."
+year: 2023
+released: 2023-12
+subject: human-body
+content: gesture
+content_note: hand gestures from the Dictionary of Gestures plus designed movements (paper); not broken down further
+tags: [gesture, daily-activity, text-annotated]
+capture: video
+representation: [smplh]
+skeleton:
+  joints: 52
+  rig: SMPL-H (22 body + 30 hand joints)
+fps: 30
+stats:
+  hours: 4.23
+  clips: 3229
+stats_note: >-
+  Counted from the release (python -m tools.examples.both57m): 3,229 clips of up to 5 s, 4.23 h at 30 fps, all with
+  whole-body text and 1,815 with hand text. The paper reports 8.31 h in 1,384 sequences; the 57.4M
+  frames of the name count all 32 camera views.
+annotations: [text, video]
+license:
+  name: CC BY-NC-SA 4.0 + licence agreement
+  url: https://github.com/Godheritage/BOTH2Hands/blob/main/readme/license.pdf
+  commercial: false
+access: gated
+links:
+  homepage: https://godheritage.github.io/BOTH2Hands/
+  code: https://github.com/Godheritage/BOTH2Hands
+  paper: https://arxiv.org/abs/2312.07937
+paper:
+  title: 'BOTH2Hands: Inferring 3D Hands from Both Text Prompts and Body Dynamics'
+  venue: CVPR 2024
+citation: |
+  @inproceedings{zhang24both,
+      title = {BOTH2Hands: Inferring 3D Hands from Both Text Prompts and Body Dynamics},
+      author = {Zhang, Wenqian and Huang, Molin and Zhou, Yuxuan and Zhang, Juze and Yu, Jingyi and Wang, Jingya and Xu, Lan},
+      booktitle = {Conference on Computer Vision and Pattern Recognition ({CVPR})},
+      year = {2024},
+  }
+notes: >-
+  Body and two-hand motion solved as SMPL-H from a 32-camera markerless capture (ViTPose body and MediaPipe hand
+  keypoints), with separate body and finger-level hand descriptions by human annotators. Access needs a licence form
+  signed by a supervisor; the archive is password protected.
+review:
+  verdict: caution
+  issues: [root-drift, jitter]
+  note: >-
+    Reconstructed from markerless multi-view video: the feet float above the floor and the motion jitters (our red
+    flags: floating in 70% and jitter in 62% of windows, plus physics).
+  date: 2026-10-20

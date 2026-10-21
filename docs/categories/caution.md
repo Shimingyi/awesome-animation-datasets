@@ -9,7 +9,9 @@ Datasets whose motion quality fell short when we inspected it (jitter, foot skat
 | [**MotionMillion**](../categories/caution.md#motionmillion)<br><sub>Very large text-annotated motion corpus for zero-shot text-to-motion; quality varies (video mocap).</sub> | 988 | 685k | features | [home](https://huggingface.co/datasets/InternRobotics/MotionMillion)<br>[data](https://huggingface.co/datasets/InternRobotics/MotionMillion) | [▶](https://myshi-motion-viewer.static.hf.space/#motionmillion/motiongv-folder1-061406) | <a href="https://myshi-motion-viewer.static.hf.space/#motionmillion/motiongv-folder1-061406"><img src="../assets/thumbs/motionmillion.webp" width="607" height="200" alt="MotionMillion examples"></a> |
 | [**Motion-X**](../categories/caution.md#motion-x)<br><sub>Very large whole-body SMPL-X with text, mostly from video: coverage over quality.</sub> | 144 | 81k | SMPL-X | [home](https://motion-x-dataset.github.io)<br>[code](https://github.com/IDEA-Research/Motion-X)<br>[paper](https://arxiv.org/abs/2307.00818) | [▶](https://myshi-motion-viewer.static.hf.space/#motion-x/badminton-underswing-clip-1) | <a href="https://myshi-motion-viewer.static.hf.space/#motion-x/badminton-underswing-clip-1"><img src="../assets/thumbs/motion-x.webp" width="607" height="200" alt="Motion-X examples"></a> |
 | [**AnimationGPT**](../categories/caution.md#animationgpt)<br><sub>Game-style combat moves with text: text-to-motion for fighting and action games.</sub> | 26.4 | 15k | joints<br>features | [home](https://github.com/fyyakaxyy/AnimationGPT)<br>[data](https://drive.google.com/file/d/148AwoovJrnh4F0q_HbU83WCWwFooLSZj/view?usp=drive_link)<br>[code](https://github.com/fyyakaxyy/AnimationGPT) | [▶](https://myshi-motion-viewer.static.hf.space/#animationgpt/cmp000081) | <a href="https://myshi-motion-viewer.static.hf.space/#animationgpt/cmp000081"><img src="../assets/thumbs/animationgpt.webp" width="607" height="200" alt="AnimationGPT examples"></a> |
+| [**KIT-ML**](../categories/caution.md#kit-ml)<br><sub>Text-to-motion benchmark with natural-language descriptions.</sub> | 11.2 | 3.9k | c3d<br>mmm | [home](https://motion-annotation.humanoids.kit.edu/dataset/)<br>[data](https://motion-annotation.humanoids.kit.edu/downloads/4/)<br>[paper](https://arxiv.org/abs/1607.03827) | [▶](https://myshi-motion-viewer.static.hf.space/#kit-ml/00014) | <a href="https://myshi-motion-viewer.static.hf.space/#kit-ml/00014"><img src="../assets/thumbs/kit-ml.webp" width="607" height="200" alt="KIT-ML examples"></a> |
 | [**AIST++**](../categories/caution.md#aistpp)<br><sub>Street-dance motion paired with music in 10 genres: the standard benchmark for music-to-dance generation.</sub> | 5.2 | 1.4k | SMPL<br>keypoints<br>pkl | [home](https://google.github.io/aistplusplus_dataset/)<br>[data](https://github.com/google/aistplusplus_dataset/releases/tag/v1.0)<br>[code](https://github.com/google/aistplusplus_api)<br>[paper](https://arxiv.org/abs/2101.08779) | [▶](https://myshi-motion-viewer.static.hf.space/#aistpp/breaking-choreography) | <a href="https://myshi-motion-viewer.static.hf.space/#aistpp/breaking-choreography"><img src="../assets/thumbs/aistpp.webp" width="607" height="200" alt="AIST++ examples"></a> |
+| [**BOTH57M**](../categories/caution.md#both57m)<br><sub>Two-hand motion with finger-level text, on a moving body: hand generation from text and body dynamics.</sub> | 4.2 | 3.2k | SMPL-H | [home](https://godheritage.github.io/BOTH2Hands/)<br>[code](https://github.com/Godheritage/BOTH2Hands)<br>[paper](https://arxiv.org/abs/2312.07937) | [▶](https://myshi-motion-viewer.static.hf.space/#both57m/clapping-for-attention) | <a href="https://myshi-motion-viewer.static.hf.space/#both57m/clapping-for-attention"><img src="../assets/thumbs/both57m.webp" width="607" height="200" alt="BOTH57M examples"></a> |
 | [**PHUMA**](../categories/caution.md#phuma)<br><sub>Large physics-filtered human motion retargeted to Unitree G1 and H1-2: humanoid imitation learning.</sub> | 73.0¹ | 76k | npy | [home](https://davian-robotics.github.io/PHUMA/)<br>[data](https://huggingface.co/datasets/DAVIAN-Robotics/PHUMA)<br>[code](https://github.com/DAVIAN-Robotics/PHUMA)<br>[paper](https://arxiv.org/abs/2510.26236) | [▶](https://myshi-motion-viewer.static.hf.space/#phuma/g1-amass-humanml3d-014612) | <a href="https://myshi-motion-viewer.static.hf.space/#phuma/g1-amass-humanml3d-014612"><img src="../assets/thumbs/phuma.webp" width="607" height="200" alt="PHUMA examples"></a> |
 
 ## MotionMillion
@@ -113,6 +115,55 @@ Combat animations taken from game assets (FBX), retargeted to SMPL and annotated
 
 </details>
 
+## KIT-ML
+
+<a href="https://myshi-motion-viewer.static.hf.space/#kit-ml/00014"><img src="../assets/thumbs/kit-ml.webp" width="486" height="160" alt="KIT-ML examples"></a>
+
+**KIT Motion-Language Dataset** (2016)
+
+*Good for:* Text-to-motion benchmark with natural-language descriptions.
+
+| | |
+|---|---|
+| Size | 11.2 h · 3,911 clips |
+| Motion | unclassified 47 %, locomotion 35 %, daily activities & objects 9 %, sports & exercise 4 %, dance 2 %, combat & action 2 %, gesture & speech 1 % (measured from the first text caption of each clip, weighted by duration) · tags: text-annotated, locomotion, daily-activity, sports, gesture, dance |
+| Capture | optical-mocap |
+| Data | c3d, mmm · Master Motor Map (MMM) |
+| Annotations | text |
+| Licence | ❔ [Not specified](https://motion-annotation.humanoids.kit.edu/dataset/) · access: open |
+| Links | [homepage](https://motion-annotation.humanoids.kit.edu/dataset/) · [download](https://motion-annotation.humanoids.kit.edu/downloads/4/) · [paper](https://arxiv.org/abs/1607.03827) |
+| Paper | The KIT Motion-Language Dataset (Big Data 2016) |
+| Quality |  Use with caution — low frame rate, jitter / high-frequency noise, foot skating. Low frame rate: the release most work uses (processed like HumanML3D) is 12.5 fps. The motion jitters and the feet slide; our red flags agree on foot sliding, floating and physics. |
+| Viewer | [10 examples](https://myshi-motion-viewer.static.hf.space/#kit-ml/00014) |
+
+<sub>Size: 3,911 motions with 6,278 English annotations in the paper (Oct. 2016 release); the latest release (June 2017) has 6,353 annotations.</sub>
+
+Optical mocap from the KIT Whole-Body Human Motion Database and the CMU Graphics Lab database, paired with crowd-sourced natural-language descriptions. Most of its motions also appear in AMASS (KIT and CMU subsets).
+
+Other releases of the same motion:
+
+- [KIT-ML (HumanML3D processing)](https://github.com/EricGuo5513/HumanML3D) — 21-joint positions and features at 12.5 fps, processed like HumanML3D
+
+<details><summary>BibTeX</summary>
+
+```bibtex
+@article{Plappert2016,
+  author = {Matthias Plappert and Christian Mandery and Tamim Asfour},
+  title = {The {KIT} Motion-Language Dataset},
+  journal = {Big Data},
+  publisher = {Mary Ann Liebert Inc},
+  year = 2016,
+  month = {dec},
+  volume = {4},
+  number = {4},
+  pages = {236--252},
+  url = {http://dx.doi.org/10.1089/big.2016.0028},
+  doi = {10.1089/big.2016.0028},
+}
+```
+
+</details>
+
 ## AIST++
 
 <a href="https://myshi-motion-viewer.static.hf.space/#aistpp/breaking-choreography"><img src="../assets/thumbs/aistpp.webp" width="486" height="160" alt="AIST++ examples"></a>
@@ -146,6 +197,44 @@ Reconstructed without markers from the 9-camera videos of the AIST Dance Video D
   author={Li, Ruilong and Yang, Shan and Ross, David A. and Kanazawa, Angjoo},
   booktitle={ICCV},
   year={2021}
+}
+```
+
+</details>
+
+## BOTH57M
+
+<a href="https://myshi-motion-viewer.static.hf.space/#both57m/clapping-for-attention"><img src="../assets/thumbs/both57m.webp" width="486" height="160" alt="BOTH57M examples"></a>
+
+**BOTH57M: body and two-hand motion with text (BOTH2Hands)** (2023)
+
+*Good for:* Two-hand motion with finger-level text, on a moving body: hand generation from text and body dynamics.
+
+| | |
+|---|---|
+| Size | 4.2 h · 3,229 clips |
+| Motion | Gesture & speech (hand gestures from the Dictionary of Gestures plus designed movements (paper); not broken down further) · tags: gesture, daily-activity, text-annotated |
+| Capture | video |
+| Data | smplh · 52 joints · SMPL-H (22 body + 30 hand joints) · 30 fps |
+| Annotations | text, video |
+| Licence | ❌ [CC BY-NC-SA 4.0 + licence agreement](https://github.com/Godheritage/BOTH2Hands/blob/main/readme/license.pdf) · access: gated |
+| Links | [homepage](https://godheritage.github.io/BOTH2Hands/) · [code](https://github.com/Godheritage/BOTH2Hands) · [paper](https://arxiv.org/abs/2312.07937) |
+| Paper | BOTH2Hands: Inferring 3D Hands from Both Text Prompts and Body Dynamics (CVPR 2024) |
+| Quality |  Use with caution — root drift / floating, jitter / high-frequency noise. Reconstructed from markerless multi-view video: the feet float above the floor and the motion jitters (our red flags: floating in 70% and jitter in 62% of windows, plus physics). |
+| Viewer | [10 examples](https://myshi-motion-viewer.static.hf.space/#both57m/clapping-for-attention) |
+
+<sub>Size: Counted from the release (python -m tools.examples.both57m): 3,229 clips of up to 5 s, 4.23 h at 30 fps, all with whole-body text and 1,815 with hand text. The paper reports 8.31 h in 1,384 sequences; the 57.4M frames of the name count all 32 camera views.</sub>
+
+Body and two-hand motion solved as SMPL-H from a 32-camera markerless capture (ViTPose body and MediaPipe hand keypoints), with separate body and finger-level hand descriptions by human annotators. Access needs a licence form signed by a supervisor; the archive is password protected.
+
+<details><summary>BibTeX</summary>
+
+```bibtex
+@inproceedings{zhang24both,
+    title = {BOTH2Hands: Inferring 3D Hands from Both Text Prompts and Body Dynamics},
+    author = {Zhang, Wenqian and Huang, Molin and Zhou, Yuxuan and Zhang, Juze and Yu, Jingyi and Wang, Jingya and Xu, Lan},
+    booktitle = {Conference on Computer Vision and Pattern Recognition ({CVPR})},
+    year = {2024},
 }
 ```
 

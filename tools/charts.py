@@ -47,28 +47,30 @@ def _arc(cx, cy, r0, r1, a0, a1):
             f'A{r0},{r0} 0 {large} 0 {x3:.2f},{y3:.2f} Z')
 
 
-def donut_card(rows, title, subtitle, total_label, theme='light'):
-    """rows: [(label, value)] in the categorical order; zero / unknown values are listed, not drawn"""
+def donut_card(rows, title, subtitle, total_label, theme='light', slots=None):
+    """rows: [(label, value)] in the categorical order; zero / unknown values are listed, not drawn. slots: each row's
+    categorical colour, fixed per entity so a new category does not repaint the others (default: the row order)"""
     t, e = THEMES[theme], html.escape
     total = sum(v for _, v in rows) or 1
+    col = [t["cat"][k] for k in (slots or range(len(rows)))]
     cx, cy, r1, r0, gap = 142, 210, 104, 70, 2.0               # gap: px of surface between segments
     out, a = [], 0.0
     drawn = [(i, v) for i, (_, v) in enumerate(rows) if v > 0]
     for i, v in drawn:
         span = 2 * math.pi * v / total
         if len(drawn) == 1:                                    # one category: a full ring (an arc cannot close on itself)
-            out.append(f'<circle cx="{cx}" cy="{cy}" r="{(r0 + r1) / 2}" fill="none" stroke="{t["cat"][i]}" stroke-width="{r1 - r0}"/>')
+            out.append(f'<circle cx="{cx}" cy="{cy}" r="{(r0 + r1) / 2}" fill="none" stroke="{col[i]}" stroke-width="{r1 - r0}"/>')
             break
         trim = min(span / 2 * 0.9, gap / 2 / r0)             # half the gap at each end, measured on the inner edge
         if span - 2 * trim > 1e-4:
-            out.append(f'<path d="{_arc(cx, cy, r0, r1, a + trim, a + span - trim)}" fill="{t["cat"][i]}"/>')
+            out.append(f'<path d="{_arc(cx, cy, r0, r1, a + trim, a + span - trim)}" fill="{col[i]}"/>')
         a += span
     out.append(f'<text x="{cx}" y="{cy - 2}" text-anchor="middle" font-size="26" font-weight="600" fill="{t["ink"]}">{e(total_label)}</text>')
     out.append(f'<text x="{cx}" y="{cy + 20}" text-anchor="middle" font-size="12" fill="{t["ink2"]}">hours of motion</text>')
     lx, ly, step = 282, 210 - (len(rows) - 1) * 30 / 2, 30     # legend: swatch · name · hours · share, centred on the ring
     for i, (label, v) in enumerate(rows):
         y = round(ly + i * step, 1)
-        out.append(f'<rect x="{lx}" y="{y - 6}" width="12" height="12" rx="3" fill="{t["cat"][i] if v > 0 else t["track"]}"/>')
+        out.append(f'<rect x="{lx}" y="{y - 6}" width="12" height="12" rx="3" fill="{col[i] if v > 0 else t["track"]}"/>')
         out.append(f'<text x="{lx + 20}" y="{y}" dy="0.35em" font-size="13" fill="{t["ink"]}">{e(label)}</text>')
         out.append(f'<text x="{W - 78}" y="{y}" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="{t["ink"]}">{fmt_h(v)}</text>')
         out.append(f'<text x="{W - 28}" y="{y}" dy="0.35em" text-anchor="end" font-size="12" fill="{t["ink2"]}">{e(fmt_pct(v / total)) if v > 0 else "n/a"}</text>')

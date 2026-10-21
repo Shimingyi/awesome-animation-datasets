@@ -347,6 +347,18 @@
   "mocca-gesture/speaker-5-clip-1",
   "mocca-gesture/speaker-5-clip-4"
  ],
+ "both57m": [
+  "both57m/clapping-for-attention",
+  "both57m/waving-hello",
+  "both57m/thumbs-up",
+  "both57m/victory-both-index-fingers-up",
+  "both57m/explosion-fingers-burst-open",
+  "both57m/surprise-hands-over-mouth",
+  "both57m/helpless-thumbs-twiddling",
+  "both57m/triangle-with-thumbs-and-forefingers",
+  "both57m/boredom-flicking-the-other-hand",
+  "both57m/praying"
+ ],
  "bandai-namco": [
   "bandai-namco/dataset-1-bow-musical-001",
   "bandai-namco/dataset-1-guide-active-001",

@@ -1,0 +1,16 @@
+dataset: both57m
+note: SMPL-H body and both hands as released (neutral shape; the release gives no betas), converted by tools/examples/both57m.py
+quality:
+  from:
+  - {reader: 'vault', glob: 'BOTH57M/*'}
+items:
+- {source: vault, clip: BOTH57M/train/0839, label: Clapping for attention}
+- {source: vault, clip: BOTH57M/train/1593, label: Waving hello}
+- {source: vault, clip: BOTH57M/train/0646, label: Thumbs up}
+- {source: vault, clip: BOTH57M/train/2415, label: Victory · both index fingers up}
+- {source: vault, clip: BOTH57M/train/0226, label: Explosion · fingers burst open}
+- {source: vault, clip: BOTH57M/train/2769, label: Surprise · hands over mouth}
+- {source: vault, clip: BOTH57M/train/2286, label: Helpless · thumbs twiddling}
+- {source: vault, clip: BOTH57M/train/3035, label: Triangle with thumbs and forefingers}
+- {source: vault, clip: BOTH57M/train/2431, label: Boredom · flicking the other hand}
+- {source: vault, clip: BOTH57M/train/0633, label: Praying}

@@ -17,7 +17,6 @@ Full-body human motion, one performer or several interacting (mocap, video recon
 | [**100STYLE**](../categories/human-body.md#100style)<br><sub>Style-conditioned locomotion and style transfer: 100 walking / running styles from one actor.</sub> | 22.1 | 810 | bvh | [home](https://www.ianxmason.com/100style/)<br>[data](https://zenodo.org/record/8127870)<br>[paper](https://arxiv.org/abs/2201.04439) | [▶](https://myshi-motion-viewer.static.hf.space/#100style/aeroplane-tr1) | <a href="https://myshi-motion-viewer.static.hf.space/#100style/aeroplane-tr1"><img src="../assets/thumbs/100style.webp" width="607" height="200" alt="100STYLE examples"></a> |
 | [**InterHuman**](../categories/human-body.md#interhuman)<br><sub>Text-to-two-person interaction: daily interactions plus fighting, dance and sports duets.</sub> | 20.9 | 7.8k | SMPL<br>joints | [home](https://tr3e.github.io/intergen-page/)<br>[data](https://drive.google.com/drive/folders/1oyozJ4E7Sqgsr7Q747Na35tWo5CjNYk3?usp=sharing)<br>[code](https://github.com/tr3e/InterGen)<br>[paper](https://arxiv.org/abs/2304.05684) | [▶](https://myshi-motion-viewer.static.hf.space/#interhuman/meet-and-shake-hands) | <a href="https://myshi-motion-viewer.static.hf.space/#interhuman/meet-and-shake-hands"><img src="../assets/thumbs/interhuman.webp" width="607" height="200" alt="InterHuman examples"></a> |
 | [**InterACT++**](../categories/human-body.md#interact-plus-plus)<br><sub>Two-person interaction as SMPL-X bodies: interaction generation with body models.</sub> | 13.5¹ | 811 | SMPL-X<br>npz | [home](https://huggingface.co/datasets/dafeiqin/SMPL-Interact-Plus)<br>[data](https://huggingface.co/datasets/dafeiqin/SMPL-Interact-Plus)<br>[paper](https://arxiv.org/abs/2412.02419) | [▶](https://myshi-motion-viewer.static.hf.space/#interact-plus-plus/take-20231119-051) | <a href="https://myshi-motion-viewer.static.hf.space/#interact-plus-plus/take-20231119-051"><img src="../assets/thumbs/interact-plus-plus.webp" width="607" height="200" alt="InterACT++ examples"></a> |
-| [**KIT-ML**](../categories/human-body.md#kit-ml)<br><sub>Text-to-motion benchmark with natural-language descriptions.</sub> | 11.2 | 3.9k | c3d<br>mmm | [home](https://motion-annotation.humanoids.kit.edu/dataset/)<br>[data](https://motion-annotation.humanoids.kit.edu/downloads/4/)<br>[paper](https://arxiv.org/abs/1607.03827) | [▶](https://myshi-motion-viewer.static.hf.space/#kit-ml/00014) | <a href="https://myshi-motion-viewer.static.hf.space/#kit-ml/00014"><img src="../assets/thumbs/kit-ml.webp" width="607" height="200" alt="KIT-ML examples"></a> |
 | [**CHOIS**](../categories/human-body.md#chois)<br><sub>Text- and waypoint-conditioned human-object interaction (carrying, pushing, pulling furniture and boxes) on SMPL-X.</sub> | 10.0 | – | SMPL-X | [home](https://lijiaman.github.io/projects/chois/)<br>[data](https://drive.google.com/file/d/1ZG-9--RfUWj5oWYnvcONNuRuxaH_Zpw1/view?usp=sharing)<br>[code](https://github.com/lijiaman/chois_release)<br>[paper](https://arxiv.org/abs/2312.03913) | [▶](https://myshi-motion-viewer.static.hf.space/#chois/sub16-clothesstand-000) | <a href="https://myshi-motion-viewer.static.hf.space/#chois/sub16-clothesstand-000"><img src="../assets/thumbs/chois.webp" width="607" height="200" alt="CHOIS examples"></a> |
 | [**InterAct**](../categories/human-body.md#interact)<br><sub>Two-person conversation and interaction with audio and face: multi-character generation.</sub> | 10.0 | 241 | bvh<br>blendshapes<br>wav | [home](https://hku-cg.github.io/interact/)<br>[data](https://huggingface.co/datasets/leohocs/interact)<br>[paper](https://arxiv.org/abs/2509.05747) | [▶](https://myshi-motion-viewer.static.hf.space/#interact/take-051) | <a href="https://myshi-motion-viewer.static.hf.space/#interact/take-051"><img src="../assets/thumbs/interact.webp" width="607" height="200" alt="InterAct examples"></a> |
 | [**OMOMO**](../categories/human-body.md#omomo)<br><sub>Full-body motion while manipulating 15 everyday objects: object-conditioned human motion.</sub> | 10.0 | – | SMPL-X | [home](https://lijiaman.github.io/projects/omomo/)<br>[data](https://drive.google.com/file/d/1tZVqLB7II0whI-Qjz-z-AU3ponSEyAmm/view?usp=sharing)<br>[code](https://github.com/lijiaman/omomo_release)<br>[paper](https://arxiv.org/abs/2309.16237) | [▶](https://myshi-motion-viewer.static.hf.space/#omomo/wood-chair-lift-overhead-and-walk) | <a href="https://myshi-motion-viewer.static.hf.space/#omomo/wood-chair-lift-overhead-and-walk"><img src="../assets/thumbs/omomo.webp" width="607" height="200" alt="OMOMO examples"></a> |
@@ -446,54 +445,6 @@ The two-person co-speech interaction data of "It Takes Two" (published on the Hu
   author={Shi, Mingyi and Qin, Dafei and Ho, Leo and Liao, Zhouyingcheng and Huang, Yinghao and Yamagishi, Junichi and Komura, Taku},
   journal={arXiv preprint arXiv:2412.02419},
   year={2024}
-}
-```
-
-</details>
-
-## KIT-ML
-
-<a href="https://myshi-motion-viewer.static.hf.space/#kit-ml/00014"><img src="../assets/thumbs/kit-ml.webp" width="486" height="160" alt="KIT-ML examples"></a>
-
-**KIT Motion-Language Dataset** (2016)
-
-*Good for:* Text-to-motion benchmark with natural-language descriptions.
-
-| | |
-|---|---|
-| Size | 11.2 h · 3,911 clips |
-| Motion | unclassified 47 %, locomotion 35 %, daily activities & objects 9 %, sports & exercise 4 %, dance 2 %, combat & action 2 %, gesture & speech 1 % (measured from the first text caption of each clip, weighted by duration) · tags: text-annotated, locomotion, daily-activity, sports, gesture, dance |
-| Capture | optical-mocap |
-| Data | c3d, mmm · Master Motor Map (MMM) |
-| Annotations | text |
-| Licence | ❔ [Not specified](https://motion-annotation.humanoids.kit.edu/dataset/) · access: open |
-| Links | [homepage](https://motion-annotation.humanoids.kit.edu/dataset/) · [download](https://motion-annotation.humanoids.kit.edu/downloads/4/) · [paper](https://arxiv.org/abs/1607.03827) |
-| Paper | The KIT Motion-Language Dataset (Big Data 2016) |
-| Viewer | [10 examples](https://myshi-motion-viewer.static.hf.space/#kit-ml/00014) |
-
-<sub>Size: 3,911 motions with 6,278 English annotations in the paper (Oct. 2016 release); the latest release (June 2017) has 6,353 annotations.</sub>
-
-Optical mocap from the KIT Whole-Body Human Motion Database and the CMU Graphics Lab database, paired with crowd-sourced natural-language descriptions. Most of its motions also appear in AMASS (KIT and CMU subsets).
-
-Other releases of the same motion:
-
-- [KIT-ML (HumanML3D processing)](https://github.com/EricGuo5513/HumanML3D) — 21-joint positions and features at 12.5 fps, processed like HumanML3D
-
-<details><summary>BibTeX</summary>
-
-```bibtex
-@article{Plappert2016,
-  author = {Matthias Plappert and Christian Mandery and Tamim Asfour},
-  title = {The {KIT} Motion-Language Dataset},
-  journal = {Big Data},
-  publisher = {Mary Ann Liebert Inc},
-  year = 2016,
-  month = {dec},
-  volume = {4},
-  number = {4},
-  pages = {236--252},
-  url = {http://dx.doi.org/10.1089/big.2016.0028},
-  doi = {10.1089/big.2016.0028},
 }
 ```
 

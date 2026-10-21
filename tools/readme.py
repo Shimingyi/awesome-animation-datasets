@@ -356,10 +356,14 @@ def trend(ds, theme):
                              f'cumulative hours in this list by release month · {len(ds)} datasets · {cum:,.0f} h', TREND_START, theme)
 
 
+SUBJECT_SLOTS = ['human-body', 'animal', 'object', 'robot', 'hands']   # donut colour per subject, in the order they first had data
+
+
 def chart(name, rows, s, theme):
     sub = f"{s['datasets']} datasets above our quality bar"
     if name == 'subject':
-        return charts.donut_card([(r['name'], r['hours']) for r in rows], 'Hours of motion by subject', sub, f"{s['hours']:,.0f}", theme)
+        return charts.donut_card([(r['name'], r['hours']) for r in rows], 'Hours of motion by subject', sub, f"{s['hours']:,.0f}", theme,
+                                 slots=[SUBJECT_SLOTS.index(r['id']) for r in rows])
     return charts.bars_card([(r['name'], r['hours']) for r in rows], 'Hours of motion by type', sub + ' · split by measured content', theme)
 
 

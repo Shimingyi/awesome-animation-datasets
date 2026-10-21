@@ -14,7 +14,7 @@ Motion datasets are many, scattered and hard to compare: different formats, diff
 | Rendered 10 example clips of every dataset in browser — skeletons, SMPL bodies, textured rigged meshes. | One table per category with hours, clips, formats (SMPL / SMPL-X support first) and the links you need. | We keep all data clean: every dataset is checked visually, also measured on [nine red-flag metrics](#quality-red-flags). Broken or unrealistic ones move to **Use with caution**, and not included in the main list. |
 
 <!-- BEGIN STATS -->
-**45 datasets · 2,367 hours of motion · 282,157 clips** — human bodies, hands, interactions, animals, rigged objects and robots, 2003–2026. 5 more (1,164 h) are listed under [Use with caution](#use-with-caution).
+**44 datasets · 2,355 hours of motion · 278,246 clips** — human bodies, hands, interactions, animals, rigged objects and robots, 2003–2026. 7 more (1,179 h) are listed under [Use with caution](#use-with-caution).
 
 <p>
 <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/charts/subject-dark.svg"><img src="docs/assets/charts/subject-light.svg" alt="Hours of motion by subject" width="49%"></picture>
@@ -27,22 +27,22 @@ Motion datasets are many, scattered and hard to compare: different formats, diff
 
 | Subject | Datasets | Hours | Share |
 |---|--:|--:|--:|
-| 🧍 [Human body](docs/categories/human-body.md) | 40 | 1,371 | 58 % |
+| 🧍 [Human body](docs/categories/human-body.md) | 39 | 1,360 | 58 % |
 | 🐾 [Animals](docs/categories/animal.md) | 2 | 1.9 | <0.1 % |
 | 🧸 [Objects & creatures](docs/categories/object.md) | 1 | 21.0 | 0.9 % |
 | 🤖 [Robots](docs/categories/robot.md) | 2 | 973 | 41 % |
-| **Total** | **45** | **2,367** | |
+| **Total** | **44** | **2,355** | |
 
 | Motion type | Datasets | Hours | Share |
 |---|--:|--:|--:|
-| Daily activities & objects | 13 | 899 | 38 % |
+| Daily activities & objects | 12 | 898 | 38 % |
 | Gesture & speech | 10 | 453 | 19 % |
-| Locomotion | 22 | 380 | 16 % |
-| Interaction | 7 | 197 | 8.3 % |
-| Dance | 7 | 82.5 | 3.5 % |
-| Sports & exercise | 2 | 56.1 | 2.4 % |
-| Combat & action | 4 | 11.6 | 0.5 % |
-| Unclassified | 11 | 287 | 12 % |
+| Locomotion | 21 | 376 | 16 % |
+| Interaction | 7 | 197 | 8.4 % |
+| Dance | 7 | 82.3 | 3.5 % |
+| Sports & exercise | 2 | 55.6 | 2.4 % |
+| Combat & action | 4 | 11.4 | 0.5 % |
+| Unclassified | 10 | 282 | 12 % |
 
 </details>
 
@@ -88,7 +88,6 @@ Full-body human motion, one performer or several interacting (mocap, video recon
 | [**100STYLE**](docs/categories/human-body.md#100style)<br><sub>Style-conditioned locomotion and style transfer: 100 walking / running styles from one actor.</sub> | 22.1 | 810 | bvh | [home](https://www.ianxmason.com/100style/)<br>[data](https://zenodo.org/record/8127870)<br>[paper](https://arxiv.org/abs/2201.04439) | [▶](https://myshi-motion-viewer.static.hf.space/#100style/aeroplane-tr1) | <a href="https://myshi-motion-viewer.static.hf.space/#100style/aeroplane-tr1"><img src="docs/assets/thumbs/100style.webp" width="607" height="200" alt="100STYLE examples"></a> |
 | [**InterHuman**](docs/categories/human-body.md#interhuman)<br><sub>Text-to-two-person interaction: daily interactions plus fighting, dance and sports duets.</sub> | 20.9 | 7.8k | SMPL<br>joints | [home](https://tr3e.github.io/intergen-page/)<br>[data](https://drive.google.com/drive/folders/1oyozJ4E7Sqgsr7Q747Na35tWo5CjNYk3?usp=sharing)<br>[code](https://github.com/tr3e/InterGen)<br>[paper](https://arxiv.org/abs/2304.05684) | [▶](https://myshi-motion-viewer.static.hf.space/#interhuman/meet-and-shake-hands) | <a href="https://myshi-motion-viewer.static.hf.space/#interhuman/meet-and-shake-hands"><img src="docs/assets/thumbs/interhuman.webp" width="607" height="200" alt="InterHuman examples"></a> |
 | [**InterACT++**](docs/categories/human-body.md#interact-plus-plus)<br><sub>Two-person interaction as SMPL-X bodies: interaction generation with body models.</sub> | 13.5¹ | 811 | SMPL-X<br>npz | [home](https://huggingface.co/datasets/dafeiqin/SMPL-Interact-Plus)<br>[data](https://huggingface.co/datasets/dafeiqin/SMPL-Interact-Plus)<br>[paper](https://arxiv.org/abs/2412.02419) | [▶](https://myshi-motion-viewer.static.hf.space/#interact-plus-plus/take-20231119-051) | <a href="https://myshi-motion-viewer.static.hf.space/#interact-plus-plus/take-20231119-051"><img src="docs/assets/thumbs/interact-plus-plus.webp" width="607" height="200" alt="InterACT++ examples"></a> |
-| [**KIT-ML**](docs/categories/human-body.md#kit-ml)<br><sub>Text-to-motion benchmark with natural-language descriptions.</sub> | 11.2 | 3.9k | c3d<br>mmm | [home](https://motion-annotation.humanoids.kit.edu/dataset/)<br>[data](https://motion-annotation.humanoids.kit.edu/downloads/4/)<br>[paper](https://arxiv.org/abs/1607.03827) | [▶](https://myshi-motion-viewer.static.hf.space/#kit-ml/00014) | <a href="https://myshi-motion-viewer.static.hf.space/#kit-ml/00014"><img src="docs/assets/thumbs/kit-ml.webp" width="607" height="200" alt="KIT-ML examples"></a> |
 | [**CHOIS**](docs/categories/human-body.md#chois)<br><sub>Text- and waypoint-conditioned human-object interaction (carrying, pushing, pulling furniture and boxes) on SMPL-X.</sub> | 10.0 | – | SMPL-X | [home](https://lijiaman.github.io/projects/chois/)<br>[data](https://drive.google.com/file/d/1ZG-9--RfUWj5oWYnvcONNuRuxaH_Zpw1/view?usp=sharing)<br>[code](https://github.com/lijiaman/chois_release)<br>[paper](https://arxiv.org/abs/2312.03913) | [▶](https://myshi-motion-viewer.static.hf.space/#chois/sub16-clothesstand-000) | <a href="https://myshi-motion-viewer.static.hf.space/#chois/sub16-clothesstand-000"><img src="docs/assets/thumbs/chois.webp" width="607" height="200" alt="CHOIS examples"></a> |
 | [**InterAct**](docs/categories/human-body.md#interact)<br><sub>Two-person conversation and interaction with audio and face: multi-character generation.</sub> | 10.0 | 241 | bvh<br>blendshapes<br>wav | [home](https://hku-cg.github.io/interact/)<br>[data](https://huggingface.co/datasets/leohocs/interact)<br>[paper](https://arxiv.org/abs/2509.05747) | [▶](https://myshi-motion-viewer.static.hf.space/#interact/take-051) | <a href="https://myshi-motion-viewer.static.hf.space/#interact/take-051"><img src="docs/assets/thumbs/interact.webp" width="607" height="200" alt="InterAct examples"></a> |
 | [**OMOMO**](docs/categories/human-body.md#omomo)<br><sub>Full-body motion while manipulating 15 everyday objects: object-conditioned human motion.</sub> | 10.0 | – | SMPL-X | [home](https://lijiaman.github.io/projects/omomo/)<br>[data](https://drive.google.com/file/d/1tZVqLB7II0whI-Qjz-z-AU3ponSEyAmm/view?usp=sharing)<br>[code](https://github.com/lijiaman/omomo_release)<br>[paper](https://arxiv.org/abs/2309.16237) | [▶](https://myshi-motion-viewer.static.hf.space/#omomo/wood-chair-lift-overhead-and-walk) | <a href="https://myshi-motion-viewer.static.hf.space/#omomo/wood-chair-lift-overhead-and-walk"><img src="docs/assets/thumbs/omomo.webp" width="607" height="200" alt="OMOMO examples"></a> |
@@ -153,16 +152,20 @@ Datasets whose motion quality fell short when we inspected it (jitter, foot skat
 | [**MotionMillion**](docs/categories/caution.md#motionmillion)<br><sub>Very large text-annotated motion corpus for zero-shot text-to-motion; quality varies (video mocap).</sub> | 988 | 685k | features | [home](https://huggingface.co/datasets/InternRobotics/MotionMillion)<br>[data](https://huggingface.co/datasets/InternRobotics/MotionMillion) | [▶](https://myshi-motion-viewer.static.hf.space/#motionmillion/motiongv-folder1-061406) | <a href="https://myshi-motion-viewer.static.hf.space/#motionmillion/motiongv-folder1-061406"><img src="docs/assets/thumbs/motionmillion.webp" width="607" height="200" alt="MotionMillion examples"></a> |
 | [**Motion-X**](docs/categories/caution.md#motion-x)<br><sub>Very large whole-body SMPL-X with text, mostly from video: coverage over quality.</sub> | 144 | 81k | SMPL-X | [home](https://motion-x-dataset.github.io)<br>[code](https://github.com/IDEA-Research/Motion-X)<br>[paper](https://arxiv.org/abs/2307.00818) | [▶](https://myshi-motion-viewer.static.hf.space/#motion-x/badminton-underswing-clip-1) | <a href="https://myshi-motion-viewer.static.hf.space/#motion-x/badminton-underswing-clip-1"><img src="docs/assets/thumbs/motion-x.webp" width="607" height="200" alt="Motion-X examples"></a> |
 | [**AnimationGPT**](docs/categories/caution.md#animationgpt)<br><sub>Game-style combat moves with text: text-to-motion for fighting and action games.</sub> | 26.4 | 15k | joints<br>features | [home](https://github.com/fyyakaxyy/AnimationGPT)<br>[data](https://drive.google.com/file/d/148AwoovJrnh4F0q_HbU83WCWwFooLSZj/view?usp=drive_link)<br>[code](https://github.com/fyyakaxyy/AnimationGPT) | [▶](https://myshi-motion-viewer.static.hf.space/#animationgpt/cmp000081) | <a href="https://myshi-motion-viewer.static.hf.space/#animationgpt/cmp000081"><img src="docs/assets/thumbs/animationgpt.webp" width="607" height="200" alt="AnimationGPT examples"></a> |
+| [**KIT-ML**](docs/categories/caution.md#kit-ml)<br><sub>Text-to-motion benchmark with natural-language descriptions.</sub> | 11.2 | 3.9k | c3d<br>mmm | [home](https://motion-annotation.humanoids.kit.edu/dataset/)<br>[data](https://motion-annotation.humanoids.kit.edu/downloads/4/)<br>[paper](https://arxiv.org/abs/1607.03827) | [▶](https://myshi-motion-viewer.static.hf.space/#kit-ml/00014) | <a href="https://myshi-motion-viewer.static.hf.space/#kit-ml/00014"><img src="docs/assets/thumbs/kit-ml.webp" width="607" height="200" alt="KIT-ML examples"></a> |
 | [**AIST++**](docs/categories/caution.md#aistpp)<br><sub>Street-dance motion paired with music in 10 genres: the standard benchmark for music-to-dance generation.</sub> | 5.2 | 1.4k | SMPL<br>keypoints<br>pkl | [home](https://google.github.io/aistplusplus_dataset/)<br>[data](https://github.com/google/aistplusplus_dataset/releases/tag/v1.0)<br>[code](https://github.com/google/aistplusplus_api)<br>[paper](https://arxiv.org/abs/2101.08779) | [▶](https://myshi-motion-viewer.static.hf.space/#aistpp/breaking-choreography) | <a href="https://myshi-motion-viewer.static.hf.space/#aistpp/breaking-choreography"><img src="docs/assets/thumbs/aistpp.webp" width="607" height="200" alt="AIST++ examples"></a> |
+| [**BOTH57M**](docs/categories/caution.md#both57m)<br><sub>Two-hand motion with finger-level text, on a moving body: hand generation from text and body dynamics.</sub> | 4.2 | 3.2k | SMPL-H | [home](https://godheritage.github.io/BOTH2Hands/)<br>[code](https://github.com/Godheritage/BOTH2Hands)<br>[paper](https://arxiv.org/abs/2312.07937) | [▶](https://myshi-motion-viewer.static.hf.space/#both57m/clapping-for-attention) | <a href="https://myshi-motion-viewer.static.hf.space/#both57m/clapping-for-attention"><img src="docs/assets/thumbs/both57m.webp" width="607" height="200" alt="BOTH57M examples"></a> |
 | [**PHUMA**](docs/categories/caution.md#phuma)<br><sub>Large physics-filtered human motion retargeted to Unitree G1 and H1-2: humanoid imitation learning.</sub> | 73.0¹ | 76k | npy | [home](https://davian-robotics.github.io/PHUMA/)<br>[data](https://huggingface.co/datasets/DAVIAN-Robotics/PHUMA)<br>[code](https://github.com/DAVIAN-Robotics/PHUMA)<br>[paper](https://arxiv.org/abs/2510.26236) | [▶](https://myshi-motion-viewer.static.hf.space/#phuma/g1-amass-humanml3d-014612) | <a href="https://myshi-motion-viewer.static.hf.space/#phuma/g1-amass-humanml3d-014612"><img src="docs/assets/thumbs/phuma.webp" width="607" height="200" alt="PHUMA examples"></a> |
 
 - **MotionMillion**: Foot skating, unnatural body angles. Reconstructed from web video (video mocap): foot skating and motion that does not look physically real in the examples we inspected.
 - **Motion-X**: Jitter / high-frequency noise, foot skating, ground or self penetration. Most of the motion is reconstructed from monocular video: strong jitter, foot skating and ground / self penetration across the examples we inspected.
 - **AnimationGPT**: Jitter / high-frequency noise, unnatural body angles. Jittery motion that does not look real in the examples we inspected.
+- **KIT-ML**: Low frame rate, jitter / high-frequency noise, foot skating. Low frame rate: the release most work uses (processed like HumanML3D) is 12.5 fps. The motion jitters and the feet slide; our red flags agree on foot sliding, floating and physics.
 - **AIST++**: Foot skating, unnatural body angles. Reconstructed from video (no markers): foot sliding throughout, and some sequences are broken (the official ignore list marks 46 poor reconstructions, and more fail in the examples we inspected).
+- **BOTH57M**: Root drift / floating, jitter / high-frequency noise. Reconstructed from markerless multi-view video: the feet float above the floor and the motion jitters (our red flags: floating in 70% and jitter in 62% of windows, plus physics).
 - **PHUMA**: Root drift / floating, foot skating, unnatural body angles. In the examples we inspected the feet float above the floor and slide, and the motion looks unnatural; part of the source motion is reconstructed from web video (Motion-X).
 
-**Licences.** 7 of these datasets allow commercial use, 29 do not and 9 leave it unclear; each category page gives the licence and its link. Always read the dataset's own terms.
+**Licences.** 7 of these datasets allow commercial use, 29 do not and 8 leave it unclear; each category page gives the licence and its link. Always read the dataset's own terms.
 
 ¹ re-labels or re-targets another dataset: listed, but its hours are not added to the totals. ⭐ recommended. Quality notes are our judgement from inspecting the data, not the authors' claims.
 <!-- END DATASETS -->
@@ -170,7 +173,7 @@ Datasets whose motion quality fell short when we inspected it (jitter, foot skat
 ## Quality red flags
 
 <!-- BEGIN QUALITY -->
-Each of 44 human datasets is measured on 100 ten-second windows drawn at random from its full release (mirrored copies excluded; 2026-10-19, `python -m tools.quality`): each window becomes world joints in metres at 30 fps on a body-segment mass model. Each metric has a per-window threshold, and the chart shows the share of windows over it: a dataset is flagged when more than 25% of its windows are, so problems in part of a release show even when the typical clip is fine. These are red flags: values clean motion capture practically never shows. A flag means look closer, no flag does not prove quality.
+Each of 45 human datasets is measured on 100 ten-second windows drawn at random from its full release (mirrored copies excluded; 2026-10-20, `python -m tools.quality`): each window becomes world joints in metres at 30 fps on a body-segment mass model. Each metric has a per-window threshold, and the chart shows the share of windows over it: a dataset is flagged when more than 25% of its windows are, so problems in part of a release show even when the typical clip is fine. These are red flags: values clean motion capture practically never shows. A flag means look closer, no flag does not prove quality.
 
 - **Residual**: the smallest non-physical acceleration the motion needs (flag > 0.05 g): the centre of mass falling faster than gravity, force while clear of the ground, the zero-moment point outside the feet, leaving the friction cone. **Float**: feet resting above the floor — steps that stand > 2 cm above the lowest ones (flag > 40% of steps).
 - **Slide**: the planted, weight-bearing ball of the foot sliding, mm per frame (flag > 10.0). **Jitter**: share of acceleration energy at 8–12 Hz, above what muscles produce (flag > 0.12; not measured under 25 fps).
@@ -185,7 +188,8 @@ Known false alarms: feet that slide on purpose (dance pivots, shuffling or drunk
 
 | Dataset | Windows | Residual g | Float | Slide mm | Jitter | Drift cm | Pair gap | Tilt ° | ROM | Self-pen | Red flags |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|---|
-| [KIT-ML](docs/categories/human-body.md#kit-ml) | 97 | **0.12 · 65%** | **33% · 43%** | **10.7 · 55%** | – | 1.9 · 25% | – | 0.42 · 0% | 0% · 5% | **0% · 39%** | physics, floating, foot sliding, self-penetration |
+| [KIT-ML](docs/categories/caution.md#kit-ml) | 97 | **0.12 · 65%** | **33% · 43%** | **10.7 · 55%** | – | 1.9 · 25% | – | 0.42 · 0% | 0% · 5% | **0% · 39%** | physics, floating, foot sliding, self-penetration |
+| [BOTH57M](docs/categories/caution.md#both57m) | 99 | **0.01 · 37%** | **57% · 70%** | 1.5 · 1% | **0.14 · 62%** | 1.5 · 20% | – | – | 0% · 15% | 0% · 22% | physics, floating, jitter |
 | [AIST++](docs/categories/caution.md#aistpp) | 100 | **0.03 · 32%** | **39% · 48%** | 5.4 · 15% | 0.06 · 24% | 1.1 · 4% | – | 0.28 · 0% | **5% · 59%** | 0% · 18% | physics, floating, joint range |
 | [Motion-X](docs/categories/caution.md#motion-x) | 77 | **0.14 · 70%** | **22% · 33%** | 3.0 · 9% | **0.18 · 90%** | 0.3 · 1% | – | 0.38 · 0% | 0% · 0% | 0% · 4% | physics, floating, jitter |
 | [InterHuman](docs/categories/human-body.md#interhuman) | 53 | **0.02 · 26%** | 17% · 20% | 2.8 · 0% | **0.21 · 87%** | 0.0 · 8% | – | 0.63 · 12% | **0% · 30%** | 0% · 4% | physics, jitter, joint range |

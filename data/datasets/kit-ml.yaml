@@ -59,3 +59,10 @@ variants:
 notes: >-
   Optical mocap from the KIT Whole-Body Human Motion Database and the CMU Graphics Lab database, paired with
   crowd-sourced natural-language descriptions. Most of its motions also appear in AMASS (KIT and CMU subsets).
+review:
+  verdict: caution
+  issues: [low-fps, jitter, foot-skating]
+  note: >-
+    Low frame rate: the release most work uses (processed like HumanML3D) is 12.5 fps. The motion jitters and the feet
+    slide; our red flags agree on foot sliding, floating and physics.
+  date: 2026-10-20
