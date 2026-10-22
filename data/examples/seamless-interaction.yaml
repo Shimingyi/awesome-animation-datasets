@@ -1,0 +1,16 @@
+dataset: seamless-interaction
+note: SMPL-H from the release, turned upright with the root held in place (its translation is camera-depth noise); converted by tools/examples/seamless.py from a 46-person sample
+quality:
+  from:
+  - {reader: 'vault', glob: 'SeamlessInteraction/*'}
+items:
+- {source: vault, clip: SeamlessInteraction/improvised/V00_S0644_I00000129_P0799, label: Improvised conversation · P0799}
+- {source: vault, clip: SeamlessInteraction/improvised/V00_S0692_I00000536_P0844A, label: Improvised conversation · P0844}
+- {source: vault, clip: SeamlessInteraction/improvised/V00_S0696_I00000542_P0847, label: Improvised conversation · P0847}
+- {source: vault, clip: SeamlessInteraction/improvised/V00_S0809_I00000309_P0947, label: Improvised conversation · P0947}
+- {source: vault, clip: SeamlessInteraction/improvised/V01_S0304_I00001164_P1627, label: Improvised conversation · P1627}
+- {source: vault, clip: SeamlessInteraction/naturalistic/V00_S0080_I00000376_P0115, label: Naturalistic conversation · P0115}
+- {source: vault, clip: SeamlessInteraction/naturalistic/V00_S0255_I00000128_P0350, label: Naturalistic conversation · P0350}
+- {source: vault, clip: SeamlessInteraction/naturalistic/V00_S0521_I00000497_P0663, label: Naturalistic conversation · P0663}
+- {source: vault, clip: SeamlessInteraction/naturalistic/V00_S0526_I00000130_P0671, label: Naturalistic conversation · P0671}
+- {source: vault, clip: SeamlessInteraction/naturalistic/V00_S0627_I00000381_P0779, label: Naturalistic conversation · P0779}

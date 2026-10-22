@@ -48,6 +48,10 @@ python -m tools.banner                   # README header: new text + date over t
 python -m tools.validate                 # must print "... ok" and "README and docs are up to date"
 ```
 
+A new dataset gets an announcement issue once it is deployed: `python -m tools.announce <id>` drafts it
+(build/announce/<id>.md: summary, numbers, verdict, its 10 previews), `--post` opens it with gh and adds the README
+News line that links to it (then `python -m tools.readme`). Post only after the user has seen the draft.
+
 Then look at the result: open `build/contact_sheet.png` (after `python -m tools.examples.thumbs --sheet`) for the
 examples, and the README in a markdown preview. Report what changed, what numbers came from where, and anything you
 could not verify.

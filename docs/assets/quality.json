@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20",
+ "generated": "2026-10-22",
  "fps": 30.0,
  "windows": 100,
  "thresholds": {
@@ -1248,6 +1248,38 @@
    },
    "flags": [
     "rom_bad_frac"
+   ]
+  },
+  "seamless-interaction": {
+   "clips": 102,
+   "median": {
+    "phys_residual_g": 0.085,
+    "phys_bad_frac": 0.0,
+    "A1_pull_frac": 0.0,
+    "float_frac": 0.4335,
+    "floor_drift_cm": 4.32,
+    "skate_mm": 1.285,
+    "penetrate_cm": 0.08,
+    "jitter": 32.3,
+    "hf_ratio": 0.3244,
+    "pops_per_min": 0.0,
+    "rom_bad_frac": 0.0,
+    "selfpen_frac": 0.0
+   },
+   "share": {
+    "phys_residual_g": 0.676,
+    "float_frac": 0.548,
+    "skate_mm": 0.0,
+    "hf_ratio": 0.99,
+    "floor_drift_cm": 0.382,
+    "rom_bad_frac": 0.0,
+    "selfpen_frac": 0.167
+   },
+   "flags": [
+    "phys_residual_g",
+    "float_frac",
+    "hf_ratio",
+    "floor_drift_cm"
    ]
   },
   "semantic-gesticulator": {

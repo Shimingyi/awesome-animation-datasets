@@ -14,7 +14,7 @@ Motion datasets are many, scattered and hard to compare: different formats, diff
 | Rendered 10 example clips of every dataset in browser — skeletons, SMPL bodies, textured rigged meshes. | One table per category with hours, clips, formats (SMPL / SMPL-X support first) and the links you need. | We keep all data clean: every dataset is checked visually, also measured on [nine red-flag metrics](#quality-red-flags). Broken or unrealistic ones move to **Use with caution**, and not included in the main list. |
 
 <!-- BEGIN STATS -->
-**44 datasets · 2,355 hours of motion · 278,246 clips** — human bodies, hands, interactions, animals, rigged objects and robots, 2003–2026. 7 more (1,179 h) are listed under [Use with caution](#use-with-caution).
+**44 datasets · 2,355 hours of motion · 278,246 clips** — human bodies, hands, interactions, animals, rigged objects and robots, 2003–2026. 8 more (5,179 h) are listed under [Use with caution](#use-with-caution).
 
 <p>
 <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/charts/subject-dark.svg"><img src="docs/assets/charts/subject-light.svg" alt="Hours of motion by subject" width="49%"></picture>
@@ -64,6 +64,10 @@ Hours count each recording once: 2 datasets that re-label or re-target another o
 - **Fair durations.** Durations count each recording once: mirrored copies that some releases add are left out
   (BONES-SEED is 144 h here; the 288 h on its page include the mirrored copies). Hours are motion per person: a
   two-person take of one hour counts as 2 h.
+
+<!-- BEGIN NEWS -->
+
+<!-- END NEWS -->
 
 ## Datasets
 
@@ -149,6 +153,7 @@ Datasets whose motion quality fell short when we inspected it (jitter, foot skat
 
 | Dataset | Hours | Clips | Data | Links | Viewer | Preview |
 |---|--:|--:|---|---|:-:|---|
+| [**Seamless Interaction**](docs/categories/caution.md#seamless-interaction)<br><sub>Very large two-person conversation corpus with audio, transcripts and SMPL-H estimated from video: dyadic gesture and listener behaviour.</sub> | 4,000 | – | SMPL-H | [home](https://huggingface.co/datasets/facebook/seamless-interaction)<br>[code](https://github.com/facebookresearch/seamless_interaction)<br>[paper](https://arxiv.org/abs/2506.22554) | [▶](https://myshi-motion-viewer.static.hf.space/#seamless-interaction/improvised-conversation-p0799) | <a href="https://myshi-motion-viewer.static.hf.space/#seamless-interaction/improvised-conversation-p0799"><img src="docs/assets/thumbs/seamless-interaction.webp" width="607" height="200" alt="Seamless Interaction examples"></a> |
 | [**MotionMillion**](docs/categories/caution.md#motionmillion)<br><sub>Very large text-annotated motion corpus for zero-shot text-to-motion; quality varies (video mocap).</sub> | 988 | 685k | features | [home](https://huggingface.co/datasets/InternRobotics/MotionMillion)<br>[data](https://huggingface.co/datasets/InternRobotics/MotionMillion) | [▶](https://myshi-motion-viewer.static.hf.space/#motionmillion/motiongv-folder1-061406) | <a href="https://myshi-motion-viewer.static.hf.space/#motionmillion/motiongv-folder1-061406"><img src="docs/assets/thumbs/motionmillion.webp" width="607" height="200" alt="MotionMillion examples"></a> |
 | [**Motion-X**](docs/categories/caution.md#motion-x)<br><sub>Very large whole-body SMPL-X with text, mostly from video: coverage over quality.</sub> | 144 | 81k | SMPL-X | [home](https://motion-x-dataset.github.io)<br>[code](https://github.com/IDEA-Research/Motion-X)<br>[paper](https://arxiv.org/abs/2307.00818) | [▶](https://myshi-motion-viewer.static.hf.space/#motion-x/badminton-underswing-clip-1) | <a href="https://myshi-motion-viewer.static.hf.space/#motion-x/badminton-underswing-clip-1"><img src="docs/assets/thumbs/motion-x.webp" width="607" height="200" alt="Motion-X examples"></a> |
 | [**AnimationGPT**](docs/categories/caution.md#animationgpt)<br><sub>Game-style combat moves with text: text-to-motion for fighting and action games.</sub> | 26.4 | 15k | joints<br>features | [home](https://github.com/fyyakaxyy/AnimationGPT)<br>[data](https://drive.google.com/file/d/148AwoovJrnh4F0q_HbU83WCWwFooLSZj/view?usp=drive_link)<br>[code](https://github.com/fyyakaxyy/AnimationGPT) | [▶](https://myshi-motion-viewer.static.hf.space/#animationgpt/cmp000081) | <a href="https://myshi-motion-viewer.static.hf.space/#animationgpt/cmp000081"><img src="docs/assets/thumbs/animationgpt.webp" width="607" height="200" alt="AnimationGPT examples"></a> |
@@ -157,6 +162,7 @@ Datasets whose motion quality fell short when we inspected it (jitter, foot skat
 | [**BOTH57M**](docs/categories/caution.md#both57m)<br><sub>Two-hand motion with finger-level text, on a moving body: hand generation from text and body dynamics.</sub> | 4.2 | 3.2k | SMPL-H | [home](https://godheritage.github.io/BOTH2Hands/)<br>[code](https://github.com/Godheritage/BOTH2Hands)<br>[paper](https://arxiv.org/abs/2312.07937) | [▶](https://myshi-motion-viewer.static.hf.space/#both57m/clapping-for-attention) | <a href="https://myshi-motion-viewer.static.hf.space/#both57m/clapping-for-attention"><img src="docs/assets/thumbs/both57m.webp" width="607" height="200" alt="BOTH57M examples"></a> |
 | [**PHUMA**](docs/categories/caution.md#phuma)<br><sub>Large physics-filtered human motion retargeted to Unitree G1 and H1-2: humanoid imitation learning.</sub> | 73.0¹ | 76k | npy | [home](https://davian-robotics.github.io/PHUMA/)<br>[data](https://huggingface.co/datasets/DAVIAN-Robotics/PHUMA)<br>[code](https://github.com/DAVIAN-Robotics/PHUMA)<br>[paper](https://arxiv.org/abs/2510.26236) | [▶](https://myshi-motion-viewer.static.hf.space/#phuma/g1-amass-humanml3d-014612) | <a href="https://myshi-motion-viewer.static.hf.space/#phuma/g1-amass-humanml3d-014612"><img src="docs/assets/thumbs/phuma.webp" width="607" height="200" alt="PHUMA examples"></a> |
 
+- **Seamless Interaction**: Root drift / floating, unnatural body angles. Estimated from single-camera video: the root position is depth noise (several cm per frame, metres of drift per clip), the legs are mostly out of view and come out bent or crouched, and the poses look stiff. The viewer shows the released rotations with the root held in place.
 - **MotionMillion**: Foot skating, unnatural body angles. Reconstructed from web video (video mocap): foot skating and motion that does not look physically real in the examples we inspected.
 - **Motion-X**: Jitter / high-frequency noise, foot skating, ground or self penetration. Most of the motion is reconstructed from monocular video: strong jitter, foot skating and ground / self penetration across the examples we inspected.
 - **AnimationGPT**: Jitter / high-frequency noise, unnatural body angles. Jittery motion that does not look real in the examples we inspected.
@@ -173,7 +179,7 @@ Datasets whose motion quality fell short when we inspected it (jitter, foot skat
 ## Quality red flags
 
 <!-- BEGIN QUALITY -->
-Each of 45 human datasets is measured on 100 ten-second windows drawn at random from its full release (mirrored copies excluded; 2026-10-20, `python -m tools.quality`): each window becomes world joints in metres at 30 fps on a body-segment mass model. Each metric has a per-window threshold, and the chart shows the share of windows over it: a dataset is flagged when more than 25% of its windows are, so problems in part of a release show even when the typical clip is fine. These are red flags: values clean motion capture practically never shows. A flag means look closer, no flag does not prove quality.
+Each of 46 human datasets is measured on 100 ten-second windows drawn at random from its full release (mirrored copies excluded; 2026-10-22, `python -m tools.quality`): each window becomes world joints in metres at 30 fps on a body-segment mass model. Each metric has a per-window threshold, and the chart shows the share of windows over it: a dataset is flagged when more than 25% of its windows are, so problems in part of a release show even when the typical clip is fine. These are red flags: values clean motion capture practically never shows. A flag means look closer, no flag does not prove quality.
 
 - **Residual**: the smallest non-physical acceleration the motion needs (flag > 0.05 g): the centre of mass falling faster than gravity, force while clear of the ground, the zero-moment point outside the feet, leaving the friction cone. **Float**: feet resting above the floor — steps that stand > 2 cm above the lowest ones (flag > 40% of steps).
 - **Slide**: the planted, weight-bearing ball of the foot sliding, mm per frame (flag > 10.0). **Jitter**: share of acceleration energy at 8–12 Hz, above what muscles produce (flag > 0.12; not measured under 25 fps).
@@ -188,6 +194,7 @@ Known false alarms: feet that slide on purpose (dance pivots, shuffling or drunk
 
 | Dataset | Windows | Residual g | Float | Slide mm | Jitter | Drift cm | Pair gap | Tilt ° | ROM | Self-pen | Red flags |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|---|
+| [Seamless Interaction](docs/categories/caution.md#seamless-interaction) | 102 | **0.09 · 68%** | **43% · 55%** | 1.3 · 0% | **0.32 · 99%** | **4.3 · 38%** | – | – | 0% · 0% | 0% · 17% | physics, floating, jitter, floor drift |
 | [KIT-ML](docs/categories/caution.md#kit-ml) | 97 | **0.12 · 65%** | **33% · 43%** | **10.7 · 55%** | – | 1.9 · 25% | – | 0.42 · 0% | 0% · 5% | **0% · 39%** | physics, floating, foot sliding, self-penetration |
 | [BOTH57M](docs/categories/caution.md#both57m) | 99 | **0.01 · 37%** | **57% · 70%** | 1.5 · 1% | **0.14 · 62%** | 1.5 · 20% | – | – | 0% · 15% | 0% · 22% | physics, floating, jitter |
 | [AIST++](docs/categories/caution.md#aistpp) | 100 | **0.03 · 32%** | **39% · 48%** | 5.4 · 15% | 0.06 · 24% | 1.1 · 4% | – | 0.28 · 0% | **5% · 59%** | 0% · 18% | physics, floating, joint range |

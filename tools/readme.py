@@ -171,6 +171,23 @@ def block_hero():
     return f'<p><a href="{VIEWER_SPACE}"><img src="docs/assets/viewer-button.svg" height="56" alt="Online Dataset Viewer"></a></p>'
 
 
+NEWS_SHOWN = 5
+
+
+def block_news():
+    """the latest NEWS_SHOWN entries of data/news.yaml (one per announcement issue: tools/announce.py); none, no section"""
+    import datetime
+    import yaml
+    p = os.path.join(registry.DATA, 'news.yaml')
+    news = (yaml.safe_load(open(p)) if os.path.exists(p) else None) or []
+    if not news:
+        return ''
+    day = lambda d: datetime.date.fromisoformat(str(d)).strftime('%b %-d, %Y')   # noqa: E731
+    lines = [f"- **{day(n['date'])}** · {' '.join(n['text'].split())}" + (f" · [examples & discussion]({n['issue']})" if n.get('issue') else '')
+             for n in sorted(news, key=lambda n: str(n['date']), reverse=True)[:NEWS_SHOWN]]
+    return '## News\n\n' + '\n'.join(lines) + '\n'
+
+
 def block_datasets(ds, tx):
     out = []
     for subj in tx['subjects']:
@@ -397,6 +414,7 @@ def render():
         text = f.read()
     text = replace_block(text, 'HERO', block_hero())
     text = replace_block(text, 'STATS', block_stats(s))
+    text = replace_block(text, 'NEWS', block_news())
     text = replace_block(text, 'DATASETS', block_datasets(ds, tx))
     if new_quality:
         text = replace_block(text, 'QUALITY', block_quality(ds))

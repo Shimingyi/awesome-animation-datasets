@@ -6,6 +6,7 @@ Datasets whose motion quality fell short when we inspected it (jitter, foot skat
 
 | Dataset | Hours | Clips | Data | Links | Viewer | Preview |
 |---|--:|--:|---|---|:-:|---|
+| [**Seamless Interaction**](../categories/caution.md#seamless-interaction)<br><sub>Very large two-person conversation corpus with audio, transcripts and SMPL-H estimated from video: dyadic gesture and listener behaviour.</sub> | 4,000 | – | SMPL-H | [home](https://huggingface.co/datasets/facebook/seamless-interaction)<br>[code](https://github.com/facebookresearch/seamless_interaction)<br>[paper](https://arxiv.org/abs/2506.22554) | [▶](https://myshi-motion-viewer.static.hf.space/#seamless-interaction/improvised-conversation-p0799) | <a href="https://myshi-motion-viewer.static.hf.space/#seamless-interaction/improvised-conversation-p0799"><img src="../assets/thumbs/seamless-interaction.webp" width="607" height="200" alt="Seamless Interaction examples"></a> |
 | [**MotionMillion**](../categories/caution.md#motionmillion)<br><sub>Very large text-annotated motion corpus for zero-shot text-to-motion; quality varies (video mocap).</sub> | 988 | 685k | features | [home](https://huggingface.co/datasets/InternRobotics/MotionMillion)<br>[data](https://huggingface.co/datasets/InternRobotics/MotionMillion) | [▶](https://myshi-motion-viewer.static.hf.space/#motionmillion/motiongv-folder1-061406) | <a href="https://myshi-motion-viewer.static.hf.space/#motionmillion/motiongv-folder1-061406"><img src="../assets/thumbs/motionmillion.webp" width="607" height="200" alt="MotionMillion examples"></a> |
 | [**Motion-X**](../categories/caution.md#motion-x)<br><sub>Very large whole-body SMPL-X with text, mostly from video: coverage over quality.</sub> | 144 | 81k | SMPL-X | [home](https://motion-x-dataset.github.io)<br>[code](https://github.com/IDEA-Research/Motion-X)<br>[paper](https://arxiv.org/abs/2307.00818) | [▶](https://myshi-motion-viewer.static.hf.space/#motion-x/badminton-underswing-clip-1) | <a href="https://myshi-motion-viewer.static.hf.space/#motion-x/badminton-underswing-clip-1"><img src="../assets/thumbs/motion-x.webp" width="607" height="200" alt="Motion-X examples"></a> |
 | [**AnimationGPT**](../categories/caution.md#animationgpt)<br><sub>Game-style combat moves with text: text-to-motion for fighting and action games.</sub> | 26.4 | 15k | joints<br>features | [home](https://github.com/fyyakaxyy/AnimationGPT)<br>[data](https://drive.google.com/file/d/148AwoovJrnh4F0q_HbU83WCWwFooLSZj/view?usp=drive_link)<br>[code](https://github.com/fyyakaxyy/AnimationGPT) | [▶](https://myshi-motion-viewer.static.hf.space/#animationgpt/cmp000081) | <a href="https://myshi-motion-viewer.static.hf.space/#animationgpt/cmp000081"><img src="../assets/thumbs/animationgpt.webp" width="607" height="200" alt="AnimationGPT examples"></a> |
@@ -13,6 +14,31 @@ Datasets whose motion quality fell short when we inspected it (jitter, foot skat
 | [**AIST++**](../categories/caution.md#aistpp)<br><sub>Street-dance motion paired with music in 10 genres: the standard benchmark for music-to-dance generation.</sub> | 5.2 | 1.4k | SMPL<br>keypoints<br>pkl | [home](https://google.github.io/aistplusplus_dataset/)<br>[data](https://github.com/google/aistplusplus_dataset/releases/tag/v1.0)<br>[code](https://github.com/google/aistplusplus_api)<br>[paper](https://arxiv.org/abs/2101.08779) | [▶](https://myshi-motion-viewer.static.hf.space/#aistpp/breaking-choreography) | <a href="https://myshi-motion-viewer.static.hf.space/#aistpp/breaking-choreography"><img src="../assets/thumbs/aistpp.webp" width="607" height="200" alt="AIST++ examples"></a> |
 | [**BOTH57M**](../categories/caution.md#both57m)<br><sub>Two-hand motion with finger-level text, on a moving body: hand generation from text and body dynamics.</sub> | 4.2 | 3.2k | SMPL-H | [home](https://godheritage.github.io/BOTH2Hands/)<br>[code](https://github.com/Godheritage/BOTH2Hands)<br>[paper](https://arxiv.org/abs/2312.07937) | [▶](https://myshi-motion-viewer.static.hf.space/#both57m/clapping-for-attention) | <a href="https://myshi-motion-viewer.static.hf.space/#both57m/clapping-for-attention"><img src="../assets/thumbs/both57m.webp" width="607" height="200" alt="BOTH57M examples"></a> |
 | [**PHUMA**](../categories/caution.md#phuma)<br><sub>Large physics-filtered human motion retargeted to Unitree G1 and H1-2: humanoid imitation learning.</sub> | 73.0¹ | 76k | npy | [home](https://davian-robotics.github.io/PHUMA/)<br>[data](https://huggingface.co/datasets/DAVIAN-Robotics/PHUMA)<br>[code](https://github.com/DAVIAN-Robotics/PHUMA)<br>[paper](https://arxiv.org/abs/2510.26236) | [▶](https://myshi-motion-viewer.static.hf.space/#phuma/g1-amass-humanml3d-014612) | <a href="https://myshi-motion-viewer.static.hf.space/#phuma/g1-amass-humanml3d-014612"><img src="../assets/thumbs/phuma.webp" width="607" height="200" alt="PHUMA examples"></a> |
+
+## Seamless Interaction
+
+<a href="https://myshi-motion-viewer.static.hf.space/#seamless-interaction/improvised-conversation-p0799"><img src="../assets/thumbs/seamless-interaction.webp" width="486" height="160" alt="Seamless Interaction examples"></a>
+
+**Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset** (2025)
+
+*Good for:* Very large two-person conversation corpus with audio, transcripts and SMPL-H estimated from video: dyadic gesture and listener behaviour.
+
+| | |
+|---|---|
+| Size | 4,000 h · 4000 subjects |
+| Motion | Gesture & speech (face-to-face conversations (improvised and naturalistic), seated or standing; not broken down further) · tags: gesture, speech, interaction, emotion |
+| Capture | video |
+| Data | smplh · 52 joints · SMPL-H (22 body + 30 hand joints; no shape parameters released) · 30 fps |
+| Annotations | audio, text, video |
+| Licence | ❌ [CC BY-NC 4.0](https://huggingface.co/datasets/facebook/seamless-interaction/blob/main/LICENSE) · access: open |
+| Links | [homepage](https://huggingface.co/datasets/facebook/seamless-interaction) · [code](https://github.com/facebookresearch/seamless_interaction) · [paper](https://arxiv.org/abs/2506.22554) |
+| Paper | Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset (arXiv 2025) |
+| Quality |  Use with caution — root drift / floating, unnatural body angles. Estimated from single-camera video: the root position is depth noise (several cm per frame, metres of drift per clip), the legs are mostly out of view and come out bent or crouched, and the poses look stiff. The viewer shows the released rotations with the root held in place. |
+| Viewer | [10 examples](https://myshi-motion-viewer.static.hf.space/#seamless-interaction/improvised-conversation-p0799) |
+
+<sub>Size: "over 4,000 hours" of face-to-face footage from "over 4,000 participants" (paper); each participant has their own video and motion file. Not counted by us: the release is 25.6 TB of tars and we fetched only a 46-person, 2.5 h sample (python -m tools.examples.seamless).</sub>
+
+Meta's face-to-face interaction corpus: improvised (prompted scenarios) and naturalistic conversations, each participant filmed separately at 1080p with a denoised audio channel, time-aligned transcripts and voice activity. Per participant the npz holds SMPL-H body and hand poses (30 Hz), 2D face and body keypoints and the Imitator face / head / emotion features; the SMPL-H is in camera space and estimated from the video.
 
 ## MotionMillion
 

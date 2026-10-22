@@ -1,0 +1,49 @@
+id: seamless-interaction
+name: Seamless Interaction
+full_name: 'Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset'
+good_for: "Very large two-person conversation corpus with audio, transcripts and SMPL-H estimated from video: dyadic gesture and listener behaviour."
+year: 2025
+released: 2025-06
+subject: human-body
+content: gesture
+content_note: face-to-face conversations (improvised and naturalistic), seated or standing; not broken down further
+tags: [gesture, speech, interaction, emotion]
+capture: video
+representation: [smplh]
+skeleton:
+  joints: 52
+  rig: SMPL-H (22 body + 30 hand joints; no shape parameters released)
+fps: 30
+stats:
+  hours: 4000
+  subjects: 4000
+stats_note: >-
+  "over 4,000 hours" of face-to-face footage from "over 4,000 participants" (paper); each participant has their own
+  video and motion file. Not counted by us: the release is 25.6 TB of tars and we fetched only a 46-person, 2.5 h
+  sample (python -m tools.examples.seamless).
+annotations: [audio, text, video]
+license:
+  name: CC BY-NC 4.0
+  url: https://huggingface.co/datasets/facebook/seamless-interaction/blob/main/LICENSE
+  commercial: false
+access: open
+links:
+  homepage: https://huggingface.co/datasets/facebook/seamless-interaction
+  code: https://github.com/facebookresearch/seamless_interaction
+  paper: https://arxiv.org/abs/2506.22554
+paper:
+  title: 'Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset'
+  venue: arXiv 2025
+notes: >-
+  Meta's face-to-face interaction corpus: improvised (prompted scenarios) and naturalistic conversations, each
+  participant filmed separately at 1080p with a denoised audio channel, time-aligned transcripts and voice activity.
+  Per participant the npz holds SMPL-H body and hand poses (30 Hz), 2D face and body keypoints and the Imitator face /
+  head / emotion features; the SMPL-H is in camera space and estimated from the video.
+review:
+  verdict: caution
+  issues: [root-drift, unnatural-pose]
+  note: >-
+    Estimated from single-camera video: the root position is depth noise (several cm per frame, metres of drift per
+    clip), the legs are mostly out of view and come out bent or crouched, and the poses look stiff. The viewer shows
+    the released rotations with the root held in place.
+  date: 2026-10-22

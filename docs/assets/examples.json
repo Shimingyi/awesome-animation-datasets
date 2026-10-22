@@ -1,4 +1,16 @@
 {
+ "seamless-interaction": [
+  "seamless-interaction/improvised-conversation-p0799",
+  "seamless-interaction/improvised-conversation-p0844",
+  "seamless-interaction/improvised-conversation-p0847",
+  "seamless-interaction/improvised-conversation-p0947",
+  "seamless-interaction/improvised-conversation-p1627",
+  "seamless-interaction/naturalistic-conversation-p0115",
+  "seamless-interaction/naturalistic-conversation-p0350",
+  "seamless-interaction/naturalistic-conversation-p0663",
+  "seamless-interaction/naturalistic-conversation-p0671",
+  "seamless-interaction/naturalistic-conversation-p0779"
+ ],
  "motionmillion": [
   "motionmillion/motiongv-folder1-061406",
   "motionmillion/motiongv-folder0-034425",
