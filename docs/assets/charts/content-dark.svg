@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360" role="img" aria-label="Hours of motion by type" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
 <rect x="0.5" y="0.5" width="559" height="359" fill="#0d1117" stroke="#3d444d"/>
 <text x="28" y="40" font-size="16" font-weight="600" fill="#f0f6fc">Hours of motion by type</text>
-<text x="28" y="62" font-size="12.5" fill="#9198a1">44 datasets above our quality bar · split by measured content</text>
+<text x="28" y="62" font-size="12.5" fill="#9198a1">43 datasets above our quality bar · split by measured content</text>
 <text x="28" y="92.0" dy="0.35em" font-size="13" fill="#f0f6fc">Daily activities &amp; objects</text>
 <rect x="178" y="88.0" width="250" height="8" rx="4.0" fill="#21262d"/>
 <rect x="178" y="88.0" width="250.00" height="8" rx="4.0" fill="#3987e5"/>
@@ -14,8 +14,8 @@
 <text x="532" y="118.0" dy="0.35em" text-anchor="end" font-size="12" fill="#9198a1">19 %</text>
 <text x="28" y="144.0" dy="0.35em" font-size="13" fill="#f0f6fc">Locomotion</text>
 <rect x="178" y="140.0" width="250" height="8" rx="4.0" fill="#21262d"/>
-<rect x="178" y="140.0" width="104.64" height="8" rx="4.0" fill="#3987e5"/>
-<text x="480" y="144.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">376 h</text>
+<rect x="178" y="140.0" width="103.81" height="8" rx="4.0" fill="#3987e5"/>
+<text x="480" y="144.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">373 h</text>
 <text x="532" y="144.0" dy="0.35em" text-anchor="end" font-size="12" fill="#9198a1">16 %</text>
 <text x="28" y="170.0" dy="0.35em" font-size="13" fill="#f0f6fc">Interaction</text>
 <rect x="178" y="166.0" width="250" height="8" rx="4.0" fill="#21262d"/>

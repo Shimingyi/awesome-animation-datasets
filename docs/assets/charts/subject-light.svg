@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360" role="img" aria-label="Hours of motion by subject" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
 <rect x="0.5" y="0.5" width="559" height="359" fill="#ffffff" stroke="#d1d9e0"/>
 <text x="28" y="40" font-size="16" font-weight="600" fill="#1f2328">Hours of motion by subject</text>
-<text x="28" y="62" font-size="12.5" fill="#59636e">44 datasets above our quality bar</text>
-<path d="M143.49,106.01 A104,104 0 1 1 94.83,302.69 L110.25,272.38 A70,70 0 1 0 143.00,140.01 Z" fill="#2a78d6"/>
-<path d="M93.30,301.89 A104,104 0 0 1 93.26,301.87 L109.19,271.84 A70,70 0 0 0 109.22,271.85 Z" fill="#eb6834"/>
-<path d="M91.75,301.05 A104,104 0 0 1 89.27,299.64 L106.51,270.33 A70,70 0 0 0 108.18,271.29 Z" fill="#1baf7a"/>
-<path d="M86.73,298.10 A104,104 0 0 1 140.51,106.01 L141.00,140.01 A70,70 0 0 0 104.80,269.30 Z" fill="#eda100"/>
-<text x="142" y="208" text-anchor="middle" font-size="26" font-weight="600" fill="#1f2328">2,355</text>
+<text x="28" y="62" font-size="12.5" fill="#59636e">43 datasets above our quality bar</text>
+<path d="M143.49,106.01 A104,104 0 1 1 95.14,302.85 L110.46,272.49 A70,70 0 1 0 143.00,140.01 Z" fill="#2a78d6"/>
+<path d="M93.61,302.06 A104,104 0 0 1 93.57,302.03 L109.40,271.95 A70,70 0 0 0 109.43,271.96 Z" fill="#eb6834"/>
+<path d="M92.05,301.22 A104,104 0 0 1 89.56,299.81 L106.71,270.45 A70,70 0 0 0 108.38,271.40 Z" fill="#1baf7a"/>
+<path d="M87.02,298.28 A104,104 0 0 1 140.51,106.01 L141.00,140.01 A70,70 0 0 0 104.99,269.42 Z" fill="#eda100"/>
+<text x="142" y="208" text-anchor="middle" font-size="26" font-weight="600" fill="#1f2328">2,352</text>
 <text x="142" y="230" text-anchor="middle" font-size="12" fill="#59636e">hours of motion</text>
 <rect x="282" y="159.0" width="12" height="12" rx="3" fill="#2a78d6"/>
 <text x="302" y="165.0" dy="0.35em" font-size="13" fill="#1f2328">Human body</text>
-<text x="482" y="165.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">1,360 h</text>
+<text x="482" y="165.0" dy="0.35em" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">1,357 h</text>
 <text x="532" y="165.0" dy="0.35em" text-anchor="end" font-size="12" fill="#59636e">58 %</text>
 <rect x="282" y="189.0" width="12" height="12" rx="3" fill="#eb6834"/>
 <text x="302" y="195.0" dy="0.35em" font-size="13" fill="#1f2328">Animals</text>

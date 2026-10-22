@@ -13,6 +13,7 @@ Datasets whose motion quality fell short when we inspected it (jitter, foot skat
 | [**KIT-ML**](../categories/caution.md#kit-ml)<br><sub>Text-to-motion benchmark with natural-language descriptions.</sub> | 11.2 | 3.9k | c3d<br>mmm | [home](https://motion-annotation.humanoids.kit.edu/dataset/)<br>[data](https://motion-annotation.humanoids.kit.edu/downloads/4/)<br>[paper](https://arxiv.org/abs/1607.03827) | [▶](https://myshi-motion-viewer.static.hf.space/#kit-ml/00014) | <a href="https://myshi-motion-viewer.static.hf.space/#kit-ml/00014"><img src="../assets/thumbs/kit-ml.webp" width="607" height="200" alt="KIT-ML examples"></a> |
 | [**AIST++**](../categories/caution.md#aistpp)<br><sub>Street-dance motion paired with music in 10 genres: the standard benchmark for music-to-dance generation.</sub> | 5.2 | 1.4k | SMPL<br>keypoints<br>pkl | [home](https://google.github.io/aistplusplus_dataset/)<br>[data](https://github.com/google/aistplusplus_dataset/releases/tag/v1.0)<br>[code](https://github.com/google/aistplusplus_api)<br>[paper](https://arxiv.org/abs/2101.08779) | [▶](https://myshi-motion-viewer.static.hf.space/#aistpp/breaking-choreography) | <a href="https://myshi-motion-viewer.static.hf.space/#aistpp/breaking-choreography"><img src="../assets/thumbs/aistpp.webp" width="607" height="200" alt="AIST++ examples"></a> |
 | [**BOTH57M**](../categories/caution.md#both57m)<br><sub>Two-hand motion with finger-level text, on a moving body: hand generation from text and body dynamics.</sub> | 4.2 | 3.2k | SMPL-H | [home](https://godheritage.github.io/BOTH2Hands/)<br>[code](https://github.com/Godheritage/BOTH2Hands)<br>[paper](https://arxiv.org/abs/2312.07937) | [▶](https://myshi-motion-viewer.static.hf.space/#both57m/clapping-for-attention) | <a href="https://myshi-motion-viewer.static.hf.space/#both57m/clapping-for-attention"><img src="../assets/thumbs/both57m.webp" width="607" height="200" alt="BOTH57M examples"></a> |
+| [**Cranberry**](../categories/caution.md#cranberry)<br><sub>Unstructured VR-style locomotion and upper-body activity: three-point tracking and embodied avatar controllers.</sub> | 3.0 | 91 | fbx<br>glb | [home](https://github.com/sebastianstarke/AI4Animation)<br>[data](https://starke-consult.de/AI4Animation/SIGGRAPH_2024/Cranberry_Dataset.zip)<br>[code](https://github.com/sebastianstarke/AI4Animation/tree/master/AI4Animation/SIGGRAPH_2024)<br>[paper](https://github.com/sebastianstarke/AI4Animation/blob/master/Media/SIGGRAPH_2024/Paper.pdf) | [▶](https://myshi-motion-viewer.static.hf.space/#cranberry/sh02-cranberry-s01-crouching-and-loco-002) | <a href="https://myshi-motion-viewer.static.hf.space/#cranberry/sh02-cranberry-s01-crouching-and-loco-002"><img src="../assets/thumbs/cranberry.webp" width="607" height="200" alt="Cranberry examples"></a> |
 | [**PHUMA**](../categories/caution.md#phuma)<br><sub>Large physics-filtered human motion retargeted to Unitree G1 and H1-2: humanoid imitation learning.</sub> | 73.0¹ | 76k | npy | [home](https://davian-robotics.github.io/PHUMA/)<br>[data](https://huggingface.co/datasets/DAVIAN-Robotics/PHUMA)<br>[code](https://github.com/DAVIAN-Robotics/PHUMA)<br>[paper](https://arxiv.org/abs/2510.26236) | [▶](https://myshi-motion-viewer.static.hf.space/#phuma/g1-amass-humanml3d-014612) | <a href="https://myshi-motion-viewer.static.hf.space/#phuma/g1-amass-humanml3d-014612"><img src="../assets/thumbs/phuma.webp" width="607" height="200" alt="PHUMA examples"></a> |
 
 ## Seamless Interaction
@@ -265,6 +266,35 @@ Body and two-hand motion solved as SMPL-H from a 32-camera markerless capture (V
 ```
 
 </details>
+
+## Cranberry
+
+<a href="https://myshi-motion-viewer.static.hf.space/#cranberry/sh02-cranberry-s01-crouching-and-loco-002"><img src="../assets/thumbs/cranberry.webp" width="486" height="160" alt="Cranberry examples"></a>
+
+**Cranberry motion capture dataset (Categorical Codebook Matching)** (2024)
+
+*Good for:* Unstructured VR-style locomotion and upper-body activity: three-point tracking and embodied avatar controllers.
+
+| | |
+|---|---|
+| Size | 3.0 h · 91 clips |
+| Motion | Locomotion (not broken down; take names are mostly walking, running, turning, side steps, crouching, jumps and transitions, plus VR games (Beat Saber, boxing, ping pong, baseball, shooting), gestures, speech, cooking, gardening and sitting) · tags: locomotion, gesture, sports, combat, daily-activity, sitting |
+| Capture | optical-mocap |
+| Data | fbx, glb · Cranberry character skeleton (27 joints in the paper's controller) · 120 fps |
+| Annotations | – |
+| Licence | ❌ [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) · access: open |
+| Links | [homepage](https://github.com/sebastianstarke/AI4Animation) · [download](https://starke-consult.de/AI4Animation/SIGGRAPH_2024/Cranberry_Dataset.zip) · [code](https://github.com/sebastianstarke/AI4Animation/tree/master/AI4Animation/SIGGRAPH_2024) · [paper](https://github.com/sebastianstarke/AI4Animation/blob/master/Media/SIGGRAPH_2024/Paper.pdf) |
+| Paper | Categorical Codebook Matching for Embodied Character Controllers (SIGGRAPH 2024 (ACM TOG)) |
+| Quality |  Use with caution — root drift / floating, foot skating. The root motion is badly off: the body travels while the feet are planted, so the feet slide over the floor (our red flags: foot sliding in 56% of windows, median 12 mm per frame). |
+| Viewer | [9 examples](https://myshi-motion-viewer.static.hf.space/#cranberry/sh02-cranberry-s01-crouching-and-loco-002) |
+
+<sub>Size: about 3 h of unstructured motion of one body size (paper); 91 FBX takes in five parts by our count of the archive (4.1 GB), each also as GLB. 120 fps in the FBX we checked. The paper's training pipeline adds mirrored copies, not shipped.</sub>
+
+Released with Meta Reality Labs' codebook-matching controller, which maps headset and controller signals to full-body motion; the takes mix free locomotion and transitions with typical VR and AR upper-body activity. The AI4Animation repository puts its motion capture data under CC BY-NC 4.0.
+
+Other releases of the same motion:
+
+- [Cranberry MotionAssets (Unity)](https://starke-consult.de/AI4Animation/SIGGRAPH_2024/MotionAssets.zip) — the same takes imported and pre-processed as AI4Animation Unity motion assets
 
 ## PHUMA
 

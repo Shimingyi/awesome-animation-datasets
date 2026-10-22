@@ -43,3 +43,10 @@ notes: >-
   Released with Meta Reality Labs' codebook-matching controller, which maps headset and controller signals to full-body
   motion; the takes mix free locomotion and transitions with typical VR and AR upper-body activity. The AI4Animation
   repository puts its motion capture data under CC BY-NC 4.0.
+review:
+  verdict: caution
+  issues: [root-drift, foot-skating]
+  note: >-
+    The root motion is badly off: the body travels while the feet are planted, so the feet slide over the floor (our
+    red flags: foot sliding in 56% of windows, median 12 mm per frame).
+  date: 2026-10-22

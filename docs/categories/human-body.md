@@ -33,7 +33,6 @@ Full-body human motion, one performer or several interacting (mocap, video recon
 | [**Bandai Namco Motion**](../categories/human-body.md#bandai-namco)<br><sub>Everyday actions in many styles and emotions, on a clean game rig: style transfer.</sub> | 3.9 | 3.1k | bvh | [home](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset)<br>[paper](https://arxiv.org/abs/2306.08861) | [▶](https://myshi-motion-viewer.static.hf.space/#bandai-namco/dataset-1-bow-musical-001) | <a href="https://myshi-motion-viewer.static.hf.space/#bandai-namco/dataset-1-bow-musical-001"><img src="../assets/thumbs/bandai-namco.webp" width="607" height="200" alt="Bandai Namco Motion examples"></a> |
 | [**Adult2Child**](../categories/human-body.md#adult2child)<br><sub>Child vs adult motion: age-style transfer and child character animation.</sub> | 3.1 | 973 | bvh<br>fbx<br>csv | [home](https://andreasaristidou.com/Adult2Child)<br>[data](https://zenodo.org/records/4079507)<br>[code](https://gitlab.com/jainlab/cyclegan-1-master)<br>[paper](https://doi.org/10.1145/3424636.3426909) | [▶](https://myshi-motion-viewer.static.hf.space/#adult2child/pose-child001-broad-jump-fwd-two-feet-001) | <a href="https://myshi-motion-viewer.static.hf.space/#adult2child/pose-child001-broad-jump-fwd-two-feet-001"><img src="../assets/thumbs/adult2child.webp" width="607" height="200" alt="Adult2Child examples"></a> |
 | [**MAMMA**](../categories/human-body.md#mamma)<br><sub>Markerless multi-view SMPL-X capture of partner dance and close multi-person interaction, with the videos.</sub> | 3.1 | 251 | SMPL-X<br>npz<br>video | [home](https://mamma.is.tue.mpg.de/)<br>[data](https://mamma.is.tue.mpg.de/download.php)<br>[code](https://github.com/cuevhv/mamma)<br>[paper](https://arxiv.org/abs/2506.13040) | [▶](https://myshi-motion-viewer.static.hf.space/#mamma/west-coast-swing-telemark) | <a href="https://myshi-motion-viewer.static.hf.space/#mamma/west-coast-swing-telemark"><img src="../assets/thumbs/mamma.webp" width="607" height="200" alt="MAMMA examples"></a> |
-| [**Cranberry**](../categories/human-body.md#cranberry)<br><sub>Unstructured VR-style locomotion and upper-body activity: three-point tracking and embodied avatar controllers.</sub> | 3.0 | 91 | fbx<br>glb | [home](https://github.com/sebastianstarke/AI4Animation)<br>[data](https://starke-consult.de/AI4Animation/SIGGRAPH_2024/Cranberry_Dataset.zip)<br>[code](https://github.com/sebastianstarke/AI4Animation/tree/master/AI4Animation/SIGGRAPH_2024)<br>[paper](https://github.com/sebastianstarke/AI4Animation/blob/master/Media/SIGGRAPH_2024/Paper.pdf) | [▶](https://myshi-motion-viewer.static.hf.space/#cranberry/sh02-cranberry-s01-crouching-and-loco-002) | <a href="https://myshi-motion-viewer.static.hf.space/#cranberry/sh02-cranberry-s01-crouching-and-loco-002"><img src="../assets/thumbs/cranberry.webp" width="607" height="200" alt="Cranberry examples"></a> |
 | [**Human3.6M**](../categories/human-body.md#human36m)<br><sub>The classic benchmark for 3D human pose estimation from video, and short-term motion prediction.</sub> | 2.9 | 210 | cdf<br>video | [home](http://vision.imar.ro/human3.6m/description.php)<br>[paper](https://ieeexplore.ieee.org/document/6682899) | [▶](https://myshi-motion-viewer.static.hf.space/#human36m/walking-s9) | <a href="https://myshi-motion-viewer.static.hf.space/#human36m/walking-s9"><img src="../assets/thumbs/human36m.webp" width="607" height="200" alt="Human3.6M examples"></a> |
 | [**Multi-Subject Motion**](../categories/human-body.md#multi-subject)<br><sub>The same locomotion patterns from twelve performers: subject / style-conditioned models.</sub> | 2.2 | 269 | bvh | [home](https://arxiv.org/abs/2101.12276)<br>[paper](https://doi.org/10.1007/s41095-022-0307-3) | [▶](https://myshi-motion-viewer.static.hf.space/#multi-subject/jb-jl-res-subject11-facez) | <a href="https://myshi-motion-viewer.static.hf.space/#multi-subject/jb-jl-res-subject11-facez"><img src="../assets/thumbs/multi-subject.webp" width="607" height="200" alt="Multi-Subject Motion examples"></a> |
 | [**BFA**](../categories/human-body.md#bfa)<br><sub>Small style-transfer benchmark: the same motions in 16 styles.</sub> | 2.2 | 64 | bvh | [home](https://deepmotionediting.github.io/style_transfer)<br>[data](https://drive.google.com/drive/folders/1C-_iZJj-PSUWZwh25yAsQe1tLpPm9EZ5)<br>[code](https://github.com/DeepMotionEditing/deep-motion-editing)<br>[paper](https://arxiv.org/abs/2005.05751) | [▶](https://myshi-motion-viewer.static.hf.space/#bfa/angry-01) | <a href="https://myshi-motion-viewer.static.hf.space/#bfa/angry-01"><img src="../assets/thumbs/bfa.webp" width="607" height="200" alt="BFA examples"></a> |
@@ -1079,34 +1078,6 @@ Other releases of the same motion:
 ```
 
 </details>
-
-## Cranberry
-
-<a href="https://myshi-motion-viewer.static.hf.space/#cranberry/sh02-cranberry-s01-crouching-and-loco-002"><img src="../assets/thumbs/cranberry.webp" width="486" height="160" alt="Cranberry examples"></a>
-
-**Cranberry motion capture dataset (Categorical Codebook Matching)** (2024)
-
-*Good for:* Unstructured VR-style locomotion and upper-body activity: three-point tracking and embodied avatar controllers.
-
-| | |
-|---|---|
-| Size | 3.0 h · 91 clips |
-| Motion | Locomotion (not broken down; take names are mostly walking, running, turning, side steps, crouching, jumps and transitions, plus VR games (Beat Saber, boxing, ping pong, baseball, shooting), gestures, speech, cooking, gardening and sitting) · tags: locomotion, gesture, sports, combat, daily-activity, sitting |
-| Capture | optical-mocap |
-| Data | fbx, glb · Cranberry character skeleton (27 joints in the paper's controller) · 120 fps |
-| Annotations | – |
-| Licence | ❌ [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) · access: open |
-| Links | [homepage](https://github.com/sebastianstarke/AI4Animation) · [download](https://starke-consult.de/AI4Animation/SIGGRAPH_2024/Cranberry_Dataset.zip) · [code](https://github.com/sebastianstarke/AI4Animation/tree/master/AI4Animation/SIGGRAPH_2024) · [paper](https://github.com/sebastianstarke/AI4Animation/blob/master/Media/SIGGRAPH_2024/Paper.pdf) |
-| Paper | Categorical Codebook Matching for Embodied Character Controllers (SIGGRAPH 2024 (ACM TOG)) |
-| Viewer | [9 examples](https://myshi-motion-viewer.static.hf.space/#cranberry/sh02-cranberry-s01-crouching-and-loco-002) |
-
-<sub>Size: about 3 h of unstructured motion of one body size (paper); 91 FBX takes in five parts by our count of the archive (4.1 GB), each also as GLB. 120 fps in the FBX we checked. The paper's training pipeline adds mirrored copies, not shipped.</sub>
-
-Released with Meta Reality Labs' codebook-matching controller, which maps headset and controller signals to full-body motion; the takes mix free locomotion and transitions with typical VR and AR upper-body activity. The AI4Animation repository puts its motion capture data under CC BY-NC 4.0.
-
-Other releases of the same motion:
-
-- [Cranberry MotionAssets (Unity)](https://starke-consult.de/AI4Animation/SIGGRAPH_2024/MotionAssets.zip) — the same takes imported and pre-processed as AI4Animation Unity motion assets
 
 ## Human3.6M
 

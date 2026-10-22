@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1136" height="380" viewBox="0 0 1136 380" role="img" aria-label="Hours of motion over time" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
 <rect x="0.5" y="0.5" width="1135" height="379" fill="#0d1117" stroke="#3d444d"/>
 <text x="28" y="40" font-size="16" font-weight="600" fill="#f0f6fc">Hours of motion over time</text>
-<text x="28" y="62" font-size="12.5" fill="#9198a1">cumulative hours in this list by release month · 41 datasets · 2,355 h</text>
+<text x="28" y="62" font-size="12.5" fill="#9198a1">cumulative hours in this list by release month · 40 datasets · 2,352 h</text>
 <line x1="84" y1="328.0" x2="1096" y2="328.0" stroke="#21262d" stroke-width="1"/>
 <text x="74" y="328.0" dy="0.35em" text-anchor="end" font-size="11.5" fill="#6e7681">0 h</text>
 <line x1="84" y1="281.6" x2="1096" y2="281.6" stroke="#21262d" stroke-width="1"/>
@@ -33,8 +33,8 @@
 <line x1="983.6" y1="328" x2="983.6" y2="333" stroke="#3d444d"/>
 <text x="983.6" y="350" text-anchor="middle" font-size="11.5" fill="#6e7681">2026</text>
 <line x1="1096.0" y1="328" x2="1096.0" y2="333" stroke="#3d444d"/>
-<path d="M84,328 L84,326.7 L84.0,326.7 L149.6,326.7 L149.6,326.7 L177.7,326.7 L177.7,325.8 L224.6,325.8 L224.6,321.9 L346.4,321.9 L346.4,321.7 L365.1,321.7 L365.1,321.3 L393.2,321.3 L393.2,321.0 L421.3,321.0 L421.3,320.8 L533.8,320.8 L533.8,318.7 L552.5,318.7 L552.5,311.7 L590.0,311.7 L590.0,311.2 L608.7,311.2 L608.7,311.0 L674.3,311.0 L674.3,309.1 L711.8,309.1 L711.8,308.5 L721.2,308.5 L721.2,307.6 L730.6,307.6 L730.6,306.9 L749.3,306.9 L749.3,306.4 L777.4,306.4 L777.4,305.8 L796.1,305.8 L796.1,305.8 L805.5,305.8 L805.5,302.3 L824.3,302.3 L824.3,302.0 L833.6,302.0 L833.6,301.1 L889.9,301.1 L889.9,300.3 L899.2,300.3 L899.2,300.1 L918.0,300.1 L918.0,299.5 L927.3,299.5 L927.3,294.5 L946.1,294.5 L946.1,293.6 L955.4,293.6 L955.4,247.1 L1002.3,247.1 L1002.3,233.8 L1030.4,233.8 L1030.4,143.2 L1049.1,143.2 L1049.1,114.5 L1058.5,114.5 L1058.5,112.6 L1067.9,112.6 L1067.9,109.4 L1096.0,109.4 L1096.0,328 Z" fill="#3987e5" fill-opacity="0.12"/>
-<path d="M84.0,326.7 L149.6,326.7 L149.6,326.7 L177.7,326.7 L177.7,325.8 L224.6,325.8 L224.6,321.9 L346.4,321.9 L346.4,321.7 L365.1,321.7 L365.1,321.3 L393.2,321.3 L393.2,321.0 L421.3,321.0 L421.3,320.8 L533.8,320.8 L533.8,318.7 L552.5,318.7 L552.5,311.7 L590.0,311.7 L590.0,311.2 L608.7,311.2 L608.7,311.0 L674.3,311.0 L674.3,309.1 L711.8,309.1 L711.8,308.5 L721.2,308.5 L721.2,307.6 L730.6,307.6 L730.6,306.9 L749.3,306.9 L749.3,306.4 L777.4,306.4 L777.4,305.8 L796.1,305.8 L796.1,305.8 L805.5,305.8 L805.5,302.3 L824.3,302.3 L824.3,302.0 L833.6,302.0 L833.6,301.1 L889.9,301.1 L889.9,300.3 L899.2,300.3 L899.2,300.1 L918.0,300.1 L918.0,299.5 L927.3,299.5 L927.3,294.5 L946.1,294.5 L946.1,293.6 L955.4,293.6 L955.4,247.1 L1002.3,247.1 L1002.3,233.8 L1030.4,233.8 L1030.4,143.2 L1049.1,143.2 L1049.1,114.5 L1058.5,114.5 L1058.5,112.6 L1067.9,112.6 L1067.9,109.4 L1096.0,109.4" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round"/>
+<path d="M84,328 L84,326.7 L84.0,326.7 L149.6,326.7 L149.6,326.7 L177.7,326.7 L177.7,325.8 L224.6,325.8 L224.6,321.9 L346.4,321.9 L346.4,321.7 L365.1,321.7 L365.1,321.3 L393.2,321.3 L393.2,321.0 L421.3,321.0 L421.3,320.8 L533.8,320.8 L533.8,318.7 L552.5,318.7 L552.5,311.7 L590.0,311.7 L590.0,311.2 L608.7,311.2 L608.7,311.0 L674.3,311.0 L674.3,309.1 L711.8,309.1 L711.8,308.5 L721.2,308.5 L721.2,307.6 L730.6,307.6 L730.6,306.9 L749.3,306.9 L749.3,306.4 L777.4,306.4 L777.4,305.8 L796.1,305.8 L796.1,305.8 L805.5,305.8 L805.5,302.3 L833.6,302.3 L833.6,301.4 L889.9,301.4 L889.9,300.6 L899.2,300.6 L899.2,300.4 L918.0,300.4 L918.0,299.8 L927.3,299.8 L927.3,294.8 L946.1,294.8 L946.1,293.9 L955.4,293.9 L955.4,247.4 L1002.3,247.4 L1002.3,234.0 L1030.4,234.0 L1030.4,143.4 L1049.1,143.4 L1049.1,114.8 L1058.5,114.8 L1058.5,112.9 L1067.9,112.9 L1067.9,109.7 L1096.0,109.7 L1096.0,328 Z" fill="#3987e5" fill-opacity="0.12"/>
+<path d="M84.0,326.7 L149.6,326.7 L149.6,326.7 L177.7,326.7 L177.7,325.8 L224.6,325.8 L224.6,321.9 L346.4,321.9 L346.4,321.7 L365.1,321.7 L365.1,321.3 L393.2,321.3 L393.2,321.0 L421.3,321.0 L421.3,320.8 L533.8,320.8 L533.8,318.7 L552.5,318.7 L552.5,311.7 L590.0,311.7 L590.0,311.2 L608.7,311.2 L608.7,311.0 L674.3,311.0 L674.3,309.1 L711.8,309.1 L711.8,308.5 L721.2,308.5 L721.2,307.6 L730.6,307.6 L730.6,306.9 L749.3,306.9 L749.3,306.4 L777.4,306.4 L777.4,305.8 L796.1,305.8 L796.1,305.8 L805.5,305.8 L805.5,302.3 L833.6,302.3 L833.6,301.4 L889.9,301.4 L889.9,300.6 L899.2,300.6 L899.2,300.4 L918.0,300.4 L918.0,299.8 L927.3,299.8 L927.3,294.8 L946.1,294.8 L946.1,293.9 L955.4,293.9 L955.4,247.4 L1002.3,247.4 L1002.3,234.0 L1030.4,234.0 L1030.4,143.4 L1049.1,143.4 L1049.1,114.8 L1058.5,114.8 L1058.5,112.9 L1067.9,112.9 L1067.9,109.7 L1096.0,109.7" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round"/>
 <circle cx="149.6" cy="326.7" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
 <circle cx="177.7" cy="325.8" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
 <circle cx="224.6" cy="321.9" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
@@ -54,32 +54,31 @@
 <circle cx="777.4" cy="305.8" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
 <circle cx="796.1" cy="305.8" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
 <circle cx="805.5" cy="302.3" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="824.3" cy="302.0" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="833.6" cy="301.1" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="889.9" cy="300.3" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="899.2" cy="300.1" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="918.0" cy="299.5" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="927.3" cy="294.5" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="946.1" cy="293.6" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="955.4" cy="247.1" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="1002.3" cy="233.8" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="1030.4" cy="143.2" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="1049.1" cy="114.5" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="1058.5" cy="112.6" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<circle cx="1067.9" cy="109.4" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
-<text x="897.2" y="135.2" font-size="12" fill="#f0f6fc"><tspan font-weight="600">MotionDecode</tspan> <tspan fill="#9198a1">+976 h</tspan></text>
-<text x="842.0" y="239.1" font-size="12" fill="#f0f6fc"><tspan font-weight="600">Embody 3D</tspan> <tspan fill="#9198a1">+501 h</tspan></text>
-<text x="962.1" y="106.5" font-size="12" fill="#f0f6fc"><tspan font-weight="600">HiPHI</tspan> <tspan fill="#9198a1">+309 h</tspan></text>
-<text x="1008.3" y="249.8" font-size="12" fill="#f0f6fc"><tspan font-weight="600">BONES-SEED</tspan> <tspan fill="#9198a1">+144 h</tspan></text>
+<circle cx="833.6" cy="301.4" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
+<circle cx="889.9" cy="300.6" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
+<circle cx="899.2" cy="300.4" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
+<circle cx="918.0" cy="299.8" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
+<circle cx="927.3" cy="294.8" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
+<circle cx="946.1" cy="293.9" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
+<circle cx="955.4" cy="247.4" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
+<circle cx="1002.3" cy="234.0" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
+<circle cx="1030.4" cy="143.4" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
+<circle cx="1049.1" cy="114.8" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
+<circle cx="1058.5" cy="112.9" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
+<circle cx="1067.9" cy="109.7" r="3" fill="#3987e5" stroke="#0d1117" stroke-width="1.5"/>
+<text x="897.2" y="135.4" font-size="12" fill="#f0f6fc"><tspan font-weight="600">MotionDecode</tspan> <tspan fill="#9198a1">+976 h</tspan></text>
+<text x="842.0" y="239.4" font-size="12" fill="#f0f6fc"><tspan font-weight="600">Embody 3D</tspan> <tspan fill="#9198a1">+501 h</tspan></text>
+<text x="962.1" y="106.8" font-size="12" fill="#f0f6fc"><tspan font-weight="600">HiPHI</tspan> <tspan fill="#9198a1">+309 h</tspan></text>
+<text x="1008.3" y="250.0" font-size="12" fill="#f0f6fc"><tspan font-weight="600">BONES-SEED</tspan> <tspan fill="#9198a1">+144 h</tspan></text>
 <text x="479.1" y="303.7" font-size="12" fill="#f0f6fc"><tspan font-weight="600">BEAT</tspan> <tspan fill="#9198a1">+76 h</tspan></text>
-<text x="820.9" y="286.5" font-size="12" fill="#f0f6fc"><tspan font-weight="600">SnapMoGen</tspan> <tspan fill="#9198a1">+53 h</tspan></text>
+<text x="820.9" y="286.8" font-size="12" fill="#f0f6fc"><tspan font-weight="600">SnapMoGen</tspan> <tspan fill="#9198a1">+53 h</tspan></text>
 <text x="144.6" y="313.9" font-size="12" fill="#f0f6fc"><tspan font-weight="600">AMASS</tspan> <tspan fill="#9198a1">+42 h</tspan></text>
 <text x="712.3" y="294.3" font-size="12" fill="#f0f6fc"><tspan font-weight="600">Inter-X</tspan> <tspan fill="#9198a1">+38 h</tspan></text>
-<path d="M1001.9,161.0 L1062.9,106.4" stroke="#6e7681" stroke-width="1" fill="none"/>
+<path d="M1001.9,161.0 L1062.9,106.7" stroke="#6e7681" stroke-width="1" fill="none"/>
 <text x="871.1" y="165.0" font-size="12" fill="#f0f6fc"><tspan font-weight="600">MotionPersona</tspan> <tspan fill="#9198a1">+34 h</tspan></text>
-<path d="M992.5,179.0 L1053.5,109.6" stroke="#6e7681" stroke-width="1" fill="none"/>
+<path d="M992.5,179.0 L1053.5,109.9" stroke="#6e7681" stroke-width="1" fill="none"/>
 <text x="749.5" y="183.0" font-size="12" fill="#f0f6fc"><tspan font-weight="600">Objaverse-XL Rigged &amp; Animated</tspan> <tspan fill="#9198a1">+21 h</tspan></text>
 <text x="561.3" y="301.1" font-size="12" fill="#f0f6fc"><tspan font-weight="600">InterHuman</tspan> <tspan fill="#9198a1">+21 h</tspan></text>
-<text x="839.6" y="317.1" font-size="12" fill="#f0f6fc"><tspan font-weight="600">CHOIS</tspan> <tspan fill="#9198a1">+10 h</tspan></text>
-<text x="952.1" y="309.6" font-size="12" fill="#f0f6fc"><tspan font-weight="600">InterAct</tspan> <tspan fill="#9198a1">+10 h</tspan></text>
+<text x="839.6" y="317.4" font-size="12" fill="#f0f6fc"><tspan font-weight="600">CHOIS</tspan> <tspan fill="#9198a1">+10 h</tspan></text>
+<text x="952.1" y="309.9" font-size="12" fill="#f0f6fc"><tspan font-weight="600">InterAct</tspan> <tspan fill="#9198a1">+10 h</tspan></text>
 </svg>
