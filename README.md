@@ -66,7 +66,9 @@ Hours count each recording once: 2 datasets that re-label or re-target another o
   two-person take of one hour counts as 2 h.
 
 <!-- BEGIN NEWS -->
+## News
 
+- **Oct 22, 2026** · Added [Seamless Interaction](docs/categories/caution.md#seamless-interaction), under Use with caution: 4,000 h of SMPL-H. Very large two-person conversation corpus with audio, transcripts and SMPL-H estimated from video: dyadic gesture and listener behaviour. · [examples & discussion](https://github.com/Shimingyi/awesome-animation-datasets/issues/1)
 <!-- END NEWS -->
 
 ## Datasets
