@@ -1,4 +1,10 @@
 # README "News": newest first, the latest NEWS_SHOWN are shown; tools/announce.py adds one per issue.
+- date: '2026-11-04'
+  dataset: hkmala-motion
+  issue: https://github.com/Shimingyi/awesome-animation-datasets/issues/2
+  text: 'Added [HKMALA-Motion](docs/categories/human-body.md#hkmala-motion): 2.9 h of SMPL-H / npz. Traditional Chinese martial-arts
+    routines across 22 styles as SMPL-H with fingers and raw markers: martial-arts and style-conditioned motion, marker-based
+    solving.'
 - date: '2026-10-22'
   dataset: seamless-interaction
   issue: https://github.com/Shimingyi/awesome-animation-datasets/issues/1

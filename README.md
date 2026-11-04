@@ -68,6 +68,7 @@ Hours count each recording once: 2 datasets that re-label or re-target another o
 <!-- BEGIN NEWS -->
 ## News
 
+- **Nov 4, 2026** · Added [HKMALA-Motion](docs/categories/human-body.md#hkmala-motion): 2.9 h of SMPL-H / npz. Traditional Chinese martial-arts routines across 22 styles as SMPL-H with fingers and raw markers: martial-arts and style-conditioned motion, marker-based solving. · [examples & discussion](https://github.com/Shimingyi/awesome-animation-datasets/issues/2)
 - **Oct 22, 2026** · Added [Seamless Interaction](docs/categories/caution.md#seamless-interaction), under Use with caution: 4,000 h of SMPL-H. Very large two-person conversation corpus with audio, transcripts and SMPL-H estimated from video: dyadic gesture and listener behaviour. · [examples & discussion](https://github.com/Shimingyi/awesome-animation-datasets/issues/1)
 <!-- END NEWS -->
 
