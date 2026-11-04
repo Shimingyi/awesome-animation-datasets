@@ -44,7 +44,7 @@ config.local.yaml         machine paths: vault, sources, blender, chrome, deploy
 python -m tools.validate                 # registry + example specs + generated pages up to date
 python -m tools.examples.bake <id>       # only if examples changed (add --thumbs to render the cards)
 python -m tools.readme                   # README stats/tables, charts, docs/categories/*.md
-python -m tools.banner                   # README header: new text + date over the saved tile wall (--background rebuilds it, --social the still card)
+python -m tools.banner --social          # README header + the Space / link-preview card: new numbers and date over the saved tile wall (--background rebuilds the wall)
 python -m tools.validate                 # must print "... ok" and "README and docs are up to date"
 ```
 
