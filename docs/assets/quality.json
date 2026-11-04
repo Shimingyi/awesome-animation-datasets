@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22",
+ "generated": "2026-11-04",
  "fps": 30.0,
  "windows": 100,
  "thresholds": {
@@ -630,6 +630,39 @@
     "selfpen_frac": 0.01
    },
    "flags": []
+  },
+  "hkmala-motion": {
+   "clips": 100,
+   "median": {
+    "G1_tilt_deg": 0.275,
+    "G3_g_est": 9.53,
+    "G3_g_angle_deg": 3.7,
+    "phys_residual_g": 0.0055,
+    "phys_bad_frac": 0.003,
+    "A1_pull_frac": 0.0,
+    "float_frac": 0.185,
+    "floor_drift_cm": 1.81,
+    "skate_mm": 1.745,
+    "penetrate_cm": 0.16,
+    "jitter": 150.15,
+    "hf_ratio": 0.078,
+    "pops_per_min": 0.0,
+    "rom_bad_frac": 0.0,
+    "selfpen_frac": 0.005
+   },
+   "share": {
+    "phys_residual_g": 0.08,
+    "float_frac": 0.234,
+    "skate_mm": 0.0,
+    "hf_ratio": 0.23,
+    "floor_drift_cm": 0.04,
+    "G1_tilt_deg": 0.0,
+    "rom_bad_frac": 0.0,
+    "selfpen_frac": 0.39
+   },
+   "flags": [
+    "selfpen_frac"
+   ]
   },
   "human36m": {
    "clips": 100,

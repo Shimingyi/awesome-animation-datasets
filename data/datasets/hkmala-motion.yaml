@@ -1,0 +1,50 @@
+id: hkmala-motion
+name: HKMALA-Motion
+full_name: 'HKMALA-Motion: martial-arts marker capture with DirtyMoCap-fitted SMPL-H (DirtyMoCap)'
+good_for: "Traditional Chinese martial-arts routines across 22 styles as SMPL-H with fingers and raw markers: martial-arts and style-conditioned motion, marker-based solving."
+year: 2026
+released: 2026-11
+subject: human-body
+content: combat
+content_note: complete martial-arts routines (forms) of Southern and Northern Chinese styles; not broken down further
+tags: [combat, martial-arts, style, action-labels]
+capture: optical-mocap
+representation: [smplh, npz]
+skeleton:
+  joints: 52
+  rig: SMPL-H (22 body + 30 hand joints, per-frame shape), plus the raw marker trajectories (109-125 unlabelled markers)
+fps: 120
+stats:
+  hours: 2.90
+  clips: 124
+stats_note: >-
+  first release (2026-11-02): 124 recordings, 1,238,717 frames, 2.90 h (dataset card; our count of the files agrees);
+  114 recordings at 120 fps, the rest at 60, 140 or 160 fps
+annotations: [style-labels, action-labels]
+license:
+  name: HKMALA Motion Noncommercial Research Data License
+  url: https://huggingface.co/datasets/aLongZJU/HKMALA-Motion/blob/main/LICENSE
+  commercial: false
+access: gated
+links:
+  homepage: https://wanglongzju.github.io/DirtyMoCap-Project-Page/
+  data: https://huggingface.co/datasets/aLongZJU/HKMALA-Motion
+  code: https://github.com/WangLongZJU/DirtyMoCap
+  paper: https://arxiv.org/abs/2609.19927
+paper:
+  title: 'DirtyMoCap: Robust Motion Capture from Unconstrained Markers'
+  venue: SIGGRAPH Asia 2026
+citation: |
+  @article{wang2026dirtymocap,
+    title   = {DirtyMoCap: Robust Motion Capture from Unconstrained Markers},
+    author  = {Wang, Long and Zhao, Shuting and Yan, Shen and Yu, Siyuan and Li, Xiaoben and Cai, Zeyu and Hou, Yumeng and Xiu, Yuliang},
+    journal = {arXiv preprint arXiv:2609.19927},
+    note    = {SIGGRAPH Asia 2026},
+    year    = {2026},
+  }
+notes: >-
+  Martial-arts recordings obtained with authorization from the International Guoshu Association (IGA), released by
+  Westlake University's Endless AI Lab with the DirtyMoCap solver: unordered, noisy optical markers are solved to SMPL-H
+  body and hands (flat_hand_mean=False) without manual cleanup, so a few frames can twist or jump. Each recording has
+  its style and routine label (English and Chinese). Access needs a Hugging Face account and accepting the licence;
+  approval is automatic.

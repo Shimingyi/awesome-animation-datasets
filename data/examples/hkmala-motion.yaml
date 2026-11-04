@@ -1,0 +1,16 @@
+dataset: hkmala-motion
+note: DirtyMoCap's SMPL-H as released, the mean hand pose added in (it was fitted with flat_hand_mean=False) and each clip's median shape; converted by tools/examples/hkmala.py
+quality:
+  from:
+  - {reader: 'vault', glob: 'HKMALA-Motion/*'}
+items:
+- {source: vault, clip: HKMALA-Motion/Pakmei/HKMALA_000001, label: Pakmei · Jik Bo}
+- {source: vault, clip: HKMALA-Motion/Huen_Kuen/HKMALA_000004, label: Huen Kuen · Gung Gee Fok Fu Kuen}
+- {source: vault, clip: HKMALA-Motion/Fujian_White_Crane/HKMALA_000003, label: Fujian White Crane · Dau Jik}
+- {source: vault, clip: "HKMALA-Motion/Ma's_Tong_Bei/HKMALA_000005", label: Ma's Tong Bei · Baji Xiao Jia}
+- {source: vault, clip: HKMALA-Motion/Ving_Tsun/HKMALA_000006, label: Ving Tsun · Chum Kiu}
+- {source: vault, clip: HKMALA-Motion/Hung_Sing_Choy_lee_Fat/HKMALA_000013, label: Choy Lee Fat · Ping Kuen}
+- {source: vault, clip: HKMALA-Motion/Eagle_Claw_Fan_Tsi_Moon/HKMALA_000014, label: Eagle Claw · Hang Kyun}
+- {source: vault, clip: "HKMALA-Motion/Yang's_Taiji/HKMALA_000112", label: Yang's Taiji · 28 Movements}
+- {source: vault, clip: HKMALA-Motion/Gao_style_Bagua_Zhang/HKMALA_000011, label: Gao style Bagua Zhang}
+- {source: vault, clip: HKMALA-Motion/Iron_Ox_Praying_Mantis/HKMALA_000109, label: Iron Ox Praying Mantis · Sei Moon Kyun}

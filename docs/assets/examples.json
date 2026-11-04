@@ -418,6 +418,18 @@
   "cranberry/sh20-cranberry-s01-running-s01",
   "cranberry/jump-walk-run-mix-1"
  ],
+ "hkmala-motion": [
+  "hkmala-motion/pakmei-jik-bo",
+  "hkmala-motion/huen-kuen-gung-gee-fok-fu-kuen",
+  "hkmala-motion/fujian-white-crane-dau-jik",
+  "hkmala-motion/ma-s-tong-bei-baji-xiao-jia",
+  "hkmala-motion/ving-tsun-chum-kiu",
+  "hkmala-motion/choy-lee-fat-ping-kuen",
+  "hkmala-motion/eagle-claw-hang-kyun",
+  "hkmala-motion/yang-s-taiji-28-movements",
+  "hkmala-motion/gao-style-bagua-zhang",
+  "hkmala-motion/iron-ox-praying-mantis-sei-moon-kyun"
+ ],
  "human36m": [
   "human36m/walking-s9",
   "human36m/walking-a-dog-s1",

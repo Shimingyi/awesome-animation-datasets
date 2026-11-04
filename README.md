@@ -14,7 +14,7 @@ Motion datasets are many, scattered and hard to compare: different formats, diff
 | Rendered 10 example clips of every dataset in browser — skeletons, SMPL bodies, textured rigged meshes. | One table per category with hours, clips, formats (SMPL / SMPL-X support first) and the links you need. | We keep all data clean: every dataset is checked visually, also measured on [nine red-flag metrics](#quality-red-flags). Broken or unrealistic ones move to **Use with caution**, and not included in the main list. |
 
 <!-- BEGIN STATS -->
-**43 datasets · 2,352 hours of motion · 278,155 clips** — human bodies, hands, interactions, animals, rigged objects and robots, 2003–2026. 9 more (5,182 h) are listed under [Use with caution](#use-with-caution).
+**44 datasets · 2,355 hours of motion · 278,279 clips** — human bodies, hands, interactions, animals, rigged objects and robots, 2003–2026. 9 more (5,182 h) are listed under [Use with caution](#use-with-caution).
 
 <p>
 <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/charts/subject-dark.svg"><img src="docs/assets/charts/subject-light.svg" alt="Hours of motion by subject" width="49%"></picture>
@@ -27,11 +27,11 @@ Motion datasets are many, scattered and hard to compare: different formats, diff
 
 | Subject | Datasets | Hours | Share |
 |---|--:|--:|--:|
-| 🧍 [Human body](docs/categories/human-body.md) | 38 | 1,357 | 58 % |
+| 🧍 [Human body](docs/categories/human-body.md) | 39 | 1,359 | 58 % |
 | 🐾 [Animals](docs/categories/animal.md) | 2 | 1.9 | <0.1 % |
 | 🧸 [Objects & creatures](docs/categories/object.md) | 1 | 21.0 | 0.9 % |
 | 🤖 [Robots](docs/categories/robot.md) | 2 | 973 | 41 % |
-| **Total** | **43** | **2,352** | |
+| **Total** | **44** | **2,355** | |
 
 | Motion type | Datasets | Hours | Share |
 |---|--:|--:|--:|
@@ -41,7 +41,7 @@ Motion datasets are many, scattered and hard to compare: different formats, diff
 | Interaction | 7 | 197 | 8.4 % |
 | Dance | 7 | 82.3 | 3.5 % |
 | Sports & exercise | 2 | 55.6 | 2.4 % |
-| Combat & action | 4 | 11.4 | 0.5 % |
+| Combat & action | 5 | 14.3 | 0.6 % |
 | Unclassified | 10 | 282 | 12 % |
 
 </details>
@@ -110,6 +110,7 @@ Full-body human motion, one performer or several interacting (mocap, video recon
 | [**Bandai Namco Motion**](docs/categories/human-body.md#bandai-namco)<br><sub>Everyday actions in many styles and emotions, on a clean game rig: style transfer.</sub> | 3.9 | 3.1k | bvh | [home](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset)<br>[paper](https://arxiv.org/abs/2306.08861) | [▶](https://myshi-motion-viewer.static.hf.space/#bandai-namco/dataset-1-bow-musical-001) | <a href="https://myshi-motion-viewer.static.hf.space/#bandai-namco/dataset-1-bow-musical-001"><img src="docs/assets/thumbs/bandai-namco.webp" width="607" height="200" alt="Bandai Namco Motion examples"></a> |
 | [**Adult2Child**](docs/categories/human-body.md#adult2child)<br><sub>Child vs adult motion: age-style transfer and child character animation.</sub> | 3.1 | 973 | bvh<br>fbx<br>csv | [home](https://andreasaristidou.com/Adult2Child)<br>[data](https://zenodo.org/records/4079507)<br>[code](https://gitlab.com/jainlab/cyclegan-1-master)<br>[paper](https://doi.org/10.1145/3424636.3426909) | [▶](https://myshi-motion-viewer.static.hf.space/#adult2child/pose-child001-broad-jump-fwd-two-feet-001) | <a href="https://myshi-motion-viewer.static.hf.space/#adult2child/pose-child001-broad-jump-fwd-two-feet-001"><img src="docs/assets/thumbs/adult2child.webp" width="607" height="200" alt="Adult2Child examples"></a> |
 | [**MAMMA**](docs/categories/human-body.md#mamma)<br><sub>Markerless multi-view SMPL-X capture of partner dance and close multi-person interaction, with the videos.</sub> | 3.1 | 251 | SMPL-X<br>npz<br>video | [home](https://mamma.is.tue.mpg.de/)<br>[data](https://mamma.is.tue.mpg.de/download.php)<br>[code](https://github.com/cuevhv/mamma)<br>[paper](https://arxiv.org/abs/2506.13040) | [▶](https://myshi-motion-viewer.static.hf.space/#mamma/west-coast-swing-telemark) | <a href="https://myshi-motion-viewer.static.hf.space/#mamma/west-coast-swing-telemark"><img src="docs/assets/thumbs/mamma.webp" width="607" height="200" alt="MAMMA examples"></a> |
+| [**HKMALA-Motion**](docs/categories/human-body.md#hkmala-motion)<br><sub>Traditional Chinese martial-arts routines across 22 styles as SMPL-H with fingers and raw markers: martial-arts and style-conditioned motion, marker-based solving.</sub> | 2.9 | 124 | SMPL-H<br>npz | [home](https://wanglongzju.github.io/DirtyMoCap-Project-Page/)<br>[data](https://huggingface.co/datasets/aLongZJU/HKMALA-Motion)<br>[code](https://github.com/WangLongZJU/DirtyMoCap)<br>[paper](https://arxiv.org/abs/2609.19927) | [▶](https://myshi-motion-viewer.static.hf.space/#hkmala-motion/pakmei-jik-bo) | <a href="https://myshi-motion-viewer.static.hf.space/#hkmala-motion/pakmei-jik-bo"><img src="docs/assets/thumbs/hkmala-motion.webp" width="607" height="200" alt="HKMALA-Motion examples"></a> |
 | [**Human3.6M**](docs/categories/human-body.md#human36m)<br><sub>The classic benchmark for 3D human pose estimation from video, and short-term motion prediction.</sub> | 2.9 | 210 | cdf<br>video | [home](http://vision.imar.ro/human3.6m/description.php)<br>[paper](https://ieeexplore.ieee.org/document/6682899) | [▶](https://myshi-motion-viewer.static.hf.space/#human36m/walking-s9) | <a href="https://myshi-motion-viewer.static.hf.space/#human36m/walking-s9"><img src="docs/assets/thumbs/human36m.webp" width="607" height="200" alt="Human3.6M examples"></a> |
 | [**Multi-Subject Motion**](docs/categories/human-body.md#multi-subject)<br><sub>The same locomotion patterns from twelve performers: subject / style-conditioned models.</sub> | 2.2 | 269 | bvh | [home](https://arxiv.org/abs/2101.12276)<br>[paper](https://doi.org/10.1007/s41095-022-0307-3) | [▶](https://myshi-motion-viewer.static.hf.space/#multi-subject/jb-jl-res-subject11-facez) | <a href="https://myshi-motion-viewer.static.hf.space/#multi-subject/jb-jl-res-subject11-facez"><img src="docs/assets/thumbs/multi-subject.webp" width="607" height="200" alt="Multi-Subject Motion examples"></a> |
 | [**BFA**](docs/categories/human-body.md#bfa)<br><sub>Small style-transfer benchmark: the same motions in 16 styles.</sub> | 2.2 | 64 | bvh | [home](https://deepmotionediting.github.io/style_transfer)<br>[data](https://drive.google.com/drive/folders/1C-_iZJj-PSUWZwh25yAsQe1tLpPm9EZ5)<br>[code](https://github.com/DeepMotionEditing/deep-motion-editing)<br>[paper](https://arxiv.org/abs/2005.05751) | [▶](https://myshi-motion-viewer.static.hf.space/#bfa/angry-01) | <a href="https://myshi-motion-viewer.static.hf.space/#bfa/angry-01"><img src="docs/assets/thumbs/bfa.webp" width="607" height="200" alt="BFA examples"></a> |
@@ -174,7 +175,7 @@ Datasets whose motion quality fell short when we inspected it (jitter, foot skat
 - **Cranberry**: Root drift / floating, foot skating. The root motion is badly off: the body travels while the feet are planted, so the feet slide over the floor (our red flags: foot sliding in 56% of windows, median 12 mm per frame).
 - **PHUMA**: Root drift / floating, foot skating, unnatural body angles. In the examples we inspected the feet float above the floor and slide, and the motion looks unnatural; part of the source motion is reconstructed from web video (Motion-X).
 
-**Licences.** 7 of these datasets allow commercial use, 28 do not and 8 leave it unclear; each category page gives the licence and its link. Always read the dataset's own terms.
+**Licences.** 7 of these datasets allow commercial use, 29 do not and 8 leave it unclear; each category page gives the licence and its link. Always read the dataset's own terms.
 
 ¹ re-labels or re-targets another dataset: listed, but its hours are not added to the totals. ⭐ recommended. Quality notes are our judgement from inspecting the data, not the authors' claims.
 <!-- END DATASETS -->
@@ -182,7 +183,7 @@ Datasets whose motion quality fell short when we inspected it (jitter, foot skat
 ## Quality red flags
 
 <!-- BEGIN QUALITY -->
-Each of 46 human datasets is measured on 100 ten-second windows drawn at random from its full release (mirrored copies excluded; 2026-10-22, `python -m tools.quality`): each window becomes world joints in metres at 30 fps on a body-segment mass model. Each metric has a per-window threshold, and the chart shows the share of windows over it: a dataset is flagged when more than 25% of its windows are, so problems in part of a release show even when the typical clip is fine. These are red flags: values clean motion capture practically never shows. A flag means look closer, no flag does not prove quality.
+Each of 47 human datasets is measured on 100 ten-second windows drawn at random from its full release (mirrored copies excluded; 2026-11-04, `python -m tools.quality`): each window becomes world joints in metres at 30 fps on a body-segment mass model. Each metric has a per-window threshold, and the chart shows the share of windows over it: a dataset is flagged when more than 25% of its windows are, so problems in part of a release show even when the typical clip is fine. These are red flags: values clean motion capture practically never shows. A flag means look closer, no flag does not prove quality.
 
 - **Residual**: the smallest non-physical acceleration the motion needs (flag > 0.05 g): the centre of mass falling faster than gravity, force while clear of the ground, the zero-moment point outside the feet, leaving the friction cone. **Float**: feet resting above the floor — steps that stand > 2 cm above the lowest ones (flag > 40% of steps).
 - **Slide**: the planted, weight-bearing ball of the foot sliding, mm per frame (flag > 10.0). **Jitter**: share of acceleration energy at 8–12 Hz, above what muscles produce (flag > 0.12; not measured under 25 fps).
@@ -212,6 +213,7 @@ Known false alarms: feet that slide on purpose (dance pivots, shuffling or drunk
 | [SnapMoGen](docs/categories/human-body.md#snapmogen) | 100 | 0.01 · 23% | 6% · 23% | 1.1 · 4% | **0.15 · 63%** | 0.9 · 5% | – | 0.25 · 0% | 0% · 0% | 0% · 8% | jitter |
 | [Inter-X](docs/categories/human-body.md#inter-x) | 100 | 0.00 · 10% | 7% · 14% | 0.6 · 0% | 0.06 · 20% | 0.4 · 2% | **5.0 · 50%** | 0.59 · 14% | 0% · 4% | 0% · 0% | performers on different floors |
 | [Embody 3D](docs/categories/human-body.md#embody-3d) | 101 | 0.00 · 9% | 0% · 14% | 0.2 · 0% | **0.13 · 55%** | 1.1 · 1% | 1.8 · 2% | 0.11 · 0% | 0% · 11% | 0% · 7% | jitter |
+| [HKMALA-Motion](docs/categories/human-body.md#hkmala-motion) | 100 | 0.01 · 8% | 18% · 23% | 1.7 · 0% | 0.08 · 23% | 1.8 · 4% | – | 0.28 · 0% | 0% · 0% | **0% · 39%** | self-penetration |
 | [Adult2Child](docs/categories/human-body.md#adult2child) | 100 | 0.00 · 25% | **0% · 27%** | 0.4 · 0% | 0.06 · 9% | 0.5 · 23% | – | – | 0% · 3% | 0% · 4% | floating |
 | [PFNN](docs/categories/human-body.md#pfnn) | 100 | **0.02 · 35%** | 0% · 16% | 1.0 · 0% | 0.05 · 15% | 0.7 · 18% | – | 0.10 · 0% | 0% · 2% | 0% · 1% | physics |
 | [Cranberry](docs/categories/caution.md#cranberry) | 100 | 0.01 · 17% | 0% · 0% | **12.2 · 56%** | 0.04 · 4% | 1.0 · 2% | – | 0.20 · 0% | 0% · 2% | 0% · 1% | foot sliding |

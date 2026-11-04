@@ -33,6 +33,7 @@ Full-body human motion, one performer or several interacting (mocap, video recon
 | [**Bandai Namco Motion**](../categories/human-body.md#bandai-namco)<br><sub>Everyday actions in many styles and emotions, on a clean game rig: style transfer.</sub> | 3.9 | 3.1k | bvh | [home](https://github.com/BandaiNamcoResearchInc/Bandai-Namco-Research-Motiondataset)<br>[paper](https://arxiv.org/abs/2306.08861) | [▶](https://myshi-motion-viewer.static.hf.space/#bandai-namco/dataset-1-bow-musical-001) | <a href="https://myshi-motion-viewer.static.hf.space/#bandai-namco/dataset-1-bow-musical-001"><img src="../assets/thumbs/bandai-namco.webp" width="607" height="200" alt="Bandai Namco Motion examples"></a> |
 | [**Adult2Child**](../categories/human-body.md#adult2child)<br><sub>Child vs adult motion: age-style transfer and child character animation.</sub> | 3.1 | 973 | bvh<br>fbx<br>csv | [home](https://andreasaristidou.com/Adult2Child)<br>[data](https://zenodo.org/records/4079507)<br>[code](https://gitlab.com/jainlab/cyclegan-1-master)<br>[paper](https://doi.org/10.1145/3424636.3426909) | [▶](https://myshi-motion-viewer.static.hf.space/#adult2child/pose-child001-broad-jump-fwd-two-feet-001) | <a href="https://myshi-motion-viewer.static.hf.space/#adult2child/pose-child001-broad-jump-fwd-two-feet-001"><img src="../assets/thumbs/adult2child.webp" width="607" height="200" alt="Adult2Child examples"></a> |
 | [**MAMMA**](../categories/human-body.md#mamma)<br><sub>Markerless multi-view SMPL-X capture of partner dance and close multi-person interaction, with the videos.</sub> | 3.1 | 251 | SMPL-X<br>npz<br>video | [home](https://mamma.is.tue.mpg.de/)<br>[data](https://mamma.is.tue.mpg.de/download.php)<br>[code](https://github.com/cuevhv/mamma)<br>[paper](https://arxiv.org/abs/2506.13040) | [▶](https://myshi-motion-viewer.static.hf.space/#mamma/west-coast-swing-telemark) | <a href="https://myshi-motion-viewer.static.hf.space/#mamma/west-coast-swing-telemark"><img src="../assets/thumbs/mamma.webp" width="607" height="200" alt="MAMMA examples"></a> |
+| [**HKMALA-Motion**](../categories/human-body.md#hkmala-motion)<br><sub>Traditional Chinese martial-arts routines across 22 styles as SMPL-H with fingers and raw markers: martial-arts and style-conditioned motion, marker-based solving.</sub> | 2.9 | 124 | SMPL-H<br>npz | [home](https://wanglongzju.github.io/DirtyMoCap-Project-Page/)<br>[data](https://huggingface.co/datasets/aLongZJU/HKMALA-Motion)<br>[code](https://github.com/WangLongZJU/DirtyMoCap)<br>[paper](https://arxiv.org/abs/2609.19927) | [▶](https://myshi-motion-viewer.static.hf.space/#hkmala-motion/pakmei-jik-bo) | <a href="https://myshi-motion-viewer.static.hf.space/#hkmala-motion/pakmei-jik-bo"><img src="../assets/thumbs/hkmala-motion.webp" width="607" height="200" alt="HKMALA-Motion examples"></a> |
 | [**Human3.6M**](../categories/human-body.md#human36m)<br><sub>The classic benchmark for 3D human pose estimation from video, and short-term motion prediction.</sub> | 2.9 | 210 | cdf<br>video | [home](http://vision.imar.ro/human3.6m/description.php)<br>[paper](https://ieeexplore.ieee.org/document/6682899) | [▶](https://myshi-motion-viewer.static.hf.space/#human36m/walking-s9) | <a href="https://myshi-motion-viewer.static.hf.space/#human36m/walking-s9"><img src="../assets/thumbs/human36m.webp" width="607" height="200" alt="Human3.6M examples"></a> |
 | [**Multi-Subject Motion**](../categories/human-body.md#multi-subject)<br><sub>The same locomotion patterns from twelve performers: subject / style-conditioned models.</sub> | 2.2 | 269 | bvh | [home](https://arxiv.org/abs/2101.12276)<br>[paper](https://doi.org/10.1007/s41095-022-0307-3) | [▶](https://myshi-motion-viewer.static.hf.space/#multi-subject/jb-jl-res-subject11-facez) | <a href="https://myshi-motion-viewer.static.hf.space/#multi-subject/jb-jl-res-subject11-facez"><img src="../assets/thumbs/multi-subject.webp" width="607" height="200" alt="Multi-Subject Motion examples"></a> |
 | [**BFA**](../categories/human-body.md#bfa)<br><sub>Small style-transfer benchmark: the same motions in 16 styles.</sub> | 2.2 | 64 | bvh | [home](https://deepmotionediting.github.io/style_transfer)<br>[data](https://drive.google.com/drive/folders/1C-_iZJj-PSUWZwh25yAsQe1tLpPm9EZ5)<br>[code](https://github.com/DeepMotionEditing/deep-motion-editing)<br>[paper](https://arxiv.org/abs/2005.05751) | [▶](https://myshi-motion-viewer.static.hf.space/#bfa/angry-01) | <a href="https://myshi-motion-viewer.static.hf.space/#bfa/angry-01"><img src="../assets/thumbs/bfa.webp" width="607" height="200" alt="BFA examples"></a> |
@@ -1074,6 +1075,44 @@ Other releases of the same motion:
   author={Cuevas Velasquez, Hanz and Yiannakidis, Anastasios and Shin, Soyong and Becherini, Giorgio and H{\"o}schle, Markus and Tesch, Joachim and Obersat, Taylor and Alexiadis, Tsvetelina and Halilaj, Eni and Black, Michael J.},
   booktitle={CVPR},
   year={2026}
+}
+```
+
+</details>
+
+## HKMALA-Motion
+
+<a href="https://myshi-motion-viewer.static.hf.space/#hkmala-motion/pakmei-jik-bo"><img src="../assets/thumbs/hkmala-motion.webp" width="486" height="160" alt="HKMALA-Motion examples"></a>
+
+**HKMALA-Motion: martial-arts marker capture with DirtyMoCap-fitted SMPL-H (DirtyMoCap)** (2026)
+
+*Good for:* Traditional Chinese martial-arts routines across 22 styles as SMPL-H with fingers and raw markers: martial-arts and style-conditioned motion, marker-based solving.
+
+| | |
+|---|---|
+| Size | 2.9 h · 124 clips |
+| Motion | Combat & action (complete martial-arts routines (forms) of Southern and Northern Chinese styles; not broken down further) · tags: combat, martial-arts, style, action-labels |
+| Capture | optical-mocap |
+| Data | smplh, npz · 52 joints · SMPL-H (22 body + 30 hand joints, per-frame shape), plus the raw marker trajectories (109-125 unlabelled markers) · 120 fps |
+| Annotations | style-labels, action-labels |
+| Licence | ❌ [HKMALA Motion Noncommercial Research Data License](https://huggingface.co/datasets/aLongZJU/HKMALA-Motion/blob/main/LICENSE) · access: gated |
+| Links | [homepage](https://wanglongzju.github.io/DirtyMoCap-Project-Page/) · [data](https://huggingface.co/datasets/aLongZJU/HKMALA-Motion) · [code](https://github.com/WangLongZJU/DirtyMoCap) · [paper](https://arxiv.org/abs/2609.19927) |
+| Paper | DirtyMoCap: Robust Motion Capture from Unconstrained Markers (SIGGRAPH Asia 2026) |
+| Viewer | [10 examples](https://myshi-motion-viewer.static.hf.space/#hkmala-motion/pakmei-jik-bo) |
+
+<sub>Size: first release (2026-11-02): 124 recordings, 1,238,717 frames, 2.90 h (dataset card; our count of the files agrees); 114 recordings at 120 fps, the rest at 60, 140 or 160 fps</sub>
+
+Martial-arts recordings obtained with authorization from the International Guoshu Association (IGA), released by Westlake University's Endless AI Lab with the DirtyMoCap solver: unordered, noisy optical markers are solved to SMPL-H body and hands (flat_hand_mean=False) without manual cleanup, so a few frames can twist or jump. Each recording has its style and routine label (English and Chinese). Access needs a Hugging Face account and accepting the licence; approval is automatic.
+
+<details><summary>BibTeX</summary>
+
+```bibtex
+@article{wang2026dirtymocap,
+  title   = {DirtyMoCap: Robust Motion Capture from Unconstrained Markers},
+  author  = {Wang, Long and Zhao, Shuting and Yan, Shen and Yu, Siyuan and Li, Xiaoben and Cai, Zeyu and Hou, Yumeng and Xiu, Yuliang},
+  journal = {arXiv preprint arXiv:2609.19927},
+  note    = {SIGGRAPH Asia 2026},
+  year    = {2026},
 }
 ```
 
