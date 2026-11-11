@@ -1,4 +1,10 @@
 # README "News": newest first, the latest NEWS_SHOWN are shown; tools/announce.py adds one per issue.
+- date: '2026-11-11'
+  dataset: robomocap
+  issue: https://github.com/Shimingyi/awesome-animation-datasets/issues/3
+  text: 'Added [RoboMoCap](docs/categories/human-body.md#robomocap): 197 h of SMPL-X / BVH / trc / csv. Hundreds of hours
+    of optical whole-body mocap with synchronized egocentric video: humanoid locomotion and loco-manipulation learning, foot
+    placement, ego-to-body motion.'
 - date: '2026-11-04'
   dataset: hkmala-motion
   issue: https://github.com/Shimingyi/awesome-animation-datasets/issues/2
