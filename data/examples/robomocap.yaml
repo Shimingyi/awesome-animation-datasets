@@ -1,0 +1,19 @@
+dataset: robomocap
+up: +z
+note: the release's SMPL-X solve of the 53 NOKOV markers (hands from the egocentric cameras), every frame of the take, unsolved frames holding the nearest solved pose; converted by tools/examples/robomocap.py
+quality:
+  from:
+  - {reader: 'vault', glob: 'RoboMoCap/*'}
+items:
+- {source: vault, clip: RoboMoCap/locomotion_primitives/P22/session_001, label: Walking through floor targets}
+- {source: vault, clip: RoboMoCap/locomotion_primitives/P24/session_001, label: Walk · crouch at the marker · walk on}
+- {source: vault, clip: RoboMoCap/locomotion_posture_dynamics/D47/session_001, label: Lateral bounds}
+- {source: vault, clip: RoboMoCap/locomotion_posture_dynamics/D16/session_001, label: Miming a baseball swing}
+- {source: vault, clip: RoboMoCap/locomanipulation/LM61/session_001, label: Carrying an open container of water}
+- {source: vault, clip: RoboMoCap/locomanipulation/LM48/session_001, label: Loading boxes onto a cart}
+- {source: vault, clip: RoboMoCap/environment_coupled_wholebody/EC08/session_001, label: Pushing a cart over a platform edge}
+- {source: vault, clip: RoboMoCap/dynamic_recovery/DR05/session_001, label: One-leg stand until losing balance}
+- {source: vault, clip: RoboMoCap/static_manipulation/SM11/session_001, label: Crouching to the lowest shelf}
+- source: vault
+  clip: [RoboMoCap/human_human_locomanipulation/HH03/session_001, RoboMoCap/human_human_locomanipulation/HH03/session_001_body1]
+  label: Two people passing an object while walking

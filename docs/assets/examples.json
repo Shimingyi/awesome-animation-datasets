@@ -47,6 +47,18 @@
   "hiphi/self-motion-scoot-0043",
   "hiphi/taking-take-0010"
  ],
+ "robomocap": [
+  "robomocap/walking-through-floor-targets",
+  "robomocap/walk-crouch-at-the-marker-walk-on",
+  "robomocap/lateral-bounds",
+  "robomocap/miming-a-baseball-swing",
+  "robomocap/carrying-an-open-container-of-water",
+  "robomocap/loading-boxes-onto-a-cart",
+  "robomocap/pushing-a-cart-over-a-platform-edge",
+  "robomocap/one-leg-stand-until-losing-balance",
+  "robomocap/crouching-to-the-lowest-shelf",
+  "robomocap/two-people-passing-an-object-while-walking"
+ ],
  "bones-seed": [
   "bones-seed/egyptian-style-dance",
   "bones-seed/screaming",

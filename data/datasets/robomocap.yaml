@@ -1,0 +1,64 @@
+id: robomocap
+name: RoboMoCap
+full_name: 'RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning'
+good_for: "Hundreds of hours of optical whole-body mocap with synchronized egocentric video: humanoid locomotion and loco-manipulation learning, foot placement, ego-to-body motion."
+year: 2026
+released: 2026-11
+subject: human-body
+content:
+  daily-activity: 0.566
+  locomotion: 0.314
+  general: 0.075
+  interaction: 0.045
+content_note: >-
+  from our per-group hours (valid frames, per person): loco-manipulation 88.6, locomotion primitives 44.2, posture
+  dynamics 17.7, static manipulation 15.7, environment-coupled whole-body 9.2, long composite tasks 7.2, two-person
+  loco-manipulation 8.9, dynamic recovery 5.5; manipulation and composite tasks counted as daily activity,
+  environment-coupled moves and recovery as general
+tags: [locomotion, object-manipulation, daily-activity, interaction, falling, action-labels]
+capture: optical-mocap
+representation: [smplx, bvh, trc, csv]
+skeleton:
+  joints: 55
+  rig: SMPL-X solved from 53 NOKOV markers (body; hands from the egocentric cameras), plus a 23-joint NOKOV skeleton and the raw BVH / TRC
+fps: 120
+stats:
+  hours: 197.1
+  clips: 5761
+  subjects: 14
+stats_note: >-
+  Counted from the release (python -m tools.examples.robomocap): 5,761 takes; 194.1 h of solved SMPL-X frames per
+  person (5,808 performer tracks: the 47 two-person takes with a second SMPL-X count twice) plus 2.95 h of second
+  performers released only as a skeleton (81 takes). The card's "200+ hours" is recording time (193.1 h of takes).
+annotations: [text, video, audio, action-labels]
+license:
+  name: CC BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  commercial: true
+access: open
+links:
+  homepage: https://bitrobot-foundation.github.io/robomocap/
+  data: https://huggingface.co/datasets/BitRobot/robomocap
+  paper: https://arxiv.org/abs/2611.10994
+paper:
+  title: 'RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning'
+  venue: arXiv 2026
+citation: |
+  @misc{deshmukh2026robomocap,
+    title         = {{RoboMoCap}: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning},
+    author        = {Deshmukh, Mayur and Tung, Aaron and Li, Junyi and Bhardwaj, Nikash and Adeniji, Ademi and Liu, Vincent and Cho, Michael and Duan, Jiafei},
+    year          = {2026},
+    eprint        = {2611.10994},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.RO},
+    doi           = {10.48550/arXiv.2611.10994},
+    url           = {https://arxiv.org/abs/2611.10994}
+  }
+notes: >-
+  Released on BitRobot's Hugging Face by Jiafei Duan with GroundedSI and NOKOV. Each session pairs a 53-marker NOKOV optical capture at 120 Hz with
+  six head-mounted and two wrist-mounted RoboCap / RoboWrist cameras (plus IMU, magnetometer and audio), a third-person
+  video, tracked objects with textured scans, and a SMPL-X solve of the markers (a few mm of marker error) whose hands
+  come from the egocentric cameras. 294 scripted actions in eight groups: locomotion primitives, posture dynamics,
+  static and loco-manipulation, environment-coupled whole-body moves, dynamic recovery (catching a fall), long
+  composite tasks and two-person loco-manipulation, each with a written instruction. The motion files are a small part
+  of the 5 TB release, which is mostly video.
