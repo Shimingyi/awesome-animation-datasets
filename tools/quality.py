@@ -258,6 +258,8 @@ def to_canon(P, cm, ft, up=None, unit=None):
     for c in ('spine', 'chest'):
         if np.isnan(Q[0, CANON.index(c), 0]):
             Q[:, CANON.index(c)] = 0.5 * (Q[:, CANON.index('pelvis')] + Q[:, CANON.index('neck')])
+    if np.nanmedian(np.nanmax(np.linalg.norm(Q - Q[:, :1], axis=2), 1)) < 1e-6:     # every joint on the root: a BVH whose offsets are all 0
+        return None, 'collapsed skeleton (all bone offsets zero)'
     up = up or detect_up(P, cm)
     Q = Q @ up_rotation(up).T
     unit = unit or clip_unit(Q)

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10",
+ "generated": "2026-11-11",
  "fps": 30.0,
  "windows": 100,
  "thresholds": {
@@ -1253,31 +1253,31 @@
    ]
   },
   "robomocap": {
-   "clips": 100,
+   "clips": 95,
    "median": {
-    "G1_tilt_deg": 0.06,
+    "G1_tilt_deg": 0.31,
     "phys_residual_g": 0.0,
     "phys_bad_frac": 0.0,
     "A1_pull_frac": 0.0,
-    "float_frac": 0.0,
-    "floor_drift_cm": 0.71,
-    "skate_mm": 0.345,
-    "penetrate_cm": 0.05,
-    "jitter": 23.55,
-    "hf_ratio": 0.0404,
+    "float_frac": 0.083,
+    "floor_drift_cm": 1.87,
+    "skate_mm": 0.21,
+    "penetrate_cm": 0.02,
+    "jitter": 16.7,
+    "hf_ratio": 0.0178,
     "pops_per_min": 0.0,
     "rom_bad_frac": 0.0,
     "selfpen_frac": 0.0
    },
    "share": {
-    "phys_residual_g": 0.02,
-    "float_frac": 0.085,
+    "phys_residual_g": 0.042,
+    "float_frac": 0.157,
     "skate_mm": 0.0,
-    "hf_ratio": 0.17,
-    "floor_drift_cm": 0.03,
+    "hf_ratio": 0.126,
+    "floor_drift_cm": 0.074,
     "G1_tilt_deg": 0.0,
-    "rom_bad_frac": 0.13,
-    "selfpen_frac": 0.0
+    "rom_bad_frac": 0.0,
+    "selfpen_frac": 0.021
    },
    "flags": []
   },

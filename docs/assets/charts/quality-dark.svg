@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="828" height="1152" viewBox="0 0 828 1152" role="img" aria-label="Quality red flags" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
 <rect x="0.5" y="0.5" width="827" height="1151" fill="#0d1117" stroke="#3d444d"/>
 <text x="28" y="40" font-size="16" font-weight="600" fill="#f0f6fc">Quality red flags</text>
-<text x="28" y="62" font-size="12.5" fill="#9198a1">share of 100 ten-second windows over each threshold · flagged above 25% · 2026-11-10 · tools/quality.py</text>
+<text x="28" y="62" font-size="12.5" fill="#9198a1">share of 100 ten-second windows over each threshold · flagged above 25% · 2026-11-11 · tools/quality.py</text>
 <text x="256.0" y="102" text-anchor="middle" font-size="12" font-weight="600" fill="#f0f6fc">Residual g</text>
 <text x="256.0" y="118" text-anchor="middle" font-size="11" fill="#6e7681">&gt; 0.05</text>
 <text x="320.0" y="102" text-anchor="middle" font-size="12" font-weight="600" fill="#f0f6fc">Float</text>
@@ -630,23 +630,23 @@
 <text x="768.0" y="758.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">4%</text>
 <text x="214" y="778.0" dy="0.35em" text-anchor="end" font-size="12" fill="#f0f6fc">RoboMoCap</text>
 <rect x="225" y="769" width="62" height="18" rx="3" fill="#383835"/>
-<text x="256.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">2%</text>
+<text x="256.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">4%</text>
 <rect x="289" y="769" width="62" height="18" rx="3" fill="#383835"/>
-<text x="320.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">8%</text>
+<text x="320.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">16%</text>
 <rect x="353" y="769" width="62" height="18" rx="3" fill="#383835"/>
 <text x="384.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">0%</text>
 <rect x="417" y="769" width="62" height="18" rx="3" fill="#383835"/>
-<text x="448.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">17%</text>
+<text x="448.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">13%</text>
 <rect x="481" y="769" width="62" height="18" rx="3" fill="#383835"/>
-<text x="512.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">3%</text>
+<text x="512.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">7%</text>
 <rect x="545.5" y="769.5" width="61" height="17" rx="3" fill="none" stroke="#3d444d"/>
 <text x="576.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#6e7681">–</text>
 <rect x="609" y="769" width="62" height="18" rx="3" fill="#383835"/>
 <text x="640.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">0%</text>
 <rect x="673" y="769" width="62" height="18" rx="3" fill="#383835"/>
-<text x="704.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">13%</text>
+<text x="704.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">0%</text>
 <rect x="737" y="769" width="62" height="18" rx="3" fill="#383835"/>
-<text x="768.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">0%</text>
+<text x="768.0" y="778.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">2%</text>
 <text x="214" y="798.0" dy="0.35em" text-anchor="end" font-size="12" fill="#f0f6fc">HUMOTO</text>
 <rect x="225" y="789" width="62" height="18" rx="3" fill="#383835"/>
 <text x="256.0" y="798.0" dy="0.35em" text-anchor="middle" font-size="11" font-weight="400" fill="#9198a1">15%</text>

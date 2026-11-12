@@ -28,7 +28,10 @@ python -m tools.examples.thumbs <id> --force --sheet      # -> build/contact_she
 More sources:
 
 - **SMPL / SMPL-H / SMPL-X npz** (AMASS layout): `smpl: <file>` (a list = performers of one take). Prefer the dataset's
-  own body-model files over a BVH conversion whenever the release has them.
+  own body-model files over a BVH conversion whenever the release has them, unless its body-model solve is the worse
+  of the two: when a mocap release ships both, put one take of each side by side in the vault viewer first (RoboMoCap:
+  its SMPL-X jitters and twists the forearms, so the examples use its NOKOV BVH). Check a release's BVH headers for
+  all-zero OFFSETs (a collapsed skeleton: 286 RoboMoCap files) before picking examples from it.
 - **Joint positions only** (HumanML3D-style 22 SMPL joints): fit SMPL with
   `python -m tools.examples.joints2smpl <vault clip ids> --out build/fitted/<id>` and use `smpl:` items from the
   `fitted` source; say "SMPL fitted to the released joints" in the spec's `note` (the dataset does not ship SMPL).

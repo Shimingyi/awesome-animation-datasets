@@ -8,7 +8,6 @@ Full-body human motion, one performer or several interacting (mocap, video recon
 |---|--:|--:|---|---|:-:|---|
 | [**Embody 3D**](../categories/human-body.md#embody-3d)<br><sub>Hundreds of hours of SMPL-X body and hands with per-person audio: conversation, multi-person behaviour and prompted actions.</sub> | 500 | 9.2k | SMPL-X | [home](https://www.meta.com/emerging-tech/codec-avatars/embody-3d/)<br>[code](https://github.com/facebookresearch/embody-3d)<br>[paper](https://arxiv.org/abs/2510.16258) | [▶](https://myshi-motion-viewer.static.hf.space/#embody-3d/day-in-the-life-home-renovations) | <a href="https://myshi-motion-viewer.static.hf.space/#embody-3d/day-in-the-life-home-renovations"><img src="../assets/thumbs/embody-3d.webp" width="607" height="200" alt="Embody 3D examples"></a> |
 | [**HiPHI**](../categories/human-body.md#hiphi)<br><sub>Hundreds of hours of high-precision whole-body and object-interaction capture: large-scale training.</sub> | 309 | 18k | bvh<br>obj<br>csv | [home](https://noitom-robotics.github.io/hiphi/)<br>[data](https://huggingface.co/datasets/noitomrobotics/HiPHI)<br>[code](https://github.com/noitom-robotics/hiphi)<br>[paper](https://arxiv.org/abs/2608.16222) | [▶](https://myshi-motion-viewer.static.hf.space/#hiphi/adjusting-adjust-0026) | <a href="https://myshi-motion-viewer.static.hf.space/#hiphi/adjusting-adjust-0026"><img src="../assets/thumbs/hiphi.webp" width="607" height="200" alt="HiPHI examples"></a> |
-| [**RoboMoCap**](../categories/human-body.md#robomocap)<br><sub>Hundreds of hours of optical whole-body mocap with synchronized egocentric video: humanoid locomotion and loco-manipulation learning, foot placement, ego-to-body motion.</sub> | 197 | 5.8k | SMPL-X<br>bvh<br>trc<br>csv | [home](https://bitrobot-foundation.github.io/robomocap/)<br>[data](https://huggingface.co/datasets/BitRobot/robomocap)<br>[paper](https://arxiv.org/abs/2611.10994) | [▶](https://myshi-motion-viewer.static.hf.space/#robomocap/walking-through-floor-targets) | <a href="https://myshi-motion-viewer.static.hf.space/#robomocap/walking-through-floor-targets"><img src="../assets/thumbs/robomocap.webp" width="607" height="200" alt="RoboMoCap examples"></a> |
 | [**BONES-SEED**](../categories/human-body.md#bones-seed)<br><sub>Huge, varied and clean everyday motion from 500+ performers: pretraining and motion matching.</sub> | 144 | 71k | bvh<br>csv | [home](https://bones.studio/datasets/seed)<br>[data](https://huggingface.co/datasets/bones-studio/seed)<br>[code](https://github.com/bones-studio/seed-viewer) | [▶](https://myshi-motion-viewer.static.hf.space/#bones-seed/egyptian-style-dance) | <a href="https://myshi-motion-viewer.static.hf.space/#bones-seed/egyptian-style-dance"><img src="../assets/thumbs/bones-seed.webp" width="607" height="200" alt="BONES-SEED examples"></a> |
 | [**BEAT**](../categories/human-body.md#beat)<br><sub>Co-speech gesture generation from audio and text, with emotion labels.</sub> | 76.0 | – | SMPL-X<br>bvh | [home](https://pantomatrix.github.io/BEAT/)<br>[data](https://huggingface.co/datasets/H-Liu1997/BEAT)<br>[code](https://github.com/PantoMatrix/BEAT)<br>[paper](https://arxiv.org/abs/2203.05297) | [▶](https://myshi-motion-viewer.static.hf.space/#beat/10-kieks-0-103-103) | <a href="https://myshi-motion-viewer.static.hf.space/#beat/10-kieks-0-103-103"><img src="../assets/thumbs/beat.webp" width="607" height="200" alt="BEAT examples"></a> |
 | [**SnapMoGen**](../categories/human-body.md#snapmogen)<br><sub>Text-to-motion with long, expressive descriptions on continuous mocap: fine-grained text control.</sub> | 43.7 | 20k | bvh<br>features | [home](https://snap-research.github.io/SnapMoGen/)<br>[data](https://huggingface.co/datasets/Ericguo5513/SnapMoGen)<br>[code](https://github.com/snap-research/SnapMoGen)<br>[paper](https://arxiv.org/abs/2507.09122) | [▶](https://myshi-motion-viewer.static.hf.space/#snapmogen/dd-00110) | <a href="https://myshi-motion-viewer.static.hf.space/#snapmogen/dd-00110"><img src="../assets/thumbs/snapmogen.webp" width="607" height="200" alt="SnapMoGen examples"></a> |
@@ -119,47 +118,6 @@ Optical mocap by Noitom Robotics organised by 214 FrameNet frame and lexical-uni
   author={Ji, Jiahao and Ma, Ji and Zhang, Runhan and Yu, Runyi and Wang, Wenjia and Chi, Weiheng and Peng, Qianqian and Yan, Weichao and Gu, Yongfei and Tian, Ye and Wu, Ting and Li, Longwei and Yuan, Chun and Dai, Ruoli and Han, Lei},
   journal={arXiv preprint arXiv:2608.16222},
   year={2026}
-}
-```
-
-</details>
-
-## RoboMoCap
-
-<a href="https://myshi-motion-viewer.static.hf.space/#robomocap/walking-through-floor-targets"><img src="../assets/thumbs/robomocap.webp" width="486" height="160" alt="RoboMoCap examples"></a>
-
-**RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning** (2026)
-
-*Good for:* Hundreds of hours of optical whole-body mocap with synchronized egocentric video: humanoid locomotion and loco-manipulation learning, foot placement, ego-to-body motion.
-
-| | |
-|---|---|
-| Size | 197 h · 5,761 clips · 14 subjects |
-| Motion | daily activities & objects 57 %, locomotion 31 %, unclassified 8 %, interaction 4 % (from our per-group hours (valid frames, per person): loco-manipulation 88.6, locomotion primitives 44.2, posture dynamics 17.7, static manipulation 15.7, environment-coupled whole-body 9.2, long composite tasks 7.2, two-person loco-manipulation 8.9, dynamic recovery 5.5; manipulation and composite tasks counted as daily activity, environment-coupled moves and recovery as general) · tags: locomotion, object-manipulation, daily-activity, interaction, falling, action-labels |
-| Capture | optical-mocap |
-| Data | smplx, bvh, trc, csv · 55 joints · SMPL-X solved from 53 NOKOV markers (body; hands from the egocentric cameras), plus a 23-joint NOKOV skeleton and the raw BVH / TRC · 120 fps |
-| Annotations | text, video, audio, action-labels |
-| Licence | ✅ [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · access: open |
-| Links | [homepage](https://bitrobot-foundation.github.io/robomocap/) · [data](https://huggingface.co/datasets/BitRobot/robomocap) · [paper](https://arxiv.org/abs/2611.10994) |
-| Paper | RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning (arXiv 2026) |
-| Viewer | [10 examples](https://myshi-motion-viewer.static.hf.space/#robomocap/walking-through-floor-targets) |
-
-<sub>Size: Counted from the release (python -m tools.examples.robomocap): 5,761 takes; 194.1 h of solved SMPL-X frames per person (5,808 performer tracks: the 47 two-person takes with a second SMPL-X count twice) plus 2.95 h of second performers released only as a skeleton (81 takes). The card's "200+ hours" is recording time (193.1 h of takes).</sub>
-
-Released on BitRobot's Hugging Face by Jiafei Duan with GroundedSI and NOKOV. Each session pairs a 53-marker NOKOV optical capture at 120 Hz with six head-mounted and two wrist-mounted RoboCap / RoboWrist cameras (plus IMU, magnetometer and audio), a third-person video, tracked objects with textured scans, and a SMPL-X solve of the markers (a few mm of marker error) whose hands come from the egocentric cameras. 294 scripted actions in eight groups: locomotion primitives, posture dynamics, static and loco-manipulation, environment-coupled whole-body moves, dynamic recovery (catching a fall), long composite tasks and two-person loco-manipulation, each with a written instruction. The motion files are a small part of the 5 TB release, which is mostly video.
-
-<details><summary>BibTeX</summary>
-
-```bibtex
-@misc{deshmukh2026robomocap,
-  title         = {{RoboMoCap}: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning},
-  author        = {Deshmukh, Mayur and Tung, Aaron and Li, Junyi and Bhardwaj, Nikash and Adeniji, Ademi and Liu, Vincent and Cho, Michael and Duan, Jiafei},
-  year          = {2026},
-  eprint        = {2611.10994},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.RO},
-  doi           = {10.48550/arXiv.2611.10994},
-  url           = {https://arxiv.org/abs/2611.10994}
 }
 ```
 

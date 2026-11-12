@@ -31,3 +31,6 @@ gravity, physics residual, floating, foot sliding, jitter, joint range and self-
 `docs/assets/quality.json`, and `python -m tools.readme` renders the README's "Quality red flags" table from it. Run it
 after adding a dataset or changing its examples. Flags are a prompt to look, not a verdict: the caution category stays
 the maintainer's call. Known false alarms: in-place root motion, uneven terrain, keyframed animation, unseen chairs/beds.
+Known blind spot: clips are low-passed at 13.5 Hz and measured at 30 fps, so frame-to-frame noise of a 120 Hz source,
+twisted limbs (candy-wrapper forearms) and wrong joint rotations are not seen (RoboMoCap's SMPL-X raised no flag): look
+at the mesh, and compare joints at the source rate when a release has two solves.
