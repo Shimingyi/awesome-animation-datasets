@@ -65,12 +65,12 @@ notes: >-
   composite tasks and two-person loco-manipulation, each with a written instruction. The motion files are a small part
   of the 5 TB release, which is mostly video.
 review:
-  verdict: caution
+  verdict: usable
   issues: [jitter, unnatural-pose]
   note: >-
-    The release's SMPL-X solve jitters, twists the forearms into candy wrappers and turns some joints the wrong way, so
-    it does not look like a standard SMPL fit (in our 10 example takes the left elbow is twisted over 120 degrees in 11%
-    of frames, and wrists and elbows carry about twice the high-frequency noise of the BVH). The release's NOKOV BVH of
-    the same takes does not show this, so the viewer examples are the BVH; 286 of its 5,896 files (10.1 h) have an
-    all-zero skeleton, though.
-  date: 2026-11-11
+    Only the SMPL-X solve, which needs caution: it jitters, twists the forearms into candy wrappers and turns some joints
+    the wrong way, so it does not look like a standard SMPL fit (in our 10 example takes the left elbow is twisted over
+    120 degrees in 11% of frames, and wrists and elbows carry about twice the high-frequency noise of the BVH). The
+    release's NOKOV BVH of the same takes is clean and is what the viewer shows; 286 of its 5,896 files (10.1 h) have
+    an all-zero skeleton, though.
+  date: 2026-11-12

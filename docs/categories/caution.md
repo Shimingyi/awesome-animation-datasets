@@ -8,7 +8,6 @@ Datasets whose motion quality fell short when we inspected it (jitter, foot skat
 |---|--:|--:|---|---|:-:|---|
 | [**Seamless Interaction**](../categories/caution.md#seamless-interaction)<br><sub>Very large two-person conversation corpus with audio, transcripts and SMPL-H estimated from video: dyadic gesture and listener behaviour.</sub> | 4,000 | – | SMPL-H | [home](https://huggingface.co/datasets/facebook/seamless-interaction)<br>[code](https://github.com/facebookresearch/seamless_interaction)<br>[paper](https://arxiv.org/abs/2506.22554) | [▶](https://myshi-motion-viewer.static.hf.space/#seamless-interaction/improvised-conversation-p0799) | <a href="https://myshi-motion-viewer.static.hf.space/#seamless-interaction/improvised-conversation-p0799"><img src="../assets/thumbs/seamless-interaction.webp" width="607" height="200" alt="Seamless Interaction examples"></a> |
 | [**MotionMillion**](../categories/caution.md#motionmillion)<br><sub>Very large text-annotated motion corpus for zero-shot text-to-motion; quality varies (video mocap).</sub> | 988 | 685k | features | [home](https://huggingface.co/datasets/InternRobotics/MotionMillion)<br>[data](https://huggingface.co/datasets/InternRobotics/MotionMillion) | [▶](https://myshi-motion-viewer.static.hf.space/#motionmillion/motiongv-folder1-061406) | <a href="https://myshi-motion-viewer.static.hf.space/#motionmillion/motiongv-folder1-061406"><img src="../assets/thumbs/motionmillion.webp" width="607" height="200" alt="MotionMillion examples"></a> |
-| [**RoboMoCap**](../categories/caution.md#robomocap)<br><sub>Hundreds of hours of optical whole-body mocap with synchronized egocentric video: humanoid locomotion and loco-manipulation learning, foot placement, ego-to-body motion.</sub> | 197 | 5.8k | SMPL-X<br>bvh<br>trc<br>csv | [home](https://bitrobot-foundation.github.io/robomocap/)<br>[data](https://huggingface.co/datasets/BitRobot/robomocap)<br>[paper](https://arxiv.org/abs/2611.10994) | [▶](https://myshi-motion-viewer.static.hf.space/#robomocap/walking-through-floor-targets) | <a href="https://myshi-motion-viewer.static.hf.space/#robomocap/walking-through-floor-targets"><img src="../assets/thumbs/robomocap.webp" width="607" height="200" alt="RoboMoCap examples"></a> |
 | [**Motion-X**](../categories/caution.md#motion-x)<br><sub>Very large whole-body SMPL-X with text, mostly from video: coverage over quality.</sub> | 144 | 81k | SMPL-X | [home](https://motion-x-dataset.github.io)<br>[code](https://github.com/IDEA-Research/Motion-X)<br>[paper](https://arxiv.org/abs/2307.00818) | [▶](https://myshi-motion-viewer.static.hf.space/#motion-x/badminton-underswing-clip-1) | <a href="https://myshi-motion-viewer.static.hf.space/#motion-x/badminton-underswing-clip-1"><img src="../assets/thumbs/motion-x.webp" width="607" height="200" alt="Motion-X examples"></a> |
 | [**AnimationGPT**](../categories/caution.md#animationgpt)<br><sub>Game-style combat moves with text: text-to-motion for fighting and action games.</sub> | 26.4 | 15k | joints<br>features | [home](https://github.com/fyyakaxyy/AnimationGPT)<br>[data](https://drive.google.com/file/d/148AwoovJrnh4F0q_HbU83WCWwFooLSZj/view?usp=drive_link)<br>[code](https://github.com/fyyakaxyy/AnimationGPT) | [▶](https://myshi-motion-viewer.static.hf.space/#animationgpt/cmp000081) | <a href="https://myshi-motion-viewer.static.hf.space/#animationgpt/cmp000081"><img src="../assets/thumbs/animationgpt.webp" width="607" height="200" alt="AnimationGPT examples"></a> |
 | [**KIT-ML**](../categories/caution.md#kit-ml)<br><sub>Text-to-motion benchmark with natural-language descriptions.</sub> | 11.2 | 3.9k | c3d<br>mmm | [home](https://motion-annotation.humanoids.kit.edu/dataset/)<br>[data](https://motion-annotation.humanoids.kit.edu/downloads/4/)<br>[paper](https://arxiv.org/abs/1607.03827) | [▶](https://myshi-motion-viewer.static.hf.space/#kit-ml/00014) | <a href="https://myshi-motion-viewer.static.hf.space/#kit-ml/00014"><img src="../assets/thumbs/kit-ml.webp" width="607" height="200" alt="KIT-ML examples"></a> |
@@ -63,48 +62,6 @@ Meta's face-to-face interaction corpus: improvised (prompted scenarios) and natu
 <sub>Size: our count of the released non-mirrored archives (684,580 clips, 987.8 h at 30 fps); the card's "over 2000 hours" includes the mirrored copy, and BABEL, AIST and HumanML3D are not redistributed (processing scripts only)</sub>
 
 Motion recovered from web video (the card says over 2000 hours), plus several existing sets re-processed into one 272-dim representation (root velocity and heading, 22 joint positions, velocities and 6D rotations), each motion with 20+ annotations (age, body, style, emotion, environment).
-
-## RoboMoCap
-
-<a href="https://myshi-motion-viewer.static.hf.space/#robomocap/walking-through-floor-targets"><img src="../assets/thumbs/robomocap.webp" width="486" height="160" alt="RoboMoCap examples"></a>
-
-**RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning** (2026)
-
-*Good for:* Hundreds of hours of optical whole-body mocap with synchronized egocentric video: humanoid locomotion and loco-manipulation learning, foot placement, ego-to-body motion.
-
-| | |
-|---|---|
-| Size | 197 h · 5,761 clips · 14 subjects |
-| Motion | daily activities & objects 56 %, locomotion 31 %, unclassified 8 %, interaction 5 % (from our per-group hours (solved BVH frames, per person): loco-manipulation 88.7, locomotion primitives 44.2, posture dynamics 17.7, static manipulation 15.6, environment-coupled whole-body 9.2, two-person loco-manipulation 9.1, long composite tasks 7.2, dynamic recovery 5.5; manipulation and composite tasks counted as daily activity, environment-coupled moves and recovery as general) · tags: locomotion, object-manipulation, daily-activity, interaction, falling, action-labels |
-| Capture | optical-mocap |
-| Data | smplx, bvh, trc, csv · 23 joints · NOKOV's 23-joint body skeleton solved from 53 markers (BVH, no fingers), plus a SMPL-X solve with hands from the egocentric cameras and the raw TRC · 120 fps |
-| Annotations | text, video, audio, action-labels |
-| Licence | ✅ [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · access: open |
-| Links | [homepage](https://bitrobot-foundation.github.io/robomocap/) · [data](https://huggingface.co/datasets/BitRobot/robomocap) · [paper](https://arxiv.org/abs/2611.10994) |
-| Paper | RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning (arXiv 2026) |
-| Quality |  Use with caution — jitter / high-frequency noise, unnatural body angles. The release's SMPL-X solve jitters, twists the forearms into candy wrappers and turns some joints the wrong way, so it does not look like a standard SMPL fit (in our 10 example takes the left elbow is twisted over 120 degrees in 11% of frames, and wrists and elbows carry about twice the high-frequency noise of the BVH). The release's NOKOV BVH of the same takes does not show this, so the viewer examples are the BVH; 286 of its 5,896 files (10.1 h) have an all-zero skeleton, though. |
-| Viewer | [10 examples](https://myshi-motion-viewer.static.hf.space/#robomocap/walking-through-floor-targets) |
-
-<sub>Size: Counted from the release's BVH (python -m tools.examples.robomocap bvh): 5,761 takes, one BVH per performer (5,893 with solved frames), 197.3 h of solved frames per person; the SMPL-X solve comes to about the same (194.1 h, plus 2.95 h of second performers released only as a skeleton). 286 of the 5,896 BVH files (10.1 h) have an all-zero skeleton (every bone offset 0): their rotations are there, the bone lengths are not. The card's "200+ hours" is recording time (193.1 h of takes).</sub>
-
-Released on BitRobot's Hugging Face by Jiafei Duan with GroundedSI and NOKOV. Each session pairs a 53-marker NOKOV optical capture at 120 Hz with six head-mounted and two wrist-mounted RoboCap / RoboWrist cameras (plus IMU, magnetometer and audio), a third-person video, tracked objects with textured scans, and a SMPL-X solve of the markers (a few mm of marker error) whose hands come from the egocentric cameras. 294 scripted actions in eight groups: locomotion primitives, posture dynamics, static and loco-manipulation, environment-coupled whole-body moves, dynamic recovery (catching a fall), long composite tasks and two-person loco-manipulation, each with a written instruction. The motion files are a small part of the 5 TB release, which is mostly video.
-
-<details><summary>BibTeX</summary>
-
-```bibtex
-@misc{deshmukh2026robomocap,
-  title         = {{RoboMoCap}: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning},
-  author        = {Deshmukh, Mayur and Tung, Aaron and Li, Junyi and Bhardwaj, Nikash and Adeniji, Ademi and Liu, Vincent and Cho, Michael and Duan, Jiafei},
-  year          = {2026},
-  eprint        = {2611.10994},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.RO},
-  doi           = {10.48550/arXiv.2611.10994},
-  url           = {https://arxiv.org/abs/2611.10994}
-}
-```
-
-</details>
 
 ## Motion-X
 

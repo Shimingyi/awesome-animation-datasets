@@ -24,6 +24,10 @@ Effects: `caution` → the dataset leaves its subject for the "Use with caution"
 reason, `docs/categories/caution.md`, a viewer tab (not in "All"); totals and charts leave it out (headline mentions it).
 `recommended` → ⭐. No review → listed normally as unreviewed.
 
+A release with several solves is judged by its good one: when only one representation is bad (RoboMoCap's SMPL-X
+jitters and twists, its NOKOV BVH is clean), the dataset is not `caution`. Use `usable`, say in the note which
+representation needs caution, and take the examples from the clean one.
+
 ## Quality red flags (numbers)
 
 `python -m tools.quality [ids]` measures every human dataset's viewer examples (full length) for gravity tilt, jump
